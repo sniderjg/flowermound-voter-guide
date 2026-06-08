@@ -1,0 +1,518 @@
+{
+  "priority_intro": "For each topic below, you will first be asked how important this issue is to you personally, then answer 2-3 questions about your position. Your responses help match you with candidates whose views align with yours. There are no right or wrong answers \u2014 this quiz is designed to reflect your genuine views, not to judge them.",
+  "quiz_intro": "This questionnaire helps Flower Mound voters understand where they stand on key issues ahead of the November 2026 elections \u2014 covering local, state, and federal races. For each topic, rate how important the issue is to you, then answer a few questions about your position using a 1-to-5 scale. A score of 3 always means you have no strong opinion or prefer a middle-ground approach. All questions are designed to be fair to voters across the political spectrum. Your results will be compared against candidate responses to show you who aligns most closely with your views.",
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic_name": "Fiscal Policy & Taxes",
+      "applicable_levels": [
+        "federal",
+        "state",
+        "local"
+      ],
+      "priority_question": "How important is fiscal policy and taxation to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "1a",
+          "question_text": "When it comes to government spending and taxation, which approach do you prefer?",
+          "scale_low_label": "Government should significantly reduce spending and lower taxes, even if some services are cut",
+          "scale_high_label": "Government should expand services and invest more in public programs, even if taxes increase",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "1b",
+          "question_text": "How should the tax burden be distributed across income levels?",
+          "scale_low_label": "Tax rates should be more uniform across income levels \u2014 everyone pays a similar percentage",
+          "scale_high_label": "Higher earners should pay a significantly larger percentage of their income in taxes than lower earners",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "1c",
+          "question_text": "When the government faces a budget deficit, what is the preferred response?",
+          "scale_low_label": "Cut spending to balance the budget, even if programs are reduced",
+          "scale_high_label": "Raise revenue through new or higher taxes before cutting programs",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Public Safety & Criminal Justice",
+      "applicable_levels": [
+        "federal",
+        "state",
+        "local"
+      ],
+      "priority_question": "How important are public safety and criminal justice issues to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "2a",
+          "question_text": "How should communities approach funding and staffing for local law enforcement?",
+          "scale_low_label": "Significantly reduce law enforcement budgets and redirect funds to social services",
+          "scale_high_label": "Significantly increase law enforcement funding, staffing, and equipment",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "2b",
+          "question_text": "When someone is convicted of a crime, what should the primary goal of their sentence be?",
+          "scale_low_label": "Rehabilitation and reintegration into society",
+          "scale_high_label": "Punishment and deterrence through strict sentencing",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "2c",
+          "question_text": "How should the criminal justice system handle nonviolent drug offenses?",
+          "scale_low_label": "Treat them primarily as a public health matter \u2014 focus on treatment over prosecution",
+          "scale_high_label": "Treat them primarily as a legal matter \u2014 enforce existing laws consistently",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Education Funding & Access",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important is education funding and access to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "3a",
+          "question_text": "How should K-12 education be primarily funded and administered?",
+          "scale_low_label": "Funding and decisions should be controlled almost entirely at the local and state level with minimal federal involvement",
+          "scale_high_label": "The federal government should play a major role in funding and setting standards for public K-12 education",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "3b",
+          "question_text": "Should public funding be available for families to use at private, charter, or home-school settings?",
+          "scale_low_label": "Public education funding should be directed exclusively to traditional public schools",
+          "scale_high_label": "Families should be able to use public education funds at any accredited school, including private or charter options",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "3c",
+          "question_text": "How should the cost of higher education (college and vocational programs) be addressed?",
+          "scale_low_label": "Tuition costs are primarily the responsibility of students and families; government subsidies should be limited",
+          "scale_high_label": "Government should substantially subsidize or forgive higher education costs to expand access",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Reproductive Rights",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important are reproductive rights and related policies to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "4a",
+          "question_text": "How should abortion access be regulated by law?",
+          "scale_low_label": "Abortion should be prohibited in most or all circumstances",
+          "scale_high_label": "Abortion should be legal and accessible without significant restrictions",
+          "neutrality_notes": "This topic has no framing that will feel fully neutral to all voters. The scale endpoints describe positions held by real voters and avoid loaded language like 'pro-life' or 'pro-choice.' A score of 3 captures the large share of voters who support limited access with some exceptions."
+        },
+        {
+          "question_id": "4b",
+          "question_text": "Should government funding (such as Medicaid) cover abortion services?",
+          "scale_low_label": "No \u2014 public funds should not be used to pay for abortion procedures",
+          "scale_high_label": "Yes \u2014 abortion should be covered like other medical procedures in public health programs",
+          "neutrality_notes": "Framed around funding policy rather than moral judgment to keep the question procedural."
+        },
+        {
+          "question_id": "4c",
+          "question_text": "How should laws address access to contraception?",
+          "scale_low_label": "Access to contraception should be subject to greater legal restrictions or employer/insurer exemptions",
+          "scale_high_label": "Access to contraception should be guaranteed and covered without restriction",
+          "neutrality_notes": "Difficult to word neutrally because the two sides disagree on whether this is a settled issue. Framed around legal access rather than personal morality."
+        }
+      ]
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Social Safety Net",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important are social safety net programs (welfare, food assistance, housing assistance) to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "5a",
+          "question_text": "What role should government play in providing assistance to low-income individuals and families?",
+          "scale_low_label": "Government assistance should be minimal \u2014 private charities and community organizations are better suited to help those in need",
+          "scale_high_label": "Government should provide robust, broad assistance programs to ensure a baseline standard of living for all residents",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "5b",
+          "question_text": "Should receiving government assistance benefits be tied to work or job-search requirements?",
+          "scale_low_label": "Work requirements should be strictly enforced for most able-bodied adults receiving assistance",
+          "scale_high_label": "Benefits should be provided without work requirements to avoid penalizing people facing barriers to employment",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "5c",
+          "question_text": "How should government address housing affordability for lower-income residents?",
+          "scale_low_label": "Market forces should determine housing availability and pricing with minimal government intervention",
+          "scale_high_label": "Government should actively subsidize affordable housing construction and provide rental assistance programs",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "Social Security & Medicare",
+      "applicable_levels": [
+        "federal"
+      ],
+      "priority_question": "How important are Social Security and Medicare to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "6a",
+          "question_text": "How should the long-term funding shortfall in Social Security be addressed?",
+          "scale_low_label": "Raise the retirement age and reduce benefit growth to keep the program financially sustainable without tax increases",
+          "scale_high_label": "Increase payroll taxes or remove income caps on contributions to preserve or expand current benefits",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "6b",
+          "question_text": "How should Medicare costs and coverage be managed going forward?",
+          "scale_low_label": "Introduce more market competition and private options to control Medicare costs",
+          "scale_high_label": "Expand Medicare coverage and increase government negotiating power to control costs",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "6c",
+          "question_text": "Should individuals be allowed to invest a portion of their Social Security contributions in private accounts?",
+          "scale_low_label": "No \u2014 Social Security should remain a guaranteed benefit administered entirely by the government",
+          "scale_high_label": "Yes \u2014 workers should have the option to direct some contributions into personal investment accounts",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "LGBTQ+ Rights",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important are LGBTQ+ rights and related policies to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "7a",
+          "question_text": "Should federal and state laws explicitly prohibit discrimination against LGBTQ+ individuals in employment, housing, and public accommodations?",
+          "scale_low_label": "Existing laws are sufficient; additional explicit LGBTQ+ protections are not needed",
+          "scale_high_label": "Explicit legal protections for LGBTQ+ individuals should be added or strengthened at the federal and state level",
+          "neutrality_notes": "Framed around legal protection policy rather than personal or religious views. This remains difficult to word without implicitly validating one side's framing."
+        },
+        {
+          "question_id": "7b",
+          "question_text": "How should laws address gender-affirming medical care for minors?",
+          "scale_low_label": "Gender-affirming medical treatments for minors should be prohibited or heavily restricted by law",
+          "scale_high_label": "Decisions about gender-affirming care for minors should be left to patients, families, and medical providers without legal prohibition",
+          "neutrality_notes": "This is one of the most difficult questions to frame neutrally. Both endpoints were worded to describe a legal policy stance without using charged advocacy language."
+        },
+        {
+          "question_id": "7c",
+          "question_text": "Should religious organizations and private businesses be permitted to decline services based on sincere religious beliefs about marriage or gender?",
+          "scale_low_label": "No \u2014 anti-discrimination laws should apply to all businesses and organizations regardless of religious belief",
+          "scale_high_label": "Yes \u2014 religious liberty protections should allow individuals and organizations to decline participation in activities that conflict with their beliefs",
+          "neutrality_notes": "Difficult to word without implying a hierarchy between competing rights. The framing attempts to present both as principled legal positions."
+        }
+      ]
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "Healthcare Access",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important is healthcare access and affordability to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "8a",
+          "question_text": "How should health insurance coverage for Americans be primarily structured?",
+          "scale_low_label": "Through private markets and employer-based plans with limited government involvement",
+          "scale_high_label": "Through a government-administered program that covers all residents, replacing or supplementing private insurance",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "8b",
+          "question_text": "Should the government be allowed to negotiate prescription drug prices directly with pharmaceutical companies?",
+          "scale_low_label": "No \u2014 price negotiation by government distorts the market and may reduce innovation",
+          "scale_high_label": "Yes \u2014 government negotiation would lower costs for patients and should be expanded",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "8c",
+          "question_text": "Should states be required to expand Medicaid eligibility under the Affordable Care Act?",
+          "scale_low_label": "No \u2014 Medicaid expansion should remain a state choice; federal mandates are inappropriate",
+          "scale_high_label": "Yes \u2014 all states should be required to expand Medicaid to cover more low-income adults",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 9,
+      "topic_name": "Immigration",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important is immigration policy to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "9a",
+          "question_text": "How should the United States handle enforcement at the southern border?",
+          "scale_low_label": "Significantly increase physical barriers, personnel, and legal consequences to reduce unauthorized crossings",
+          "scale_high_label": "Focus resources on humanitarian processing and legal pathways rather than expanded enforcement measures",
+          "neutrality_notes": "Framed around policy mechanisms rather than characterizing migrants. 'Unauthorized' is used as a neutral legal descriptor rather than 'illegal' or 'undocumented,' which carry different connotations for different audiences."
+        },
+        {
+          "question_id": "9b",
+          "question_text": "How should the U.S. address the status of people currently living in the country without legal authorization?",
+          "scale_low_label": "Prioritize identification and removal of those without legal status, with limited pathways to legal residency",
+          "scale_high_label": "Create broad pathways to legal status or citizenship for long-term residents, regardless of how they arrived",
+          "neutrality_notes": "Intentionally avoids the word 'amnesty' (perceived as charged by one side) and 'deportation' (perceived as harsh by the other). Describes the policy outcome instead."
+        },
+        {
+          "question_id": "9c",
+          "question_text": "How should annual levels of legal immigration to the United States be adjusted?",
+          "scale_low_label": "Legal immigration levels should be significantly reduced",
+          "scale_high_label": "Legal immigration levels should be significantly increased",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 10,
+      "topic_name": "Gun Policy",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important is gun policy to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "10a",
+          "question_text": "How should background check requirements for firearm purchases be structured?",
+          "scale_low_label": "Current background check requirements are sufficient or should be reduced",
+          "scale_high_label": "Background checks should be expanded to cover all firearm sales, including private transfers and gun shows",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "10b",
+          "question_text": "How should laws treat the ownership of semi-automatic rifles with detachable magazines (sometimes called 'assault-style' weapons)?",
+          "scale_low_label": "These firearms should be legal to own with no additional restrictions beyond standard gun laws",
+          "scale_high_label": "These firearms should be subject to significant additional restrictions or bans on civilian ownership",
+          "neutrality_notes": "The term 'assault weapon' is avoided as it is disputed. The question uses a descriptive technical definition instead."
+        },
+        {
+          "question_id": "10c",
+          "question_text": "Should states allow individuals to carry a concealed handgun in public without a government-issued permit?",
+          "scale_low_label": "No \u2014 a permit process with training requirements should be required to carry a concealed firearm",
+          "scale_high_label": "Yes \u2014 law-abiding citizens should be able to carry a concealed firearm without needing government permission",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 11,
+      "topic_name": "Energy & Environment",
+      "applicable_levels": [
+        "federal",
+        "state"
+      ],
+      "priority_question": "How important are energy policy and environmental issues to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "11a",
+          "question_text": "How should the U.S. approach its transition away from fossil fuels toward renewable energy?",
+          "scale_low_label": "The government should not mandate or heavily subsidize a transition \u2014 the energy mix should be driven by market forces",
+          "scale_high_label": "The government should set aggressive timelines and provide major funding to accelerate a transition to renewable energy",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "11b",
+          "question_text": "How strictly should the federal government regulate greenhouse gas emissions from industry and power plants?",
+          "scale_low_label": "Current regulations are sufficient or go too far \u2014 stricter regulations impose excessive costs on businesses and consumers",
+          "scale_high_label": "Greenhouse gas regulations should be significantly strengthened to reduce emissions, even at higher cost to industry",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "11c",
+          "question_text": "Given that Texas is a major energy-producing state, how should state policy balance energy production with environmental protection?",
+          "scale_low_label": "Prioritize maximizing energy production \u2014 oil, gas, and other resources are vital to Texas's economy and should face minimal restriction",
+          "scale_high_label": "Prioritize stronger environmental safeguards even if they limit some energy production or raise energy costs",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 12,
+      "topic_name": "Infrastructure & Transportation",
+      "applicable_levels": [
+        "federal",
+        "state",
+        "local"
+      ],
+      "priority_question": "How important are infrastructure and transportation issues to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "12a",
+          "question_text": "How should major infrastructure projects (roads, bridges, broadband, water systems) be funded?",
+          "scale_low_label": "Primarily through user fees, tolls, and private investment rather than broad tax funding",
+          "scale_high_label": "Primarily through public funding and federal investment, distributed broadly across communities",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "12b",
+          "question_text": "Given the growth along the DFW metroplex, how should transportation investment in the Flower Mound and Denton County area be directed?",
+          "scale_low_label": "Focus almost entirely on road capacity expansion and highway improvements for personal vehicles",
+          "scale_high_label": "Invest significantly in public transit options (commuter rail, bus rapid transit) alongside road improvements",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "12c",
+          "question_text": "Should tolling be used as a primary funding mechanism for new highway capacity in Texas?",
+          "scale_low_label": "No \u2014 new roads should be funded through general transportation funds so all drivers benefit without paying tolls",
+          "scale_high_label": "Yes \u2014 toll roads are an appropriate way to fund new capacity and charge costs to those who use the roads",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 13,
+      "topic_name": "Land Use & Development",
+      "applicable_levels": [
+        "state",
+        "local"
+      ],
+      "priority_question": "How important are land use and development decisions to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "13a",
+          "question_text": "How should Flower Mound and Denton County approach residential development as the DFW region continues to grow?",
+          "scale_low_label": "Maintain strong zoning restrictions and slow growth to preserve existing neighborhood character",
+          "scale_high_label": "Allow significantly more housing development, including higher density, to meet demand and keep housing affordable",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "13b",
+          "question_text": "When private development conflicts with preserving green space or open land, which should generally take priority?",
+          "scale_low_label": "Private development rights and economic growth should generally take priority",
+          "scale_high_label": "Preservation of open space, trees, and natural land should generally take priority",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "13c",
+          "question_text": "Should the state of Texas have the authority to override local zoning decisions to allow more housing?",
+          "scale_low_label": "No \u2014 local communities should retain full control over their own zoning and land use decisions",
+          "scale_high_label": "Yes \u2014 the state should be able to mandate zoning changes in cities and towns to address regional housing needs",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 14,
+      "topic_name": "Community Character & Growth",
+      "applicable_levels": [
+        "local"
+      ],
+      "priority_question": "How important is managing Flower Mound's community character and growth to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "14a",
+          "question_text": "How should Flower Mound balance attracting new commercial and retail development with preserving its current suburban character?",
+          "scale_low_label": "Prioritize preserving Flower Mound's existing low-density, residential character over new commercial growth",
+          "scale_high_label": "Actively attract new commercial development, mixed-use areas, and businesses to diversify the tax base and add amenities",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "14b",
+          "question_text": "As Flower Mound's population grows, how should the town respond to demand for more housing?",
+          "scale_low_label": "Limit further residential development to avoid straining schools, roads, and services",
+          "scale_high_label": "Accommodate residential growth with expanded infrastructure and allow new neighborhoods to be built",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "14c",
+          "question_text": "Should Flower Mound invest more in parks, trails, and public recreational facilities, even if it requires higher local spending?",
+          "scale_low_label": "Current parks and recreation spending is sufficient \u2014 additional investment is not a priority",
+          "scale_high_label": "Flower Mound should significantly expand parks, trails, and recreation facilities as the community grows",
+          "neutrality_notes": ""
+        }
+      ]
+    },
+    {
+      "topic_id": 15,
+      "topic_name": "Education Curriculum & Parental Rights",
+      "applicable_levels": [
+        "state",
+        "local"
+      ],
+      "priority_question": "How important are education curriculum decisions and parental rights in schools to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "15a",
+          "question_text": "How should Lewisville ISD (LISD) and the state approach teaching topics related to race, historical discrimination, and systemic inequality?",
+          "scale_low_label": "Schools should teach a straightforward factual history without exploring systemic or structural interpretations of race and inequality",
+          "scale_high_label": "Schools should include examination of how race and systemic inequality have shaped American history and institutions",
+          "neutrality_notes": "This is among the most difficult questions to phrase neutrally. Both endpoints were constructed to describe an approach to curriculum without using contested terms like 'CRT' or 'whitewashing.' Reasonable voters will still perceive framing differently."
+        },
+        {
+          "question_id": "15b",
+          "question_text": "How much control should parents have over their child's exposure to specific books, materials, or topics in public school classrooms and libraries?",
+          "scale_low_label": "Curriculum and library decisions should be made primarily by trained educators and school boards, with limited individual parent veto power",
+          "scale_high_label": "Parents should have strong authority to remove their child from lessons or require removal of materials they find objectionable",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "15c",
+          "question_text": "How should public schools handle discussions of gender identity and sexual orientation in age-appropriate settings?",
+          "scale_low_label": "These topics should not be introduced in K-12 classrooms \u2014 they are family and private matters",
+          "scale_high_label": "Age-appropriate instruction on gender identity and sexual orientation should be included as part of health and social education",
+          "neutrality_notes": "Difficult to phrase neutrally. The phrase 'age-appropriate' is included in the high-end label to reflect what proponents actually advocate, rather than a strawman. Both endpoints describe a genuine policy position."
+        }
+      ]
+    },
+    {
+      "topic_id": 16,
+      "topic_name": "Local Governance & Transparency",
+      "applicable_levels": [
+        "local"
+      ],
+      "priority_question": "How important are local government accountability and transparency issues to you when deciding how to vote?",
+      "questions": [
+        {
+          "question_id": "16a",
+          "question_text": "How transparent should Flower Mound's town government be about budget decisions, contracts, and development agreements?",
+          "scale_low_label": "Current transparency requirements are adequate \u2014 additional disclosure mandates create unnecessary administrative burden",
+          "scale_high_label": "The town should proactively publish detailed records of all spending, contracts, and developer agreements in accessible formats",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "16b",
+          "question_text": "Should Flower Mound residents have access to more direct input mechanisms \u2014 such as citizen ballot initiatives or binding referendums \u2014 on major local decisions?",
+          "scale_low_label": "Elected officials and professional staff are best suited to make complex local decisions without requiring direct voter approval",
+          "scale_high_label": "Residents should have more direct mechanisms to approve or reject major decisions, bypassing elected officials when needed",
+          "neutrality_notes": ""
+        },
+        {
+          "question_id": "16c",
+          "question_text": "How should Flower Mound handle conflicts of interest when elected officials or town staff have financial ties to developers or contractors doing business with the town?",
+          "scale_low_label": "Existing disclosure and recusal rules are sufficient to manage conflicts of interest",
+          "scale_high_label": "Much stricter rules \u2014 including mandatory recusal, divestment requirements, and independent ethics enforcement \u2014 are needed",
+          "neutrality_notes": ""
+        }
+      ]
+    }
+  ]
+}
