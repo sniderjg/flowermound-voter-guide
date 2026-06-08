@@ -163,9 +163,13 @@ function PrioritiesScreen({ topics, priorities, onSelect, onNext, onBack }) {
       <div style={{ maxWidth: 660, margin: '0 auto' }}>
         <button className="btn btn--ghost" onClick={onBack} style={{ marginBottom: '1rem' }}>← Back</button>
         <h2 style={{ marginBottom: '.25rem' }}>Step 1 of 2 — Set your priorities</h2>
-        <p className="text-muted" style={{ marginBottom: '1.5rem' }}>
+        <p className="text-muted" style={{ marginBottom: '1rem' }}>
           {questionsData.priority_intro || 'How important is each topic to you? This determines how much weight it gets in your match.'}
         </p>
+        <div className="alert alert--info" style={{ marginBottom: '1.5rem' }}>
+          <strong>Scale: 1 = Not important at all &nbsp;·&nbsp; 5 = Extremely important</strong><br />
+          <span style={{ fontSize: '.85rem' }}>Topics you rate 4 or 5 will count more heavily in your candidate matches.</span>
+        </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
           {topics.map(topic => (
@@ -203,27 +207,34 @@ function PrioritiesScreen({ topics, priorities, onSelect, onNext, onBack }) {
 }
 
 function PriorityPicker({ value, onChange }) {
-  const labels = ['', 'Not important', 'Somewhat', 'Moderately', 'Very important', 'Most important']
+  const labels = ['', 'Not important', 'Somewhat important', 'Moderately important', 'Very important', 'Extremely important']
   const colors = ['', '#9ca3af', '#6b7280', '#2563eb', '#1a56a4', '#c0392b']
   return (
-    <div style={{ display: 'flex', gap: '.35rem', alignItems: 'center' }}>
-      {[1, 2, 3, 4, 5].map(v => (
-        <button
-          key={v}
-          title={labels[v]}
-          onClick={() => onChange(v)}
-          style={{
-            width: 32, height: 32, borderRadius: '50%', border: '2px solid',
-            borderColor: value === v ? colors[v] : 'var(--border)',
-            background: value === v ? colors[v] : '#fff',
-            color: value === v ? '#fff' : 'var(--gray-500)',
-            fontWeight: 700, fontSize: '.85rem',
-            transition: 'all .15s',
-          }}
-        >
-          {v}
-        </button>
-      ))}
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '.3rem' }}>
+      <div style={{ display: 'flex', gap: '.35rem', alignItems: 'center' }}>
+        {[1, 2, 3, 4, 5].map(v => (
+          <button
+            key={v}
+            title={`${v} — ${labels[v]}`}
+            onClick={() => onChange(v)}
+            style={{
+              width: 32, height: 32, borderRadius: '50%', border: '2px solid',
+              borderColor: value === v ? colors[v] : 'var(--border)',
+              background: value === v ? colors[v] : '#fff',
+              color: value === v ? '#fff' : 'var(--gray-500)',
+              fontWeight: 700, fontSize: '.85rem',
+              transition: 'all .15s',
+            }}
+          >
+            {v}
+          </button>
+        ))}
+      </div>
+      {value != null && (
+        <div style={{ fontSize: '.75rem', color: colors[value], fontWeight: 600 }}>
+          {value} — {labels[value]}
+        </div>
+      )}
     </div>
   )
 }
