@@ -143,7 +143,7 @@ export default function CandidateDetail() {
           <div className="card">
             <h3 style={{ marginBottom: '.25rem' }}>Issue positions</h3>
             <p className="text-muted text-sm" style={{ marginBottom: '1.25rem' }}>
-              Positions researched from public sources. Scale: 1 = progressive/left, 5 = conservative/right (see exceptions noted per issue).
+              Positions researched from public sources. Scale: 1 = progressive/left, 5 = conservative/right.
               Confidence reflects how directly the candidate stated this position.
             </p>
 

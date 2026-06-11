@@ -58,10 +58,12 @@ const CONFIDENCE_MULTIPLIERS = {
 const APPLICABLE_TOPICS_BY_LEVEL = {
   federal:            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
   statewide:          [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 15],
-  statewide_judicial: [1, 2, 8],   // judges apply law; narrow policy scope
+  statewide_judicial: [2, 8],      // judges apply law; narrow policy scope
   state_legislature:  [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 15],
   county:             [1, 2, 5, 12, 13, 16],
-  local:              [1, 2, 12, 13, 14, 16],
+  // School-board and town races: education topics (3, 15) are the core of
+  // LISD trustee contests; researched positions exist in the candidate data.
+  local:              [1, 2, 3, 12, 13, 14, 15, 16],
 };
 
 /** Human-readable topic names for UI display. */
@@ -85,29 +87,29 @@ const TOPIC_NAMES = {
 };
 
 /**
- * For UI disclosure: records whether the "high" (5) end of each topic scale
- * represents the more conservative or more progressive position.
- * This must match how voter questions and candidate profiles are coded.
- * If a question is coded "5 = progressive", candidate profiles must also
- * use 5 to mean the progressive position on that topic.
+ * For UI disclosure: the candidate dataset codes score 5 as the conservative
+ * position on EVERY topic (verified empirically: e.g. topic 1 Republican mean
+ * 4.81 vs Democrat mean 1.86). Voter answers are normalized into this same
+ * convention by scaleDirections.js before matching, so within the matcher
+ * the scale direction is uniform. What "5" concretely means per topic:
  */
 const TOPIC_SCALE_HIGH_END = {
-  1:  'progressive',   // 5 = expand services / raise taxes
+  1:  'conservative',  // 5 = cut spending / lower taxes
   2:  'conservative',  // 5 = more law enforcement / strict sentencing
-  3:  'progressive',   // 5 = more federal education involvement / subsidies
-  4:  'progressive',   // 5 = abortion legal and accessible
-  5:  'progressive',   // 5 = robust government assistance
-  6:  'progressive',   // 5 = preserve/expand SS & Medicare benefits
-  7:  'progressive',   // 5 = stronger LGBTQ+ protections
-  8:  'progressive',   // 5 = government-administered coverage / negotiation
-  9:  'progressive',   // 5 = humanitarian processing / open legal immigration
-  10: 'conservative',  // 5 = fewer gun restrictions / permitless carry
-  11: 'progressive',   // 5 = aggressive renewable transition / strict emissions rules
-  12: 'progressive',   // 5 = public funding / transit investment
-  13: 'progressive',   // 5 = allow more development / state preemption of zoning
-  14: 'conservative',  // 5 = attract more development / accommodate growth
-  15: 'conservative',  // 5 = parental control / limit gender/race discussions
-  16: 'progressive',   // 5 = maximum transparency / direct democracy mechanisms
+  3:  'conservative',  // 5 = school choice / vouchers / limited subsidies
+  4:  'conservative',  // 5 = restrict or prohibit abortion
+  5:  'conservative',  // 5 = minimal safety net / work requirements
+  6:  'conservative',  // 5 = entitlement reform via markets / benefit restraint
+  7:  'conservative',  // 5 = oppose new LGBTQ+ protections / religious exemptions
+  8:  'conservative',  // 5 = market-based healthcare / oppose Medicaid expansion
+  9:  'conservative',  // 5 = aggressive border enforcement / reduced immigration
+  10: 'conservative',  // 5 = expansive gun rights / permitless carry
+  11: 'conservative',  // 5 = pro fossil-fuel production / oppose climate mandates
+  12: 'conservative',  // 5 = user-fee & road-centric / limited public investment
+  13: 'conservative',  // 5 = property rights / pro-development / state preemption
+  14: 'conservative',  // 5 = preserve low-density suburban character
+  15: 'conservative',  // 5 = parental control / limit gender & race content
+  16: 'conservative',  // 5 = status-quo transparency rules / institutional trust
 };
 
 /** Maximum possible distance between two scores on a 1–5 scale. */
@@ -200,14 +202,16 @@ function validateVoterAnswers(voterAnswers) {
  * Averages all of a voter's question answers for one topic into a single score.
  *
  * @param {Object} questionAnswers - { [questionId]: number (1-5) }
- * @returns {{ score: number, allNeutral: boolean }}
+ * @returns {{ score: number, allNeutral: boolean, answered: boolean, highVariance: boolean }}
  *   score     — the averaged answer (1–5)
- *   allNeutral — true if every answer was exactly 3 (voter has no opinion)
+ *   allNeutral — true if every answer was exactly 3 (deliberate middle-ground;
+ *                this is a real position and still counts toward matching)
+ *   answered  — false if the voter skipped every question in this topic
  */
 export function aggregateTopicScore(questionAnswers) {
   const answers = Object.values(questionAnswers).map(Number).filter(Number.isFinite);
   if (answers.length === 0) {
-    return { score: NEUTRAL, allNeutral: true, highVariance: false };
+    return { score: NEUTRAL, allNeutral: true, answered: false, highVariance: false };
   }
   const avg = answers.reduce((sum, a) => sum + a, 0) / answers.length;
   const allNeutral = answers.every(a => a === NEUTRAL);
@@ -222,7 +226,7 @@ export function aggregateTopicScore(questionAnswers) {
     highVariance = variance > 1.5;
   }
 
-  return { score: avg, allNeutral, highVariance };
+  return { score: avg, allNeutral, answered: true, highVariance };
 }
 
 
@@ -320,11 +324,13 @@ export function calculateRaceMatch(voterTopicScores, candidate, raceLevel, voter
       continue;
     }
 
-    // ── Skip voter's own topic if they answered all-neutral AND they have real preferences elsewhere
-    if (voterHasMeaningfulPreferences && voterTopic.allNeutral) {
+    // ── Skip only topics the voter never answered. A deliberate all-3
+    // answer is a genuine middle-ground position and counts toward matching
+    // (the quiz intro promises 3 = "prefer a middle-ground approach").
+    if (voterHasMeaningfulPreferences && voterTopic.answered === false) {
       topicBreakdown.push({
         topicId, topicName,
-        skipped: true, skipReason: 'voter_neutral_on_topic',
+        skipped: true, skipReason: 'voter_skipped_topic',
         voterScore: voterTopic.score, candidateScore,
         weight: 0, agreementPercent: null, contribution: 0,
       });
@@ -483,13 +489,14 @@ export function matchVoterToCandidates(voterAnswers, candidates) {
   for (const [topicIdStr, topicData] of Object.entries(voterAnswers)) {
     const topicId = Number(topicIdStr);
     const priority = Number(topicData.priority);
-    const { score, allNeutral } = aggregateTopicScore(topicData.questions ?? {});
+    const { score, allNeutral, answered } = aggregateTopicScore(topicData.questions ?? {});
 
-    voterTopicScores[topicId] = { score, priority, allNeutral };
+    voterTopicScores[topicId] = { score, priority, allNeutral, answered };
 
     // Voter has meaningful preferences if any topic has priority > 0
-    // AND the voter didn't answer all-neutral on that topic
-    if (priority > 0 && !allNeutral) {
+    // AND the voter actually answered at least one question on that topic.
+    // (All-3 answers are a deliberate centrist position — they count.)
+    if (priority > 0 && answered) {
       voterHasMeaningfulPreferences = true;
     }
   }

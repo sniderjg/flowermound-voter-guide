@@ -94,6 +94,13 @@ export default function Quiz() {
   }
 
   // ── render ───────────────────────────────────────────────
+  // Guard: rapid double-clicks can advance indices past the last question
+  // before state settles; recover instead of rendering a blank screen.
+  if (step === 'questions' && !currentQuestion) {
+    if (!currentTopic) setStep('done')
+    else setQuestionIdx(0)
+    return null
+  }
   if (step === 'intro') return <IntroScreen onStart={() => setStep('priorities')} />
   if (step === 'priorities') return (
     <PrioritiesScreen
@@ -295,8 +302,9 @@ function QuestionScreen({
             className="btn btn--ghost text-sm"
             onClick={onSkip}
             style={{ marginLeft: 'auto' }}
+            title="Skipped questions don't count toward your match. Answer 3 if you hold a middle-ground position."
           >
-            Skip this question
+            Skip — no opinion
           </button>
           <button
             className="btn btn--primary"
@@ -353,7 +361,7 @@ function ScalePicker({ value, lowLabel, highLabel, onChange }) {
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '.35rem' }}>
         <span className="text-sm" style={{ color: '#1a56a4' }}>← Agree more</span>
-        <span className="text-sm" style={{ color: '#6b7280' }}>Neutral</span>
+        <span className="text-sm" style={{ color: '#6b7280' }}>Middle ground</span>
         <span className="text-sm" style={{ color: '#c0392b' }}>Agree more →</span>
       </div>
     </div>

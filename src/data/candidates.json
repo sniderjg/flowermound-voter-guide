@@ -453,7 +453,7 @@
       {
         "name": "David Wylie",
         "party": "Republican",
-        "race": "Denton County Commissioner",
+        "race": "Denton County Commissioner, Precinct 4",
         "district": "Denton County Precinct 4",
         "incumbent": false,
         "level": "county",
@@ -467,7 +467,7 @@
       {
         "name": "Stephanie Draper",
         "party": "Democrat",
-        "race": "Denton County Commissioner",
+        "race": "Denton County Commissioner, Precinct 4",
         "district": "Denton County Precinct 4",
         "incumbent": false,
         "level": "county",
@@ -520,7 +520,7 @@
       {
         "name": "Kevin Falconer",
         "party": "Republican",
-        "race": "Denton County Commissioner",
+        "race": "Denton County Commissioner, Precinct 4",
         "district": "Denton County Precinct 2",
         "incumbent": true,
         "level": "county",
@@ -533,7 +533,7 @@
       {
         "name": "Candace Valenzuela",
         "party": "Democrat",
-        "race": "Denton County Commissioner",
+        "race": "Denton County Commissioner, Precinct 4",
         "district": "Denton County Precinct 2",
         "incumbent": false,
         "level": "county",
@@ -606,7 +606,7 @@
       "level": "federal",
       "incumbent": false,
       "bio_summary": "Warren Kenneth Paxton Jr. (born December 23, 1962) served as Texas Attorney General from 2015 through 2025, previously serving in the Texas House (2003-2013) and Texas Senate (2013-2015). He holds degrees from Baylor University and the University of Virginia School of Law, and built his political identity as an aggressive litigator against federal overreach, filing over 100 lawsuits against the Biden administration. His tenure was marked by a 2023 impeachment by the Texas House (acquitted by the Senate) and a long-running securities fraud indictment (dismissed in 2025).",
-      "overall_summary": "Paxton is a hardline MAGA-aligned conservative who defeated incumbent Sen. John Cornyn by over 25 points in the May 2026 Republican runoff, propelled by a last-minute Trump endorsement. He will face Democrat James Talarico in the November 2026 general election. His campaign centers on his record as a combative attorney general \u2014 fighting abortion access, opposing LGBTQ+ protections, challenging federal climate and immigration policies, and litigating against Big Tech \u2014 rather than a detailed legislative agenda. His campaign website at the time of research contained placeholder policy text, making explicit positions primarily derivable from his AG record and statements.",
+      "overall_summary": "Paxton is a hardline MAGA-aligned conservative who defeated incumbent Sen. John Cornyn by over 25 points in the May 2026 Republican runoff, propelled by a last-minute Trump endorsement. He will face Democrat James Talarico in the November 2026 general election. His campaign centers on his record as a combative attorney general — fighting abortion access, opposing LGBTQ+ protections, challenging federal climate and immigration policies, and litigating against Big Tech — rather than a detailed legislative agenda. His campaign website at the time of research contained placeholder policy text, making explicit positions primarily derivable from his AG record and statements.",
       "key_endorsements": [
         "Donald Trump (endorsed May 19, 2026 via Truth Social)",
         "Gun Owners of America"
@@ -633,9 +633,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 4,
-          "confidence": "implied",
-          "summary": "Paxton supports school choice and parental rights in education, backing voucher-style programs. No explicit position found on federal education funding levels.",
+          "score": 4.5,
+          "confidence": "explicit",
+          "summary": "Paxton is a strong school-choice/voucher supporter: as AG he issued formal opinions that ESA programs are constitutional and that excluding religious schools from ESA funds violates the First Amendment, and he champions parents' right to choose schools.",
           "source_url": "https://www.ontheissues.org/Senate/Ken_Paxton.htm"
         },
         {
@@ -709,9 +709,9 @@
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 3,
-          "confidence": "unknown",
-          "summary": "No explicit positions found on federal infrastructure or transportation spending. Position is unknown beyond a general anti-spending disposition.",
+          "score": 4,
+          "confidence": "inferred",
+          "summary": "No explicit positions found on water-supply or grid investment. His general anti-spending disposition and opposition to expanded government programs suggest a market-first lean on water and grid infrastructure rather than major public investment.",
           "source_url": "https://ballotpedia.org/Ken_Paxton"
         },
         {
@@ -742,8 +742,8 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 4,
-          "confidence": "implied",
-          "summary": "As AG, Paxton investigated over 1,000 Texas municipalities for non-compliance with financial transparency laws and blocking illegal local tax increases, suggesting support for fiscal transparency requirements on local governments.",
+          "confidence": "explicit",
+          "summary": "Paxton's documented record includes a securities-fraud indictment, a corruption impeachment trial, and court findings of whistleblower retaliation, alongside selective enforcement of municipal transparency laws. His record reflects resistance to ethics accountability applied to his own office.",
           "source_url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-launches-statewide-investigation-nearly-1000-texas-cities-ensure"
         }
       ]
@@ -755,7 +755,7 @@
       "level": "federal",
       "incumbent": false,
       "bio_summary": "James Dell Talarico (born May 17, 1989) is a Round Rock, Texas Democrat who served four terms in the Texas House of Representatives (District 52) before winning the March 2026 Democratic primary for U.S. Senate with 52.4% of the vote, defeating U.S. Rep. Jasmine Crockett. He holds a BA from UT Austin, an MEd from Harvard, and an MDiv from Austin Presbyterian Theological Seminary, and previously worked as a Teach For America teacher and nonprofit director. He faces Republican Ken Paxton in the November 3, 2026 general election.",
-      "overall_summary": "Talarico runs as a progressive Democrat framing his campaign around a \"top vs. bottom\" economic populism \u2014 fighting billionaire influence and corporate corruption \u2014 while grounding his liberal social positions in Christian theology. He is one of the best-funded Senate challengers in Texas history, raising a record $27 million in Q1 2026 largely from small-dollar donors, though a pro-Talarico super PAC (Lone Star Rising PAC) has drawn scrutiny given his anti-billionaire messaging. On the major federal issues, he holds strongly progressive positions across healthcare, reproductive rights, LGBTQ+ rights, gun safety, climate, and immigration, with more moderate framing on border security than some Democratic peers.",
+      "overall_summary": "Talarico runs as a progressive Democrat framing his campaign around a \"top vs. bottom\" economic populism — fighting billionaire influence and corporate corruption — while grounding his liberal social positions in Christian theology. He is one of the best-funded Senate challengers in Texas history, raising a record $27 million in Q1 2026 largely from small-dollar donors, though a pro-Talarico super PAC (Lone Star Rising PAC) has drawn scrutiny given his anti-billionaire messaging. On the major federal issues, he holds strongly progressive positions across healthcare, reproductive rights, LGBTQ+ rights, gun safety, climate, and immigration, with more moderate framing on border security than some Democratic peers.",
       "positions": [
         {
           "topic_id": 1,
@@ -777,9 +777,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 1.5,
+          "score": 1,
           "confidence": "explicit",
-          "summary": "Talarico is a strong public education advocate who opposes school vouchers as 'voucher scams,' supports robust public school funding, and has led multiple education bills through the Texas Legislature including measures on student suspensions and childcare.",
+          "summary": "Talarico is a leading voucher opponent who brands ESAs 'voucher scams,' while championing robust public school funding and authoring multiple public education bills in the Texas House.",
           "source_url": "https://en.wikipedia.org/wiki/James_Talarico",
           "notable_quote": "Reject school vouchers as 'voucher scams'"
         },
@@ -821,9 +821,9 @@
         {
           "topic_id": 8,
           "topic_name": "Healthcare Access",
-          "score": 1.5,
+          "score": 1,
           "confidence": "explicit",
-          "summary": "Talarico supports a Medicare public option ('Medicare for Y'all') that allows all Americans to join Medicare. He has championed insulin cost caps and prescription drug importation from Canada. He supports universal healthcare as an eventual goal.",
+          "summary": "Talarico supports a Medicare public option ('Medicare for Y'all') and universal healthcare as an eventual goal, and as a Texas House Democrat has backed expanding Medicaid in Texas. He has championed insulin cost caps and prescription drug importation.",
           "source_url": "https://en.wikipedia.org/wiki/James_Talarico"
         },
         {
@@ -887,8 +887,8 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 1.5,
-          "confidence": "implied",
-          "summary": "Talarico's campaign centerpiece is anti-corruption and government transparency \u2014 he supports banning congressional stock trading, congressional term limits, eliminating the filibuster, and Supreme Court reform to increase accountability.",
+          "confidence": "explicit",
+          "summary": "Talarico's campaign centerpiece is anti-corruption reform: a congressional stock-trading ban, term limits, and accountability-focused institutional reform — explicit, documented platform planks.",
           "source_url": "https://en.wikipedia.org/wiki/James_Talarico"
         }
       ],
@@ -912,15 +912,15 @@
         "State Board of Education members Rebecca Bell-Metereau, Tiffany Clark, and Gustavo Reveles",
         "100+ endorsements from Texas Democratic officials and leaders"
       ],
-      "campaign_finance_notes": "Talarico raised a record-breaking $27 million in Q1 2026 \u2014 the largest Q1 fundraising haul ever by a U.S. Senate candidate. Total cycle fundraising reached approximately $40.3 million with $9.9 million cash on hand as of mid-2026. Remarkably, 97% of direct contributions were $100 or less, with $24.8 million from donations under $200, reflecting a strong small-dollar grassroots base. He has sworn off corporate PAC money. However, the pro-Talarico super PAC Lone Star Rising PAC has received funding from billionaires and dark money groups \u2014 a notable tension with his anti-billionaire campaign message. FEC data available at https://www.fec.gov/data/candidate/S6TX00479/"
+      "campaign_finance_notes": "Talarico raised a record-breaking $27 million in Q1 2026 — the largest Q1 fundraising haul ever by a U.S. Senate candidate. Total cycle fundraising reached approximately $40.3 million with $9.9 million cash on hand as of mid-2026. Remarkably, 97% of direct contributions were $100 or less, with $24.8 million from donations under $200, reflecting a strong small-dollar grassroots base. He has sworn off corporate PAC money. However, the pro-Talarico super PAC Lone Star Rising PAC has received funding from billionaires and dark money groups — a notable tension with his anti-billionaire campaign message. FEC data available at https://www.fec.gov/data/candidate/S6TX00479/"
     },
     {
       "candidate_name": "Ted Brown",
-      "race": "U.S. Senate \u2013 Texas",
+      "race": "U.S. Senate - Texas",
       "party": "Libertarian",
       "level": "federal",
       "incumbent": false,
-      "bio_summary": "Ted Brown is a retired insurance adjuster and longtime Libertarian activist who earned a B.A. in political science with a concentration in constitutional law from UCLA in 1984. He served as Chair of the Libertarian Party of California and is currently Vice Chair of the Libertarian Party of Travis County. Brown previously ran for U.S. Senate against Ted Cruz in 2024 under the slogan \"The better Ted!\" and received over 267,000 votes \u2014 a record for a Libertarian candidate in Texas \u2014 and is now challenging for John Cornyn's seat in 2026.",
+      "bio_summary": "Ted Brown is a retired insurance adjuster and longtime Libertarian activist who earned a B.A. in political science with a concentration in constitutional law from UCLA in 1984. He served as Chair of the Libertarian Party of California and is currently Vice Chair of the Libertarian Party of Travis County. Brown previously ran for U.S. Senate against Ted Cruz in 2024 under the slogan \"The better Ted!\" and received over 267,000 votes — a record for a Libertarian candidate in Texas — and is now challenging for John Cornyn's seat in 2026.",
       "overall_summary": "Ted Brown runs on a consistent libertarian platform: dramatically smaller government, lower taxes across the board, personal freedom on social issues, gun rights, open immigration, and a non-interventionist foreign policy. He is seeking to pull disaffected Republicans who oppose Ken Paxton while also appealing to civil-libertarian-leaning voters frustrated with the two-party system. His campaign is almost entirely self-funded at a very modest scale, with no major organizational endorsements found.",
       "key_endorsements": [
         "Libertarian Party of Texas (official nominee)",
@@ -942,7 +942,7 @@
           "topic_name": "Public Safety & Criminal Justice",
           "score": 3,
           "confidence": "explicit",
-          "summary": "Brown takes a mixed libertarian stance: he opposes qualified immunity for police, supports body cameras, opposes civil asset forfeiture without conviction, and supports drug decriminalization and restorative justice \u2014 but also opposes defunding police in a traditional sense and supports allowing guns in schools.",
+          "summary": "Brown takes a mixed libertarian stance: he opposes qualified immunity for police, supports body cameras, opposes civil asset forfeiture without conviction, and supports drug decriminalization and restorative justice — but also opposes defunding police in a traditional sense and supports allowing guns in schools.",
           "source_url": "https://www.isidewith.com/candidates/ted-brown-2/policies"
         },
         {
@@ -983,7 +983,7 @@
           "topic_name": "LGBTQ+ Rights",
           "score": 1,
           "confidence": "explicit",
-          "summary": "Brown supports same-sex marriage, equal adoption rights for same-sex couples, and adding gender identity to anti-discrimination laws \u2014 positions that align with the Libertarian Party's personal freedom ethos and place him to the left of Texas Republicans.",
+          "summary": "Brown supports same-sex marriage, equal adoption rights for same-sex couples, and adding gender identity to anti-discrimination laws — positions that align with the Libertarian Party's personal freedom ethos and place him to the left of Texas Republicans.",
           "source_url": "https://www.isidewith.com/candidates/ted-brown-2/policies"
         },
         {
@@ -999,7 +999,7 @@
           "topic_name": "Immigration",
           "score": 2,
           "confidence": "explicit",
-          "summary": "Brown strongly supports immigration, favoring an Ellis Island-style open system with checks only for criminal records and communicable diseases. He opposes a border wall, opposes increased border restrictions, and calls xenophobia ill-informed \u2014 a notably pro-immigration stance that diverges sharply from most conservatives.",
+          "summary": "Brown strongly supports immigration, favoring an Ellis Island-style open system with checks only for criminal records and communicable diseases. He opposes a border wall, opposes increased border restrictions, and calls xenophobia ill-informed — a notably pro-immigration stance that diverges sharply from most conservatives.",
           "source_url": "https://texaspolitics.com/2026/03/02/ted-brown-offers-libertarian-voice-in-texas-senate-race/"
         },
         {
@@ -1053,9 +1053,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 3,
-          "confidence": "inferred",
-          "summary": "Brown supports term limits for Congress, opposes congressional stock trading, supports independent redistricting commissions, and pledges a single-term commitment focused on constitutional principles rather than fundraising or lobby relationships.",
+          "score": 2,
+          "confidence": "explicit",
+          "summary": "Brown has explicit ethics-reform planks: congressional term limits, opposition to congressional stock trading, independent redistricting commissions, and a single-term pledge — documented positions on the reform/expanded-accountability side.",
           "source_url": "https://texaspolitics.com/2026/03/02/ted-brown-offers-libertarian-voice-in-texas-senate-race/",
           "notable_quote": "I'm not going to be beholden to any special interest groups or to corrupt party leaders."
         }
@@ -1063,7 +1063,7 @@
     },
     {
       "candidate_name": "Brandon Gill",
-      "race": "U.S. House of Representatives, Texas 26th Congressional District",
+      "race": "U.S. House of Representatives, TX-26",
       "party": "Republican",
       "level": "federal",
       "incumbent": true,
@@ -1080,7 +1080,7 @@
         "Club for Growth PAC",
         "House Freedom Caucus PAC"
       ],
-      "campaign_finance_notes": "For the 2026 cycle (through March 2026), Gill's campaign committee (Brandon Gill for Texas, C00857359) raised $3.1 million total, with $2.3 million from individual contributions. Cash on hand was approximately $1 million. In the 2024 cycle, he raised roughly $1.78 million but faced significant opposition spending \u2014 two super PACs (Conservatives for American Excellence and America Leads Action) spent a combined $2.1 million against him in the primary. He signed the Americans for Tax Reform Taxpayer Protection Pledge. FEC data: https://www.fec.gov/data/candidate/H4TX26149/",
+      "campaign_finance_notes": "For the 2026 cycle (through March 2026), Gill's campaign committee (Brandon Gill for Texas, C00857359) raised $3.1 million total, with $2.3 million from individual contributions. Cash on hand was approximately $1 million. In the 2024 cycle, he raised roughly $1.78 million but faced significant opposition spending — two super PACs (Conservatives for American Excellence and America Leads Action) spent a combined $2.1 million against him in the primary. He signed the Americans for Tax Reform Taxpayer Protection Pledge. FEC data: https://www.fec.gov/data/candidate/H4TX26149/",
       "positions": [
         {
           "topic_id": 1,
@@ -1210,9 +1210,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
-          "confidence": "inferred",
-          "summary": "Gill was named Chairman of the House Task Force on Defending Constitutional Rights and Exposing Institutional Abuses, suggesting a focus on government accountability. No specific positions on local governance transparency found.",
+          "score": 3,
+          "confidence": "unknown",
+          "summary": "No documented positions found on government transparency, ethics rules, or voting access; a House task-force chairmanship title is not a transparency record.",
           "source_url": "https://legisletter.org/legislator/brandon-gill-G000603"
         }
       ]
@@ -1224,7 +1224,7 @@
       "level": "federal",
       "incumbent": false,
       "bio_summary": "Steven Shook, 45, is a critical care nurse practitioner from Haslet, Texas, who has provided frontline healthcare since 2009. He holds a bachelor's degree from Texas Tech University (Summa Cum Laude) and a master's degree from the University of Texas at Arlington. He won the March 3, 2026 Democratic primary over Ernest Lineberger III and faces Republican incumbent Brandon Gill in the November 2026 general election in a district rated R+11 by Cook PVI.",
-      "overall_summary": "Shook is running on a healthcare-first platform rooted in his nearly two decades as a nurse practitioner. His campaign themes \u2014 lowering drug and insurance costs, protecting Social Security and Medicare, and opposing school vouchers \u2014 are mainstream Democratic positions, but he moderates on immigration (emphasizing \"smart, humane enforcement\") and frames public safety as both police investment and gun-safety reform. His campaign finance picture is very modest, with just over $12,000 raised through March 2026, reflecting the long-shot nature of this R+11 district. No major organizational endorsements were publicly identified as of research date.",
+      "overall_summary": "Shook is running on a healthcare-first platform rooted in his nearly two decades as a nurse practitioner. His campaign themes — lowering drug and insurance costs, protecting Social Security and Medicare, and opposing school vouchers — are mainstream Democratic positions, but he moderates on immigration (emphasizing \"smart, humane enforcement\") and frames public safety as both police investment and gun-safety reform. His campaign finance picture is very modest, with just over $12,000 raised through March 2026, reflecting the long-shot nature of this R+11 district. No major organizational endorsements were publicly identified as of research date.",
       "key_endorsements": [],
       "campaign_finance_notes": "FEC filings (H6TX26144) show $12,220 raised and $11,155 spent through March 31, 2026, with $1,239 cash on hand. All contributions came from individuals; no PAC, party committee, or candidate-to-candidate transfers reported. Statement of candidacy filed October 21, 2025. Fundraising is extremely low relative to a competitive House race, underscoring the district's R+11 partisan lean.",
       "positions": [
@@ -1248,9 +1248,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 2,
+          "score": 1.5,
           "confidence": "explicit",
-          "summary": "Shook opposes school voucher programs, supports shifting school funding away from property taxes toward state/federal investment, and advocates for workforce training and affordable higher education.",
+          "summary": "Shook explicitly opposes school vouchers, supports shifting school funding off property taxes toward state/federal investment, and backs affordable higher education and workforce training.",
           "source_url": "https://shookforcongress2026.com/",
           "notable_quote": "Defend public K-12 education against voucher programs."
         },
@@ -1301,7 +1301,7 @@
           "topic_name": "Immigration",
           "score": 3,
           "confidence": "explicit",
-          "summary": "Shook takes a centrist position, supporting secure borders through 'smart, humane enforcement' alongside lawful immigration pathways and due process \u2014 explicitly avoiding both open-borders and punitive restrictionist framing.",
+          "summary": "Shook takes a centrist position, supporting secure borders through 'smart, humane enforcement' alongside lawful immigration pathways and due process — explicitly avoiding both open-borders and punitive restrictionist framing.",
           "source_url": "https://shookforcongress2026.com/"
         },
         {
@@ -1369,7 +1369,7 @@
       "level": "federal",
       "incumbent": false,
       "bio_summary": "Phil Gray is a Texas-based business owner and property manager who has been the Libertarian Party's recurring congressional candidate in various Texas districts since at least 2016, including TX-27 (2020), TX-30 (2022), and TX-26 (2024 and 2026). He secured the Libertarian Party nomination for TX-26 at the April 2026 party convention. His campaign centers on a novel national debt reduction plan, clean natural gas energy policy, drug decriminalization, and individual liberty.",
-      "overall_summary": "Phil Gray is a consistent Libertarian voice in Texas congressional races whose platform blends fiscal conservatism (balanced budget, deficit reduction) with socially liberal stances (drug decriminalization, pro-choice on abortion, a pragmatic path for undocumented immigrants). His positions on most issues align closely with standard Libertarian Party principles \u2014 minimal government intervention economically and socially. He has no documented endorsements and no FEC filings on record for the 2026 cycle, suggesting a grassroots, low-budget campaign. He received a small share of the vote in 2024 when incumbent Brandon Gill (R) won TX-26 decisively in an R+11 district.",
+      "overall_summary": "Phil Gray is a consistent Libertarian voice in Texas congressional races whose platform blends fiscal conservatism (balanced budget, deficit reduction) with socially liberal stances (drug decriminalization, pro-choice on abortion, a pragmatic path for undocumented immigrants). His positions on most issues align closely with standard Libertarian Party principles — minimal government intervention economically and socially. He has no documented endorsements and no FEC filings on record for the 2026 cycle, suggesting a grassroots, low-budget campaign. He received a small share of the vote in 2024 when incumbent Brandon Gill (R) won TX-26 decisively in an R+11 district.",
       "key_endorsements": [],
       "campaign_finance_notes": "No FEC filings found for the 2025-2026 election cycle as of June 2026. The FEC candidate ID H6TX01261 exists but shows no financial activity reported. This suggests either a very low-budget campaign or filings not yet processed. No outside spending or independent expenditures reported.",
       "positions": [
@@ -1380,7 +1380,7 @@
           "confidence": "explicit",
           "summary": "Gray proposes a balanced budget and a novel national debt reduction fund where individuals voluntarily make low-interest loans to pay down the national debt. He frames his natural gas plan as a deficit-cutting measure and supports reducing tax burdens on working families.",
           "source_url": "https://www.philgrayfortexas.com/",
-          "notable_quote": "No one else has addressed the nation's debt \u2014 it cannot be paid down with taxes or donations."
+          "notable_quote": "No one else has addressed the nation's debt — it cannot be paid down with taxes or donations."
         },
         {
           "topic_id": 2,
@@ -1394,9 +1394,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 3,
-          "confidence": "unknown",
-          "summary": "No specific positions on education funding or access found in available campaign materials. As a Libertarian, he would likely favor reduced federal involvement in education.",
+          "score": 3.5,
+          "confidence": "inferred",
+          "summary": "No candidate-specific education statements found; as a Libertarian he would be expected to favor school choice/vouchers and reduced federal education involvement over increased public school funding.",
           "source_url": "https://ballotpedia.org/Phil_Gray"
         },
         {
@@ -1404,7 +1404,7 @@
           "topic_name": "Reproductive Rights",
           "score": 2,
           "confidence": "explicit",
-          "summary": "Gray states that it is not the government's place to decide on abortion, and that the decision is best left to the mother and her doctor \u2014 a pro-choice position consistent with Libertarian principles of individual autonomy.",
+          "summary": "Gray states that it is not the government's place to decide on abortion, and that the decision is best left to the mother and her doctor — a pro-choice position consistent with Libertarian principles of individual autonomy.",
           "source_url": "https://www.philgrayforcongress.org/"
         },
         {
@@ -1444,7 +1444,7 @@
           "topic_name": "Immigration",
           "score": 3,
           "confidence": "explicit",
-          "summary": "Gray proposes a pragmatic, non-punitive immigration reform: allow undocumented immigrants to come out of the shadows, live and work freely while voluntarily contributing 10% of earnings to the national debt fund, with their tax filing serving as a green card \u2014 a position that is neither the restrictionist conservative nor open-borders progressive extreme.",
+          "summary": "Gray proposes a pragmatic, non-punitive immigration reform: allow undocumented immigrants to come out of the shadows, live and work freely while voluntarily contributing 10% of earnings to the national debt fund, with their tax filing serving as a green card — a position that is neither the restrictionist conservative nor open-borders progressive extreme.",
           "source_url": "https://www.philgrayforcongress.org/",
           "notable_quote": "Let them come out of the shadows, live and work freely while voluntarily paying 10% of their earnings to the national debt fund."
         },
@@ -1509,12 +1509,12 @@
     },
     {
       "candidate_name": "Greg Abbott",
-      "race": "Governor of Texas",
+      "race": "Governor",
       "party": "Republican",
       "level": "statewide",
       "incumbent": true,
-      "bio_summary": "Greg Abbott has served as Governor of Texas since 2015 and is seeking a fourth term in the 2026 election. Before becoming governor, he served as Texas Attorney General (2002\u20132015) and as a Texas Supreme Court Justice. Abbott, who uses a wheelchair after a 1984 accident left him paralyzed from the waist down, has governed Texas as a strong conservative, championing border security, low taxes, school choice, and traditional values legislation.",
-      "overall_summary": "Abbott is one of the most prominent conservative governors in the country, with an extensive record on immigration enforcement, anti-abortion legislation, gun rights, and LGBTQ restrictions. His 2026 re-election campaign is centered on an ambitious plan to eliminate school property taxes for homeowners. He enters the race with an overwhelming financial advantage \u2014 over $105 million on hand \u2014 and the endorsement of President Donald Trump. His record reflects strongly conservative positions across virtually all 16 issue areas relevant to a statewide Texas race.",
+      "bio_summary": "Greg Abbott has served as Governor of Texas since 2015 and is seeking a fourth term in the 2026 election. Before becoming governor, he served as Texas Attorney General (2002–2015) and as a Texas Supreme Court Justice. Abbott, who uses a wheelchair after a 1984 accident left him paralyzed from the waist down, has governed Texas as a strong conservative, championing border security, low taxes, school choice, and traditional values legislation.",
+      "overall_summary": "Abbott is one of the most prominent conservative governors in the country, with an extensive record on immigration enforcement, anti-abortion legislation, gun rights, and LGBTQ restrictions. His 2026 re-election campaign is centered on an ambitious plan to eliminate school property taxes for homeowners. He enters the race with an overwhelming financial advantage — over $105 million on hand — and the endorsement of President Donald Trump. His record reflects strongly conservative positions across virtually all 16 issue areas relevant to a statewide Texas race.",
       "key_endorsements": [
         "President Donald Trump",
         "Lt. Gov. Dan Patrick (mutual support)",
@@ -1525,9 +1525,9 @@
         {
           "topic_id": 1,
           "topic_name": "Fiscal Policy & Taxes",
-          "score": 4.5,
+          "score": 5,
           "confidence": "explicit",
-          "summary": "Abbott's signature 2026 campaign promise is eliminating school property taxes for homeowners through a constitutional amendment, funded by growing state sales tax and energy revenues. He has also pushed successive rounds of property tax cuts and exemptions during the 89th Legislative Session.",
+          "summary": "Abbott's signature 2026 promise is fully eliminating school property taxes for homeowners via constitutional amendment, funded by sales tax and energy revenue growth, on top of successive rounds of property tax cuts in the 89th Legislature.",
           "source_url": "https://www.texastribune.org/2025/12/09/greg-abbott-schools-property-tax-cut-election-2026/",
           "notable_quote": "Texas voters should have final say on property taxes."
         },
@@ -1543,9 +1543,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 4.5,
+          "score": 5,
           "confidence": "explicit",
-          "summary": "Abbott signed landmark Education Savings Account (school voucher) legislation in 2025, giving participating families approximately $10,000 annually for private school tuition and related expenses. He also oversaw the state takeover of Houston ISD in 2024, signaling aggressive state intervention in underperforming districts.",
+          "summary": "Abbott signed the 2025 Education Savings Account (school voucher) law — the defining Texas voucher victory — giving families ~$10,000/year for private school costs, and oversaw the state takeover of Houston ISD.",
           "source_url": "https://elpasomatters.org/2023/02/21/texas-gov-greg-abbott-on-education-savings-accounts-criminalizing-transgender-care/",
           "notable_quote": "Parents should be empowered to control their children's schooling."
         },
@@ -1588,9 +1588,9 @@
         {
           "topic_id": 8,
           "topic_name": "Healthcare Access",
-          "score": 4,
+          "score": 5,
           "confidence": "explicit",
-          "summary": "Abbott sued to invalidate the Affordable Care Act and has refused to expand Medicaid, leaving millions of low-income Texans uninsured. He did sign an extension of Medicaid and CHIP postpartum coverage to 12 months and secured federal funding for rural hospitals, showing limited targeted healthcare access initiatives.",
+          "summary": "Abbott has explicitly refused to expand Medicaid in Texas throughout his tenure, leaving millions of low-income Texans uninsured, and sued to invalidate the ACA. Limited targeted moves (12-month postpartum Medicaid/CHIP coverage, rural hospital funding) do not alter his core opposition to expansion.",
           "source_url": "https://gov.texas.gov/news/post/governor-abbott-hhsc-announce-medicaid-chip-postpartum-coverage-extension-to-12-months",
           "notable_quote": "Texas will always protect the health of Texas families."
         },
@@ -1624,9 +1624,9 @@
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 3,
+          "score": 2.5,
           "confidence": "explicit",
-          "summary": "Abbott has championed major transportation investment, announcing a record $148 billion 10-year TxDOT plan covering highways, public transit, aviation, rail, and freight. This is a bipartisan infrastructure priority driven by Texas's rapid population growth rather than a distinctly ideological position.",
+          "summary": "Abbott has championed major public investment in infrastructure: a record $148 billion 10-year TxDOT plan, plus signing the Texas Energy Fund for grid generation and backing dedicated state funding for new water supply. His approach favors large state investment, albeit channeled partly through loans and private partners.",
           "source_url": "https://gov.texas.gov/news/post/governor-abbott-txdot-announce-record-148-billion-transportation-investment",
           "notable_quote": "Texas is investing OVER $146 BILLION in our state's transportation infrastructure."
         },
@@ -1662,7 +1662,7 @@
           "topic_name": "Local Governance & Transparency",
           "score": 4.5,
           "confidence": "explicit",
-          "summary": "Abbott has repeatedly used state power to override local governments, threatening to seize control of cities that defunded police, proposing constitutional limits on local taxing authority, and overseeing the state takeover of Houston ISD. His campaign proposes making it harder for local governments to raise taxes even as they manage rapid growth.",
+          "summary": "Abbott signed and championed SB 1 (2021), tightening election rules and restricting local voting-access expansions such as drive-thru and 24-hour voting, and has used state power to override local governments. His documented record is firmly on the election-security/status-quo side.",
           "source_url": "https://www.texastribune.org/2025/12/10/greg-abbott-texas-local-taxes-election-2026/",
           "notable_quote": "The state must protect taxpayers from local government overreach."
         }
@@ -1675,7 +1675,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Gina Hinojosa, born December 8, 1973 in McAllen, Texas, is a five-term Democratic state representative from Austin's House District 49, serving since 2017. A former union lawyer and Austin ISD school board trustee, she is the daughter of longtime Texas Democratic Party Chair Gilberto Hinojosa and would be the first Mexican-American Texas governor since the early 1800s if elected. She won the Democratic primary on March 3, 2026 with nearly 60% of the vote and faces incumbent Republican Gov. Greg Abbott in November 2026.",
-      "overall_summary": "Hinojosa is running a broadly progressive campaign centered on three pillars: accessible healthcare (including Medicaid expansion and reining in corporate healthcare profiteering), affordable public education (opposing school vouchers, advocating teacher pay raises), and economic affordability (attacking corporate greed driving up housing, utilities, and groceries). Her legislative record in the Texas House is consistently progressive \u2014 she led Democratic walkouts on voting restrictions and redistricting, authored LGBTQ protections, and opposed the 2021 abortion ban. She faces a massive fundraising deficit against Abbott's $106 million war chest, having raised approximately $1.3 million in the final 10 weeks of 2025. Her campaign has earned endorsements from every major Texas newspaper editorial board and a broad coalition of Democratic elected officials and labor unions.",
+      "overall_summary": "Hinojosa is running a broadly progressive campaign centered on three pillars: accessible healthcare (including Medicaid expansion and reining in corporate healthcare profiteering), affordable public education (opposing school vouchers, advocating teacher pay raises), and economic affordability (attacking corporate greed driving up housing, utilities, and groceries). Her legislative record in the Texas House is consistently progressive — she led Democratic walkouts on voting restrictions and redistricting, authored LGBTQ protections, and opposed the 2021 abortion ban. She faces a massive fundraising deficit against Abbott's $106 million war chest, having raised approximately $1.3 million in the final 10 weeks of 2025. Her campaign has earned endorsements from every major Texas newspaper editorial board and a broad coalition of Democratic elected officials and labor unions.",
       "key_endorsements": [
         "U.S. Senators Ruben Gallego and Chris Murphy",
         "U.S. Representatives Lloyd Doggett, Greg Casar, Veronica Escobar, Sylvia Garcia, Vicente Gonzalez, Julie Johnson, Jasmine Crockett",
@@ -1693,7 +1693,7 @@
         "Fort Worth Star-Telegram (editorial board)",
         "San Antonio Express-News (editorial board)",
         "Andrew White (former Democratic gubernatorial candidate, endorsed after dropping out)",
-        "State Senators C\u00e9sar Blanco, Sarah Eckhardt, Roland Gutierrez, Jose Men\u00e9ndez",
+        "State Senators César Blanco, Sarah Eckhardt, Roland Gutierrez, Jose Menéndez",
         "More than 35 Texas House Democratic members"
       ],
       "campaign_finance_notes": "Hinojosa faces a steep financial disadvantage: Abbott entered 2026 with over $106 million in cash on hand, having raised nearly $23 million in the second half of 2025. Hinojosa raised approximately $1.3 million in the final 10 weeks of 2025. Her campaign has acknowledged the gap, with Hinojosa stating \"He can have his dirty money, and we will have the people of Texas.\" Texas Ethics Commission filings track her fundraising. Her father, Texas Democratic Party Chair Gilberto Hinojosa, donated $6,250 for campaign signs. The Texas American Federation of Teachers PAC contributed $10,000.",
@@ -1796,13 +1796,13 @@
           "topic_name": "Infrastructure & Transportation",
           "score": 2,
           "confidence": "inferred",
-          "summary": "No specific infrastructure or transportation policy positions were found in campaign materials. Her broader economic platform \u2014 opposing corporate concentration and investing in public services \u2014 implies support for public infrastructure investment, but no explicit statements were identified.",
+          "summary": "No specific infrastructure or transportation policy positions were found in campaign materials. Her broader economic platform — opposing corporate concentration and investing in public services — implies support for public infrastructure investment, but no explicit statements were identified.",
           "source_url": "https://ginafortexas.com/priorities/"
         },
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 3,
           "confidence": "implied",
           "summary": "Hinojosa has cited Texas's affordable housing crisis as a key concern, blaming corporate and private equity interests for driving up housing costs. She has not outlined specific land use or zoning policies but frames housing affordability as a priority issue.",
           "source_url": "https://www.kut.org/politics/2025-10-15/gina-hinojosa-governor-greg-abbott-texas-election"
@@ -1812,7 +1812,7 @@
           "topic_name": "Community Character & Growth",
           "score": 2,
           "confidence": "inferred",
-          "summary": "As a statewide gubernatorial candidate, Hinojosa's campaign does not address local community character issues directly. Her general populist framing \u2014 protecting neighborhoods from corporate and private equity interests \u2014 is the closest applicable position.",
+          "summary": "As a statewide gubernatorial candidate, Hinojosa's campaign does not address local community character issues directly. Her general populist framing — protecting neighborhoods from corporate and private equity interests — is the closest applicable position.",
           "source_url": "https://ginafortexas.com/"
         },
         {
@@ -1835,12 +1835,12 @@
     },
     {
       "candidate_name": "Jenn Mack Raphoon",
-      "race": "Governor of Texas",
+      "race": "Governor",
       "party": "Independent (Constitutional Independent)",
       "level": "statewide",
       "incumbent": false,
-      "bio_summary": "Jenn Mack Raphoon is a 7th-generation Texan, former Project Manager, wife, and mother who announced her candidacy for Texas Governor in December 2025. She identifies as a \"Constitutional Independent\" and describes her faith as central to her worldview, stating she is \"100% Constitutionalist \u2026 saved by Jesus.\" She has no prior elected office experience and frames her candidacy as a grassroots movement to \"end the era of the politician.\"",
-      "overall_summary": "NOTE: All available sources confirm Jenn Mack Raphoon is running as a Constitutional Independent, not as a Green Party candidate. Her platform is conservative-populist in character \u2014 centered on border security, limited government, property tax elimination, family values, and Texas sovereignty \u2014 aligning more with right-leaning constitutionalism than Green Party ideology. She has signed the Texas First Pledge associated with the Texas Nationalist Movement. Her digital footprint is thin and most detailed platform information comes from her own press releases rather than independent news coverage. No endorsements from organizations outside the Texas Nationalist Movement ecosystem have been identified.",
+      "bio_summary": "Jenn Mack Raphoon is a 7th-generation Texan, former Project Manager, wife, and mother who announced her candidacy for Texas Governor in December 2025. She identifies as a \"Constitutional Independent\" and describes her faith as central to her worldview, stating she is \"100% Constitutionalist … saved by Jesus.\" She has no prior elected office experience and frames her candidacy as a grassroots movement to \"end the era of the politician.\"",
+      "overall_summary": "NOTE: All available sources confirm Jenn Mack Raphoon is running as a Constitutional Independent, not as a Green Party candidate. Her platform is conservative-populist in character — centered on border security, limited government, property tax elimination, family values, and Texas sovereignty — aligning more with right-leaning constitutionalism than Green Party ideology. She has signed the Texas First Pledge associated with the Texas Nationalist Movement. Her digital footprint is thin and most detailed platform information comes from her own press releases rather than independent news coverage. No endorsements from organizations outside the Texas Nationalist Movement ecosystem have been identified.",
       "key_endorsements": [
         "Texas Nationalist Movement (organizational affiliation)",
         "Texas First Pledge signatory"
@@ -1902,7 +1902,7 @@
           "topic_name": "LGBTQ+ Rights",
           "score": 5,
           "confidence": "implied",
-          "summary": "Her platform emphasizes protecting the nuclear family, ending 'political and medical exploitation of children,' and restoring faith-based values \u2014 language typically associated with opposition to LGBTQ+ protections and gender-affirming care.",
+          "summary": "Her platform emphasizes protecting the nuclear family, ending 'political and medical exploitation of children,' and restoring faith-based values — language typically associated with opposition to LGBTQ+ protections and gender-affirming care.",
           "source_url": "https://www.prnewswire.com/news-releases/jenn-mack-raphoon-announces-candidacy-for-governor-of-texas-302636638.html"
         },
         {
@@ -1937,14 +1937,14 @@
           "confidence": "implied",
           "summary": "She has raised concerns about ERCOT grid reliability and water shortages but frames these as emergency preparedness and community self-reliance issues rather than environmental policy, with no mention of climate change.",
           "source_url": "https://www.prnewswire.com/news-releases/urgent-message-from-texas-governor-candidate-jenn-mack-raphoon---urges-texans-to-prepare-for-tight-power-margins-and-water-shortages-302733369.html",
-          "notable_quote": "The time to prepare is now \u2014 don't wait for the government"
+          "notable_quote": "The time to prepare is now — don't wait for the government"
         },
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 3,
+          "score": 4,
           "confidence": "implied",
-          "summary": "Her power grid and water shortage messaging reflects awareness of infrastructure vulnerabilities, but her proposed solution is community-level preparedness rather than government investment.",
+          "summary": "Raphoon has directly warned about tight power margins and water shortages, but her proposed solution is individual and community-level preparedness rather than major public investment in the grid or water supply.",
           "source_url": "https://www.prnewswire.com/news-releases/urgent-message-from-texas-governor-candidate-jenn-mack-raphoon---urges-texans-to-prepare-for-tight-power-margins-and-water-shortages-302733369.html"
         },
         {
@@ -1974,9 +1974,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
-          "confidence": "explicit",
-          "summary": "Calls for ending corruption, exposing backroom deals, and holding both parties accountable. Her anti-establishment messaging targets political elites but from a decentralization rather than open-government reform perspective.",
+          "score": 3,
+          "confidence": "inferred",
+          "summary": "Generic anti-corruption and anti-establishment rhetoric ('exposing backroom deals') with no documented transparency, ethics, or elections policy proposals.",
           "source_url": "https://www.prnewswire.com/news-releases/jenn-mack-raphoon-announces-candidacy-for-governor-of-texas-302636638.html"
         }
       ]
@@ -1987,7 +1987,7 @@
       "party": "Libertarian",
       "level": "statewide",
       "incumbent": false,
-      "bio_summary": "Pat Dixon is the Libertarian Party nominee for Texas Governor in 2026, based in Lago Vista (Travis County). He served two terms on the Lago Vista City Council (2005\u20132010), chaired the Libertarian Party of Texas for 10 years, served two terms on the Libertarian Party National Committee, and chaired the Libertarian State Leadership Association. He is also the author of \"Leading Like a Libertarian\" and \"Primary Screenout,\" and is president of DPAS-INC.com.",
+      "bio_summary": "Pat Dixon is the Libertarian Party nominee for Texas Governor in 2026, based in Lago Vista (Travis County). He served two terms on the Lago Vista City Council (2005–2010), chaired the Libertarian Party of Texas for 10 years, served two terms on the Libertarian Party National Committee, and chaired the Libertarian State Leadership Association. He is also the author of \"Leading Like a Libertarian\" and \"Primary Screenout,\" and is president of DPAS-INC.com.",
       "overall_summary": "Dixon runs as a principled libertarian, explicitly declining to make a list of campaign promises in favor of applying consistent libertarian principles. His explicit platform positions focus on school choice/vouchers, property tax reform linked to spending cuts, free-market environmental sustainability, criminal justice reform (notably the Robert Roberson death-row case), AI deregulation, and equal civil rights for all Texans regardless of religion. On issues such as abortion, gun policy, immigration, healthcare, and social safety net, Dixon defers to the broader Libertarian Party platform, which would place him strongly in favor of personal liberty and against government mandates across the board. He has not reported significant campaign fundraising and no endorsements have been publicly identified for the 2026 race.",
       "key_endorsements": [],
       "campaign_finance_notes": "No notable fundraising reported publicly. Dixon has noted that high filing fees were one of the most challenging aspects of the nomination process. Campaign mailing address: Pat Dixon for Governor, PO Box 4187, Lago Vista TX 78645. Texas Ethics Commission filings may exist but no summary data was accessible through public search tools at time of research.",
@@ -2013,9 +2013,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 4,
+          "score": 4.5,
           "confidence": "explicit",
-          "summary": "Dixon strongly supports school choice and a universal voucher/scholarship system where every child receives equal funding to attend any school, framing this as a solution to both funding inequity and politically driven curriculum mandates.",
+          "summary": "Dixon advocates a universal voucher/scholarship system in which funding follows every child to any school, framing universal school choice as the fix for funding inequity and curriculum politics.",
           "source_url": "https://patdixon.org/school-choice/",
           "notable_quote": "Every child would be given the same amount of money to follow them to any school."
         },
@@ -2113,16 +2113,16 @@
           "topic_name": "Education Curriculum & Parental Rights",
           "score": 4,
           "confidence": "explicit",
-          "summary": "Dixon supports parental empowerment and believes parents\u2014not politicians\u2014should hold schools accountable, which he argues would eliminate politically driven standardized testing mandates and give teachers more professional autonomy. His voucher proposal would allow families to choose schools aligned with their values.",
+          "summary": "Dixon supports parental empowerment and believes parents—not politicians—should hold schools accountable, which he argues would eliminate politically driven standardized testing mandates and give teachers more professional autonomy. His voucher proposal would allow families to choose schools aligned with their values.",
           "source_url": "https://patdixon.org/parent-teacher-empowerment/",
           "notable_quote": "Parents instead of politicians should hold schools accountable for teaching their kids."
         },
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 3,
+          "score": 2,
           "confidence": "explicit",
-          "summary": "Dixon supports non-partisan redistricting reform and approval voting to improve electoral integrity. He emphasizes honest, detailed budget discussions and criticizes politicians who make vague promises without substantive policy detail.",
+          "summary": "Dixon explicitly supports non-partisan redistricting reform and approval voting, and calls for honest, detailed public budget discussion — documented electoral- and transparency-reform planks.",
           "source_url": "https://patdixon.org/government/"
         }
       ]
@@ -2171,9 +2171,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 4,
+          "score": 5,
           "confidence": "explicit",
-          "summary": "Patrick strongly supports school choice/vouchers (SB 2 in 2025 was his top education priority) and pushed a $5,000 teacher pay raise in 2019 and additional raises in 2025 (SB 26). He supports charter school expansion but redirects public funding toward private options, which critics argue defunds traditional public schools.",
+          "summary": "Patrick was the Legislature's chief voucher champion — SB 2 (2025 ESA law) was his top stated priority — redirecting public funds to private options, alongside teacher pay raises (SB 26) and charter expansion.",
           "source_url": "https://www.danpatrick.org/my-top-2025-priorities/",
           "notable_quote": "Provide high-quality education for all."
         },
@@ -2184,7 +2184,7 @@
           "confidence": "explicit",
           "summary": "Patrick authored the 2011 mandatory ultrasound law and holds a strongly anti-abortion position with no exceptions for rape or incest; he supports only a narrow life-of-the-mother exception. He is endorsed by Texas Alliance for Life.",
           "source_url": "https://en.wikipedia.org/wiki/Dan_Patrick_(politician)",
-          "notable_quote": "The only exception would be if the life of the mother was truly in danger\u2026but that is rare."
+          "notable_quote": "The only exception would be if the life of the mother was truly in danger…but that is rare."
         },
         {
           "topic_id": 5,
@@ -2214,9 +2214,9 @@
         {
           "topic_id": 8,
           "topic_name": "Healthcare Access",
-          "score": 4,
+          "score": 5,
           "confidence": "implied",
-          "summary": "Patrick's 2025 priorities include an Alzheimer's prevention institute (SB 5) and general health initiatives (SB 25) but do not include Medicaid expansion or broad healthcare access measures. His alignment with conservative opposition to the ACA and Medicaid expansion is implied by his overall record.",
+          "summary": "Patrick has consistently kept Medicaid expansion off the Texas Senate agenda and has long opposed expanding Medicaid under the ACA. His health priorities (Alzheimer's institute SB 5, SB 25) avoid coverage expansion entirely.",
           "source_url": "https://www.ltgov.texas.gov/2025/01/29/lt-gov-dan-patrick-announces-first-round-of-top-40-priority-bills-for-the-2025-legislative-session/"
         },
         {
@@ -2242,16 +2242,16 @@
           "topic_name": "Energy & Environment",
           "score": 5,
           "confidence": "explicit",
-          "summary": "Patrick has prioritized adding dispatchable natural gas generation to ERCOT, creating a $5 billion Texas Energy Fund for natural gas plants. He opposes ESG investment criteria and has framed renewable energy incentives as creating an \"uneven playing field\" \u2014 no significant climate or emissions reduction positions found.",
+          "summary": "Patrick has prioritized adding dispatchable natural gas generation to ERCOT, creating a $5 billion Texas Energy Fund for natural gas plants. He opposes ESG investment criteria and has framed renewable energy incentives as creating an \"uneven playing field\" — no significant climate or emissions reduction positions found.",
           "source_url": "https://www.danpatrick.org/protecting-our-grid/",
           "notable_quote": "ESG and DEI policies should not be part of any funding agreement in Texas."
         },
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 4,
-          "confidence": "implied",
-          "summary": "Patrick's 2025 priorities included SB 7 for water supply investments and SB 6 for electric grid reliability. General infrastructure investment is supported within a conservative framework, but no specific transportation positions (e.g., transit, highways) were explicitly detailed in recent campaign materials.",
+          "score": 3,
+          "confidence": "explicit",
+          "summary": "Patrick made water supply investment (SB 7) and electric grid reliability (SB 6) top legislative priorities, supporting substantial state funding for water infrastructure and grid hardening within a conservative framework that also leans on market-based generation incentives.",
           "source_url": "https://www.ltgov.texas.gov/2025/01/29/lt-gov-dan-patrick-announces-first-round-of-top-40-priority-bills-for-the-2025-legislative-session/"
         },
         {
@@ -2295,7 +2295,7 @@
       "party": "Democrat",
       "level": "statewide",
       "incumbent": false,
-      "bio_summary": "Vikki Ann Goodwin (born May 18, 1967, Arlington Heights, IL) holds a BBA in marketing and a Master of Public Administration from the LBJ School of Public Affairs at UT Austin. She is a small business owner (residential real estate) and has served as a Democratic member of the Texas House of Representatives for District 47 (Travis County) since January 2019, currently in her fourth term. She won the May 2026 Democratic primary runoff over Houston labor leader Marcos V\u00e9lez and will face incumbent Lt. Gov. Dan Patrick in the November 2026 general election.",
+      "bio_summary": "Vikki Ann Goodwin (born May 18, 1967, Arlington Heights, IL) holds a BBA in marketing and a Master of Public Administration from the LBJ School of Public Affairs at UT Austin. She is a small business owner (residential real estate) and has served as a Democratic member of the Texas House of Representatives for District 47 (Travis County) since January 2019, currently in her fourth term. She won the May 2026 Democratic primary runoff over Houston labor leader Marcos Vélez and will face incumbent Lt. Gov. Dan Patrick in the November 2026 general election.",
       "overall_summary": "Goodwin is widely described as one of the most progressive members of the Texas House, with a legislative record focused on public education, gun safety, environmental protection, healthcare access, and consumer protection. Her campaign for lieutenant governor centers on restoring collaborative, inclusive governance to the Texas Senate, expanding public school funding, opposing vouchers, increasing housing affordability, and providing comprehensive healthcare. She faces a steep uphill challenge against Dan Patrick, who holds over $30 million in his campaign war chest compared to her roughly $161,000 cash on hand at the close of 2025.",
       "key_endorsements": [
         "Our Revolution",
@@ -2318,7 +2318,7 @@
         "San Antonio Express-News (editorial board)",
         "The Austin Chronicle (editorial board)"
       ],
-      "campaign_finance_notes": "As of late 2025, Goodwin reported approximately $161,000 cash on hand, compared to primary opponent Marcos V\u00e9lez's $51,000. She outspent V\u00e9lez in the second half of 2025 ($492,000 to $6,000). However, she acknowledged her fundraising must significantly improve to mount a realistic challenge to Dan Patrick, who holds over $30 million. Campaign finance filings are on record with the Texas Ethics Commission.",
+      "campaign_finance_notes": "As of late 2025, Goodwin reported approximately $161,000 cash on hand, compared to primary opponent Marcos Vélez's $51,000. She outspent Vélez in the second half of 2025 ($492,000 to $6,000). However, she acknowledged her fundraising must significantly improve to mount a realistic challenge to Dan Patrick, who holds over $30 million. Campaign finance filings are on record with the Texas Ethics Commission.",
       "positions": [
         {
           "topic_id": 1,
@@ -2431,7 +2431,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 4,
           "confidence": "implied",
           "summary": "Supports increasing housing supply and controlling rental costs as part of her affordability agenda; no detailed land-use regulatory positions found beyond general housing affordability stances.",
           "source_url": "https://www.vikkigoodwin.com/",
@@ -2468,12 +2468,12 @@
     },
     {
       "candidate_name": "Anthony Cristo",
-      "race": "Lieutenant Governor of Texas",
+      "race": "Lieutenant Governor",
       "party": "Libertarian",
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Anthony \"Tony\" Douglas Cristo is a second-generation Mexican American from Cibolo, Texas, who teaches high school English and Communication Applications at Judson ISD in Live Oak. A Navy veteran, he holds a bachelor's degree in Communication Arts from the University of the Incarnate Word and joined the Libertarian Party in 2017. He previously ran as the Libertarian candidate for U.S. House in Texas' 15th District (2018) and 34th District (2020) before announcing his 2026 bid for Lieutenant Governor.",
-      "overall_summary": "Cristo is a principled Libertarian whose platform centers on reducing government spending, ending the war on drugs, and protecting individual liberty across ideological lines. He explicitly opposes government moralizing on social issues and supports free immigration for those seeking work, while backing genuine fiscal restraint rather than tax-shifting schemes. His digital footprint on several policy areas \u2014 particularly reproductive rights, healthcare, and infrastructure \u2014 is thin, with positions largely inferred from his Libertarian Party affiliation and his history of writing Libertarian-perspective opinion columns for the Seguin Gazette.",
+      "overall_summary": "Cristo is a principled Libertarian whose platform centers on reducing government spending, ending the war on drugs, and protecting individual liberty across ideological lines. He explicitly opposes government moralizing on social issues and supports free immigration for those seeking work, while backing genuine fiscal restraint rather than tax-shifting schemes. His digital footprint on several policy areas — particularly reproductive rights, healthcare, and infrastructure — is thin, with positions largely inferred from his Libertarian Party affiliation and his history of writing Libertarian-perspective opinion columns for the Seguin Gazette.",
       "positions": [
         {
           "topic_id": 1,
@@ -2602,9 +2602,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 3.5,
-          "confidence": "implied",
-          "summary": "Cristo emphasizes decentralization and transparency, calling for straightforward no-nonsense government that tells the truth. His preference for local-level decision making is a consistent theme, though specific transparency proposals were not detailed.",
+          "score": 3,
+          "confidence": "unknown",
+          "summary": "General rhetoric favoring decentralization and 'no-nonsense' honest government; no specific documented transparency, ethics, or elections proposals.",
           "source_url": "https://www.anthonycristo.com/",
           "notable_quote": "Texas needs leadership that respects individual liberty, spends responsibly, and tells the truth."
         }
@@ -2621,7 +2621,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Mayes Middleton is a 7th-generation Texan, oil and gas executive (Middleton Oil Company), attorney (UT Law School, licensed 2008), and current Texas State Senator from District 11 (Brazoria, Galveston, and Harris Counties). He previously served two terms in the Texas House of Representatives, where he chaired the Texas House Freedom Caucus, before winning a Senate seat in 2021. He won the May 2026 Republican primary runoff against U.S. Rep. Chip Roy, spending nearly $17 million of personal funds, and now faces Democrat Nathan Johnson in the general election.",
-      "overall_summary": "Middleton positions himself as the ideological successor to Ken Paxton, running on a platform of aggressive border enforcement, culture-war priorities (anti-DEI, anti-transgender policies, election integrity), and strong alignment with President Trump and the America First agenda. He is one of the most consistently conservative members of the Texas Legislature by multiple scorecards. His limited courtroom experience \u2014 despite holding a law degree \u2014 has been a central line of attack from opponents. His campaign is almost entirely self-funded through his oil and gas fortune.",
+      "overall_summary": "Middleton positions himself as the ideological successor to Ken Paxton, running on a platform of aggressive border enforcement, culture-war priorities (anti-DEI, anti-transgender policies, election integrity), and strong alignment with President Trump and the America First agenda. He is one of the most consistently conservative members of the Texas Legislature by multiple scorecards. His limited courtroom experience — despite holding a law degree — has been a central line of attack from opponents. His campaign is almost entirely self-funded through his oil and gas fortune.",
       "key_endorsements": [
         "Lt. Gov. Dan Patrick",
         "Texas Values Action",
@@ -2639,7 +2639,7 @@
         "50+ Texas state representatives",
         "Texas Right to Life PAC (prior legislative races)"
       ],
-      "campaign_finance_notes": "Middleton self-funded nearly all of his campaign, spending approximately $16\u201317 million of personal funds from his oil and gas fortune \u2014 over 90% of total receipts. He raised $11.8 million in the second half of 2025 alone, with $5 million cash on hand heading into the runoff. He has also been a prolific donor to conservative causes over 15 years, contributing over $300,000 to Empower Texans PAC and funding roughly 23 of 24 initial House Freedom Caucus members. Campaign finance reports are filed with the Texas Ethics Commission.",
+      "campaign_finance_notes": "Middleton self-funded nearly all of his campaign, spending approximately $16–17 million of personal funds from his oil and gas fortune — over 90% of total receipts. He raised $11.8 million in the second half of 2025 alone, with $5 million cash on hand heading into the runoff. He has also been a prolific donor to conservative causes over 15 years, contributing over $300,000 to Empower Texans PAC and funding roughly 23 of 24 initial House Freedom Caucus members. Campaign finance reports are filed with the Texas Ethics Commission.",
       "positions": [
         {
           "topic_id": 1,
@@ -2769,9 +2769,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 5,
+          "score": 3,
           "confidence": "explicit",
-          "summary": "Middleton pledges to enforce open records laws and hold government officials accountable for misuse of taxpayer funds through his proposed 'DOGE Texas' initiative within the AG's office.",
+          "summary": "Middleton pledges to enforce open-records laws and pursue accountability for misuse of taxpayer funds via a 'DOGE Texas' AG initiative — a pro-enforcement transparency plank — but has no documented position on expanded ethics rules or voting access.",
           "source_url": "https://mayesmiddleton.com/"
         }
       ]
@@ -2783,7 +2783,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Nathan Matthew Johnson (born February 12, 1968, Fort Worth, TX) is a three-term Democratic Texas state senator representing District 16 (North Dallas) since 2018, when he became the first Democrat to win the seat in over three decades. He holds a B.S. in physics from the University of Arizona and a J.D. from UT School of Law, and practices commercial litigation at Thompson Coburn in Dallas. He won the May 2026 Democratic primary runoff with 60.5% of the vote and faces Republican Mayes Middleton in the November 2026 general election.",
-      "overall_summary": "Johnson runs as a reform candidate focused on restoring the AG's office to its traditional functions \u2014 consumer protection, Medicaid fraud enforcement, child support collection, and government transparency \u2014 after what he characterizes as Ken Paxton's politicization of the office. His platform is notably institutionalist: he pledges independence from partisan agendas while also committing to sue the Trump administration where he believes federal actions violate the law. His Senate voting record aligns closely with the Texas Democratic caucus mainstream, with explicit progressive stances on reproductive rights, gun safety, and LGBTQ+ issues.",
+      "overall_summary": "Johnson runs as a reform candidate focused on restoring the AG's office to its traditional functions — consumer protection, Medicaid fraud enforcement, child support collection, and government transparency — after what he characterizes as Ken Paxton's politicization of the office. His platform is notably institutionalist: he pledges independence from partisan agendas while also committing to sue the Trump administration where he believes federal actions violate the law. His Senate voting record aligns closely with the Texas Democratic caucus mainstream, with explicit progressive stances on reproductive rights, gun safety, and LGBTQ+ issues.",
       "key_endorsements": [
         "Texas AFL-CIO COPE",
         "Sierra Club",
@@ -2965,7 +2965,7 @@
           "topic_name": "Public Safety & Criminal Justice",
           "score": 2,
           "confidence": "inferred",
-          "summary": "Libertarian candidates typically favor criminal justice reform, reduced incarceration, ending the drug war, and protecting civil liberties against prosecutorial overreach \u2014 all consistent with Oxford's civil rights legal practice. No explicit AG-specific statements found.",
+          "summary": "Libertarian candidates typically favor criminal justice reform, reduced incarceration, ending the drug war, and protecting civil liberties against prosecutorial overreach — all consistent with Oxford's civil rights legal practice. No explicit AG-specific statements found.",
           "source_url": "https://ballotpedia.org/Tom_Oxford"
         },
         {
@@ -3076,8 +3076,8 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 3,
-          "confidence": "inferred",
-          "summary": "Libertarians generally support government transparency and limiting bureaucratic power. Oxford's legal background in civil rights suggests support for accountability, but no specific statements found.",
+          "confidence": "unknown",
+          "summary": "No documented statements on transparency, ethics, or election administration found.",
           "source_url": "https://ballotpedia.org/Tom_Oxford"
         }
       ]
@@ -3089,7 +3089,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Donald \"Don\" Huffines is a fifth-generation Texan, businessman, and former state senator (SD-16, 2015-2019) who built his wealth through car dealerships and real estate development with his twin brother. He entered politics as a tea party insurgent, served one Senate term without accepting a salary or perks, and previously ran for governor in 2022 before winning the 2026 GOP comptroller primary with 57% of the vote against Abbott-backed rivals.",
-      "overall_summary": "Huffines is a strongly conservative, self-funding candidate who ran on \"DOGE-ing\" Texas government \u2014 auditing waste, eliminating DEI, and directing savings toward property tax relief. His platform blends fiscal conservatism (abolish property taxes, repeal franchise tax, gold-backed currency) with hardline social positions (no abortion exceptions, undoing LGBTQ protections, aggressive anti-immigration accounting). He defeated the Abbott-backed incumbent and won a Trump endorsement, positioning himself as the most ideologically consistent conservative in the race.",
+      "overall_summary": "Huffines is a strongly conservative, self-funding candidate who ran on \"DOGE-ing\" Texas government — auditing waste, eliminating DEI, and directing savings toward property tax relief. His platform blends fiscal conservatism (abolish property taxes, repeal franchise tax, gold-backed currency) with hardline social positions (no abortion exceptions, undoing LGBTQ protections, aggressive anti-immigration accounting). He defeated the Abbott-backed incumbent and won a Trump endorsement, positioning himself as the most ideologically consistent conservative in the race.",
       "key_endorsements": [
         "President Donald Trump",
         "Sen. Ted Cruz",
@@ -3099,7 +3099,7 @@
         "Independent Bankers Association of Texas",
         "The Amarillo Pioneer (newspaper endorsement)"
       ],
-      "campaign_finance_notes": "Huffines is predominantly self-funded, spending millions of his personal wealth in the 2026 primary \u2014 mirroring his self-funded 2022 gubernatorial campaign. He has historically refused government salary, pension, or office perks while in public office. His financial dominance overwhelmed Abbott-backed opponent Kelly Hancock in the primary. Texas Ethics Commission filings would contain full details; Transparency USA profile was inaccessible (403 error).",
+      "campaign_finance_notes": "Huffines is predominantly self-funded, spending millions of his personal wealth in the 2026 primary — mirroring his self-funded 2022 gubernatorial campaign. He has historically refused government salary, pension, or office perks while in public office. His financial dominance overwhelmed Abbott-backed opponent Kelly Hancock in the primary. Texas Ethics Commission filings would contain full details; Transparency USA profile was inaccessible (403 error).",
       "positions": [
         {
           "topic_id": 1,
@@ -3197,8 +3197,8 @@
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
           "score": 4,
-          "confidence": "implied",
-          "summary": "During his Senate tenure Huffines campaigned against new toll roads and authored a bill to eliminate state vehicle safety inspections, saving an estimated $140 million annually. No specific infrastructure positions found for the 2026 comptroller race.",
+          "confidence": "inferred",
+          "summary": "His prior record (anti-toll-road campaigning, eliminating vehicle inspections) centered on cutting government costs; no positions found on water supply or grid investment. A market-first lean is inferred from his strong anti-spending posture.",
           "source_url": "https://en.wikipedia.org/wiki/Don_Huffines"
         },
         {
@@ -3228,9 +3228,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 5,
+          "score": 3.5,
           "confidence": "explicit",
-          "summary": "Huffines has pledged to demand 'honest transparent budgets,' expose wasteful spending, and audit government programs including local governments. He frames fiscal transparency as the central purpose of the comptroller's office.",
+          "summary": "Huffines explicitly pledges honest, transparent budgets and audits exposing wasteful spending (proactive-publication side), but his documented history of demanding 2020 election audits and stricter election-security measures places him on the security side of the voting-access dimension.",
           "source_url": "https://www.donhuffines.com/",
           "notable_quote": "Demand honest transparent budgets."
         }
@@ -3260,7 +3260,7 @@
         "San Antonio Express-News (editorial endorsement)",
         "Austin Chronicle (editorial endorsement)"
       ],
-      "campaign_finance_notes": "Campaign accepts donations via ActBlue. Texas Ethics Commission filings are the primary source for state-level finance data; specific totals were not publicly available in accessible sources at time of research. Eckhardt entered the comptroller race late (December 8, 2025 \u2014 last day to file), which likely limited early fundraising compared to candidates who announced earlier. No notable large donor controversies were found in available sources.",
+      "campaign_finance_notes": "Campaign accepts donations via ActBlue. Texas Ethics Commission filings are the primary source for state-level finance data; specific totals were not publicly available in accessible sources at time of research. Eckhardt entered the comptroller race late (December 8, 2025 — last day to file), which likely limited early fundraising compared to candidates who announced earlier. No notable large donor controversies were found in available sources.",
       "positions": [
         {
           "topic_id": 1,
@@ -3362,7 +3362,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 3,
           "confidence": "implied",
           "summary": "Eckhardt supports affordable housing investment as part of her broader infrastructure platform. No detailed positions on specific land use or development regulations were found in her comptroller campaign materials.",
           "source_url": "https://www.saraheckhardt.com/issues"
@@ -3529,8 +3529,8 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 3,
-          "confidence": "inferred",
-          "summary": "As a sitting city manager, Echevarria-Garza has direct local governance experience. Libertarians generally favor government transparency and reduced bureaucracy. No specific public statements on comptroller-level transparency policy found.",
+          "confidence": "unknown",
+          "summary": "No documented public statements on transparency, ethics, or elections policy found; city-manager experience alone is not a position.",
           "source_url": "https://sanantonioreport.org/profile/v-alonzo-echevarria-garza/"
         }
       ]
@@ -3542,7 +3542,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Shehla Faizi is a Muslim American of Pakistani heritage who was born in the U.S., raised in Karachi, Pakistan, and has lived in Texas since 2012. She holds a Bachelor's degree in Graphic Design and a Master's degree in Strategic Communication, with a professional background in advertising, marketing journalism, and podcasting. Her political activism intensified after the 2016 election and the 2023 Gaza conflict, leading her to run as a Green Party candidate after losing confidence in both major parties.",
-      "overall_summary": "Faizi is running a protest-oriented campaign focused on fiscal transparency, redirecting Texas tax revenue away from corporate interests and overseas military funding, and back to ordinary Texans. Her platform centers on the comptroller's core functions \u2014 tax spending transparency, state investment policy, and contract equity \u2014 while also taking positions on anti-BDS laws, ICE cooperation, and school vouchers. As a third-party candidate in a statewide race, she faces significant structural barriers and her campaign appears to be operating at a grassroots, low-budget level with no major endorsements identified.",
+      "overall_summary": "Faizi is running a protest-oriented campaign focused on fiscal transparency, redirecting Texas tax revenue away from corporate interests and overseas military funding, and back to ordinary Texans. Her platform centers on the comptroller's core functions — tax spending transparency, state investment policy, and contract equity — while also taking positions on anti-BDS laws, ICE cooperation, and school vouchers. As a third-party candidate in a statewide race, she faces significant structural barriers and her campaign appears to be operating at a grassroots, low-budget level with no major endorsements identified.",
       "key_endorsements": [
         "Green Party of Texas (nominated at convention, April 11, 2026)"
       ],
@@ -3649,7 +3649,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 3,
           "confidence": "unknown",
           "summary": "No position found on land use or development policy. This topic was not addressed in any available campaign materials.",
           "source_url": "https://www.faizifortexas.com/"
@@ -3835,9 +3835,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 3,
           "confidence": "inferred",
-          "summary": "Buckingham has faced scrutiny over the GLO's Hurricane Harvey disaster relief distribution, with federal investigators initially finding evidence of racial disparities before reversing those findings. She publicly dismissed Democratic criticism of her mitigation funding decisions as 'publicity stunts,' suggesting limited receptivity to external accountability pressure.",
+          "summary": "No documented platform position on transparency, ethics rules, or elections. Her dismissal of criticism over GLO disaster-fund decisions suggests limited receptivity to external oversight, but this falls short of a documented policy stance.",
           "source_url": "https://www.glo.texas.gov/about-glo/press-releases/land-commissioner-dawn-buckingham-once-again-calls-media-dismiss-democrats-publicity-stunts-over-mitigation-funding"
         }
       ]
@@ -3866,7 +3866,7 @@
         "Danny Tejada, former Mayor of Floresville",
         "Carlos Aguilar III, former El Paso County Commissioner"
       ],
-      "campaign_finance_notes": "Per Texas Tribune reporting (early 2026), Flores had approximately $67,720 cash on hand \u2014 a modest sum for a statewide race. Notable expenditures include $13,750 in-kind to Bill Naso Strategic Messages and $2,500 to Campaign Strategy Services. No significant large-dollar donors were identified. Texas Ethics Commission filings govern this race. His fundraising significantly trails incumbent Dawn Buckingham's war chest.",
+      "campaign_finance_notes": "Per Texas Tribune reporting (early 2026), Flores had approximately $67,720 cash on hand — a modest sum for a statewide race. Notable expenditures include $13,750 in-kind to Bill Naso Strategic Messages and $2,500 to Campaign Strategy Services. No significant large-dollar donors were identified. Texas Ethics Commission filings govern this race. His fundraising significantly trails incumbent Dawn Buckingham's war chest.",
       "positions": [
         {
           "topic_id": 1,
@@ -4010,7 +4010,7 @@
       "party": "Republican",
       "level": "statewide",
       "incumbent": false,
-      "bio_summary": "Nathan \"Nate\" Sheets is a fifth-generation Texan, U.S. Navy veteran (1988\u20131994), and entrepreneur who built Nature Nate's Honey into the top-branded honey company in America before selling it in 2021. He is a committed conservative Christian who previously served in full-time ministry and on boards of faith-based nonprofits, and he ranches 10,000 acres in Texas. He defeated three-term Republican incumbent Sid Miller in the March 2026 primary with backing from Governor Greg Abbott, the Texas Farm Bureau, and major agricultural industry groups, and now faces Democrat Clayton Tucker in the November 2026 general election.",
+      "bio_summary": "Nathan \"Nate\" Sheets is a fifth-generation Texan, U.S. Navy veteran (1988–1994), and entrepreneur who built Nature Nate's Honey into the top-branded honey company in America before selling it in 2021. He is a committed conservative Christian who previously served in full-time ministry and on boards of faith-based nonprofits, and he ranches 10,000 acres in Texas. He defeated three-term Republican incumbent Sid Miller in the March 2026 primary with backing from Governor Greg Abbott, the Texas Farm Bureau, and major agricultural industry groups, and now faces Democrat Clayton Tucker in the November 2026 general election.",
       "overall_summary": "Sheets is a strongly conservative, faith-driven outsider candidate who leveraged his agricultural business credentials and reform messaging to unseat a long-tenured incumbent. His platform centers on clean food, reducing farmer fees, combating agroterrorism from hostile nations, supporting the Trump agenda on borders and immigration, and promoting MAHA (Make America Healthy Again) principles. While his office primarily covers agriculture, he has taken explicit conservative positions across a wide range of social and policy issues including abortion, gun rights, immigration, energy, and education.",
       "key_endorsements": [
         "Governor Greg Abbott",
@@ -4142,7 +4142,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 4,
+          "score": 2,
           "confidence": "explicit",
           "summary": "Sheets wants to help farmers and ranchers stay on their land and avoid pressure to sell to data centers, solar farms, or wind farms. He supports regenerative ranching and agricultural land preservation as core priorities of the Agriculture Commissioner's office.",
           "source_url": "https://thehendersonnews.com/2026/01/29/evangelist-honey-producer-nate-sheets-vows-to-make-food-cleaner-safer-for-texans-as-agriculture-commissioner/",
@@ -4167,9 +4167,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 2,
           "confidence": "explicit",
-          "summary": "Sheets campaigned heavily on cleaning up the Agriculture Department, pledging full audits, zero-based budgeting, and removing personnel associated with the previous commissioner. He positioned himself as an accountability and transparency reformer against an incumbent with an ethics violation history.",
+          "summary": "Sheets ran explicitly as a transparency and accountability reformer against an ethics-violating incumbent, pledging full department audits, zero-based budgeting, and a cleanup of the agency.",
           "source_url": "https://www.texastribune.org/2026/03/04/nate-sheets-sid-miller-election-2026-texas-agriculture/",
           "notable_quote": "We're going to fire every one of the cancerous people that were pro-Sid."
         }
@@ -4190,14 +4190,14 @@
         "Former TX Agriculture Commissioner Jim Hightower (donor)",
         "Multiple Texas Democratic state representatives"
       ],
-      "campaign_finance_notes": "As of July 2025, Tucker had raised over $40,000 from 300+ donors with approximately $31,854\u2013$45,130 cash on hand. The campaign is described as 100% volunteer-powered with a grassroots small-dollar donor base. Former Agriculture Commissioner Jim Hightower contributed $1,000. Texas Ethics Commission filings would contain official totals. This is a modest fundraising haul for a statewide Texas race, consistent with Democratic underdog status in a reliably Republican statewide office.",
+      "campaign_finance_notes": "As of July 2025, Tucker had raised over $40,000 from 300+ donors with approximately $31,854–$45,130 cash on hand. The campaign is described as 100% volunteer-powered with a grassroots small-dollar donor base. Former Agriculture Commissioner Jim Hightower contributed $1,000. Texas Ethics Commission filings would contain official totals. This is a modest fundraising haul for a statewide Texas race, consistent with Democratic underdog status in a reliably Republican statewide office.",
       "positions": [
         {
           "topic_id": 1,
           "topic_name": "Fiscal Policy & Taxes",
           "score": 2,
           "confidence": "implied",
-          "summary": "Tucker emphasizes that corporate monopolies\u2014not farmers\u2014capture agricultural profits, and advocates for market intervention to break up concentration. His platform implies support for using government regulatory power to redistribute economic benefits toward family farms and rural communities.",
+          "summary": "Tucker emphasizes that corporate monopolies—not farmers—capture agricultural profits, and advocates for market intervention to break up concentration. His platform implies support for using government regulatory power to redistribute economic benefits toward family farms and rural communities.",
           "source_url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/"
         },
         {
@@ -4229,7 +4229,7 @@
           "topic_name": "Social Safety Net",
           "score": 2,
           "confidence": "implied",
-          "summary": "Tucker highlights food insecurity\u2014noting 1 in 5 Texas children go hungry\u2014and emphasizes the Agriculture Commissioner's role in food assistance programs. His platform to lower food costs and address monopolistic pricing in food systems aligns with expanding the social safety net.",
+          "summary": "Tucker highlights food insecurity—noting 1 in 5 Texas children go hungry—and emphasizes the Agriculture Commissioner's role in food assistance programs. His platform to lower food costs and address monopolistic pricing in food systems aligns with expanding the social safety net.",
           "source_url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/"
         },
         {
@@ -4284,9 +4284,9 @@
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 3,
-          "confidence": "unknown",
-          "summary": "No specific positions found on transportation infrastructure, though Tucker's opposition to data center expansion relates indirectly to utility infrastructure concerns.",
+          "score": 2.5,
+          "confidence": "implied",
+          "summary": "Tucker opposes unchecked data center expansion because of its strain on the Texas grid and water supply, a populist stance favoring protecting public resources over market-driven growth. No detailed water/grid investment plan identified.",
           "source_url": "https://www.claytontuckertx.com/"
         },
         {
@@ -4321,7 +4321,7 @@
           "confidence": "implied",
           "summary": "Tucker frames his campaign as a rejection of the influence of wealthy donors and lobbyists on the Agriculture Commissioner's office, and runs a grassroots volunteer-powered campaign as a demonstration of his transparency and accountability values.",
           "source_url": "https://www.claytontuckertx.com/2025_july_2_surpassed_40k",
-          "notable_quote": "We're building a people and volunteer-powered campaign \u2014 one where people aren't just donors to the campaign, but members of the movement."
+          "notable_quote": "We're building a people and volunteer-powered campaign — one where people aren't just donors to the campaign, but members of the movement."
         }
       ]
     },
@@ -4332,7 +4332,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Austin R. Kelly is a seventh-generation Texan from Comanche County, a professional ecologist, and founder of ARK Ecological Consulting. He holds multiple degrees from Texas A&M University and is completing a PhD in Rangeland Management, with prior experience as a lecturer at Texas A&M and researcher on the USDA-funded Prairie Project focused on Hill Country and Edwards Plateau rangeland management. He secured the Libertarian Party of Texas nomination for Agriculture Commissioner unopposed at the April 2026 state convention in Abilene.",
-      "overall_summary": "Kelly is a science-credentialed Libertarian challenger with no prior elected office experience, running on a platform of property rights, deregulation of agriculture, and science-based land management. His platform is distinctly focused on the core functions of the Agriculture Commissioner's office \u2014 water rights, property rights, land management, and youth agriculture programs \u2014 rather than broader partisan culture-war issues. As a third-party candidate in a statewide Texas race, he faces long electoral odds but brings genuine substantive expertise in rangeland ecology and agricultural consulting.",
+      "overall_summary": "Kelly is a science-credentialed Libertarian challenger with no prior elected office experience, running on a platform of property rights, deregulation of agriculture, and science-based land management. His platform is distinctly focused on the core functions of the Agriculture Commissioner's office — water rights, property rights, land management, and youth agriculture programs — rather than broader partisan culture-war issues. As a third-party candidate in a statewide Texas race, he faces long electoral odds but brings genuine substantive expertise in rangeland ecology and agricultural consulting.",
       "key_endorsements": [],
       "campaign_finance_notes": "No Texas Ethics Commission filings were found in public search results. As a Libertarian candidate with a grassroots campaign and no known major donors or PAC support, campaign finance activity is likely minimal. The campaign operates primarily through the website kellyfortx.com and social media, with a personal contact email (KellyForTX@gmail.com), suggesting a low-budget operation.",
       "positions": [
@@ -4421,7 +4421,7 @@
           "topic_name": "Energy & Environment",
           "score": 3,
           "confidence": "implied",
-          "summary": "Kelly takes a science-based approach to land and ecological management, supporting prescribed burns, invasive brush removal, and water cycle restoration \u2014 all grounded in empirical research. He opposes regulatory overreach but supports active, data-driven conservation. This is a moderate-to-market-oriented environmental stance rather than a purely conservative anti-environment stance.",
+          "summary": "Kelly takes a science-based approach to land and ecological management, supporting prescribed burns, invasive brush removal, and water cycle restoration — all grounded in empirical research. He opposes regulatory overreach but supports active, data-driven conservation. This is a moderate-to-market-oriented environmental stance rather than a purely conservative anti-environment stance.",
           "source_url": "https://www.kellyfortx.com/meet-austin",
           "notable_quote": "My time in the field has taught me that nature flourishes when it has the freedom to grow, not when it is choked by overgrowth."
         },
@@ -4461,9 +4461,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
-          "confidence": "implied",
-          "summary": "Kelly criticizes the current Agriculture Commissioner for prioritizing political rhetoric over practical agriculture, and promises a practical, science-based approach with elimination of wasteful spending. He implicitly supports greater transparency and accountability in the department.",
+          "score": 3,
+          "confidence": "inferred",
+          "summary": "Kelly criticizes the incumbent and promises elimination of wasteful spending, implying accountability concerns, but offers no documented transparency, ethics, or elections proposals.",
           "source_url": "https://www.kellyfortx.com/"
         }
       ]
@@ -4475,7 +4475,7 @@
       "level": "statewide",
       "incumbent": false,
       "bio_summary": "Bo French is a 56-year-old Fort Worth-raised, Midland-bred Republican who comes from an oil family with over 80 years in the Texas energy business. He worked as an energy trader beginning in 1994, and more recently serves as a CEO, investor, rancher, and mineral owner. He served as Chairman of the Tarrant County Republican Party from 2023 until his resignation amid controversy, and defeated incumbent Jim Wright in the May 2026 GOP primary runoff by less than one percentage point to claim the Republican nomination for Texas Railroad Commissioner.",
-      "overall_summary": "French ran as a hard-right \"MAGA conservative,\" focusing his campaign heavily on social and cultural issues \u2014 ending DEI, opposing Chinese Communist Party influence in Texas oil, and promoting U.S.-Israel energy partnerships \u2014 rather than traditional Railroad Commission regulatory topics like pipeline safety or oilfield waste. His campaign was predominantly funded by conservative oil billionaires Tim Dunn and Farris Wilks and backed by far-right organizations, while he drew condemnation from fellow Republicans including Lt. Gov. Dan Patrick for inflammatory social media posts. He will face Democrat Jon Rosenthal in the November 2026 general election.",
+      "overall_summary": "French ran as a hard-right \"MAGA conservative,\" focusing his campaign heavily on social and cultural issues — ending DEI, opposing Chinese Communist Party influence in Texas oil, and promoting U.S.-Israel energy partnerships — rather than traditional Railroad Commission regulatory topics like pipeline safety or oilfield waste. His campaign was predominantly funded by conservative oil billionaires Tim Dunn and Farris Wilks and backed by far-right organizations, while he drew condemnation from fellow Republicans including Lt. Gov. Dan Patrick for inflammatory social media posts. He will face Democrat Jon Rosenthal in the November 2026 general election.",
       "key_endorsements": [
         "Turning Point Action",
         "Texas Gun Rights",
@@ -4593,8 +4593,8 @@
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
           "score": 4,
-          "confidence": "implied",
-          "summary": "French is endorsed by Texans for Toll-Free Highways, suggesting support for reducing toll roads. He has not otherwise addressed broad infrastructure policy in his Railroad Commission campaign.",
+          "confidence": "inferred",
+          "summary": "His toll-free-highways endorsement is no longer relevant to the revised question, and he has not directly addressed water-supply or grid investment despite the Railroad Commission's energy role. A market-first lean is inferred from his conservative alignment.",
           "source_url": "https://bofrench.com/endorsements/"
         },
         {
@@ -4618,27 +4618,27 @@
           "topic_name": "Education Curriculum & Parental Rights",
           "score": 5,
           "confidence": "implied",
-          "summary": "French is endorsed by the Texas Homeschool Coalition, Texas Values Action, and American Principles Project \u2014 all of which advocate for parental rights in education and against curricula they view as ideologically progressive.",
+          "summary": "French is endorsed by the Texas Homeschool Coalition, Texas Values Action, and American Principles Project — all of which advocate for parental rights in education and against curricula they view as ideologically progressive.",
           "source_url": "https://bofrench.com/endorsements/"
         },
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
-          "confidence": "inferred",
-          "summary": "French has not directly addressed local governance transparency in his Railroad Commission campaign. His anti-establishment rhetoric and criticism of DEI programs at state agencies suggest skepticism toward bureaucratic expansion.",
+          "score": 3,
+          "confidence": "unknown",
+          "summary": "French has not addressed transparency, ethics rules, or election administration in his campaign; anti-DEI rhetoric is not a transparency position.",
           "source_url": "https://bofrench.com/"
         }
       ]
     },
     {
       "candidate_name": "Jon Rosenthal",
-      "race": "Texas Railroad Commissioner",
+      "race": "Railroad Commissioner",
       "party": "Democrat",
       "level": "statewide",
       "incumbent": false,
-      "bio_summary": "Jon Rosenthal is a Democratic state representative from northwest Houston (House District 135) who served four terms in the Texas House (2019\u20132026) before giving up his seat to run for Railroad Commissioner. He holds a BS in mechanical engineering from UT Austin and spent 25+ years working in the oil and gas industry as an engineer, project manager, and subsea systems specialist. He was named \"Freshman of the Year\" by the Texas Legislative Study Group in 2019 and is rated one of the most progressive members of the Texas House.",
-      "overall_summary": "Rosenthal is running as the sole Democrat in the 2026 Railroad Commissioner race against Republican incumbent Jim Wright. He frames his candidacy around restoring accountability and technical competence to an agency he characterizes as captured by oil and gas industry insiders. His platform centers on ending routine flaring, modernizing emissions enforcement, improving grid reliability after Winter Storm Uri, scrutinizing utility rates, and expanding orphan well plugging \u2014 all while supporting continued oil and gas production. His positions on issues outside the Railroad Commission's direct jurisdiction are inferred from his progressive legislative record in the Texas House.",
+      "bio_summary": "Jon Rosenthal is a Democratic state representative from northwest Houston (House District 135) who served four terms in the Texas House (2019–2026) before giving up his seat to run for Railroad Commissioner. He holds a BS in mechanical engineering from UT Austin and spent 25+ years working in the oil and gas industry as an engineer, project manager, and subsea systems specialist. He was named \"Freshman of the Year\" by the Texas Legislative Study Group in 2019 and is rated one of the most progressive members of the Texas House.",
+      "overall_summary": "Rosenthal is running as the sole Democrat in the 2026 Railroad Commissioner race against Republican incumbent Jim Wright. He frames his candidacy around restoring accountability and technical competence to an agency he characterizes as captured by oil and gas industry insiders. His platform centers on ending routine flaring, modernizing emissions enforcement, improving grid reliability after Winter Storm Uri, scrutinizing utility rates, and expanding orphan well plugging — all while supporting continued oil and gas production. His positions on issues outside the Railroad Commission's direct jurisdiction are inferred from his progressive legislative record in the Texas House.",
       "positions": [
         {
           "topic_id": 1,
@@ -4727,7 +4727,7 @@
           "confidence": "explicit",
           "summary": "Rosenthal supports an 'all of the above' energy policy that maintains robust oil and gas production while eliminating routine flaring and venting, implementing modern methane leak detection, expanding orphan well plugging, and scrutinizing utility rates. He credits the IRA and Bipartisan Infrastructure Law with advancing U.S. energy goals and argues the current Railroad Commission is captured by industry insiders.",
           "source_url": "https://www.texastribune.org/2026/02/09/texas-railroad-commission-primary-2026-guide-wright-rosenthal/",
-          "notable_quote": "Our energy future must be 'all of the above'\u2014prosperous, safe, clean, and responsible to our communities. Texas can lead in energy production, create high-paying jobs, and preserve our land and resources for generations to come."
+          "notable_quote": "Our energy future must be 'all of the above'—prosperous, safe, clean, and responsible to our communities. Texas can lead in energy production, create high-paying jobs, and preserve our land and resources for generations to come."
         },
         {
           "topic_id": 12,
@@ -4775,7 +4775,7 @@
       "key_endorsements": [
         "Texas AFL-CIO (COPE Committee)"
       ],
-      "campaign_finance_notes": "Campaign finance details were not available through public search results. Texas Ethics Commission filings can be searched at ethics.state.tx.us. Transparency USA tracks his committee at transparencyusa.org/tx/candidate/jon-rosenthal. As the sole Democrat in this race, fundraising is expected to lag significantly behind Republican incumbents who have historically received large contributions from oil and gas interests \u2014 a dynamic Rosenthal is running against rhetorically."
+      "campaign_finance_notes": "Campaign finance details were not available through public search results. Texas Ethics Commission filings can be searched at ethics.state.tx.us. Transparency USA tracks his committee at transparencyusa.org/tx/candidate/jon-rosenthal. As the sole Democrat in this race, fundraising is expected to lag significantly behind Republican incumbents who have historically received large contributions from oil and gas interests — a dynamic Rosenthal is running against rhetorically."
     },
     {
       "candidate_name": "Tan Parker",
@@ -4807,9 +4807,9 @@
         {
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
-          "score": 4,
+          "score": 4.5,
           "confidence": "explicit",
-          "summary": "Parker voted yes on school voucher ESA programs (SB 2) and supported teacher pay increases (HB 2, SB 26) and special education funding. He voted for expanded school discipline tools and cell phone restrictions, reflecting support for school choice alongside some traditional funding measures.",
+          "summary": "Parker voted yes on the SB 2 ESA voucher program — the controlling anchor — while also supporting teacher pay raises (HB 2, SB 26) and special education funding.",
           "source_url": "https://www.teachthevote.org/Candidates/Tan-Parker",
           "notable_quote": ""
         },
@@ -4924,9 +4924,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
-          "confidence": "inferred",
-          "summary": "Parker introduced AI governance legislation promoting innovation and ethical government use of technology, and has authored capital markets legislation with transparency elements. No explicit local governance transparency bills were identified.",
+          "score": 3,
+          "confidence": "unknown",
+          "summary": "No documented positions on local-government transparency, ethics rules, or voting access; AI-governance and capital-markets legislation do not bear on this topic's dimensions.",
           "source_url": "https://senate.texas.gov/pressroom.php?d=12&lang=en",
           "notable_quote": ""
         }
@@ -4954,9 +4954,9 @@
         {
           "topic_id": 1,
           "topic_name": "Fiscal Policy & Taxes",
-          "score": 4.5,
+          "score": 5,
           "confidence": "explicit",
-          "summary": "Bumgarner co-sponsored the state's largest property tax reduction, supports homestead exemption increases, and advocates for cutting wasteful government spending. He scores 83 on the Texas Taxpayers fiscal index. He opposes ESG investment criteria for public funds.",
+          "summary": "Bumgarner co-sponsored the state's largest property tax reduction and backs further homestead exemption increases and spending cuts, putting property tax relief at the center of his fiscal record.",
           "source_url": "https://votebumgarner.com/meet-ben",
           "notable_quote": "I am excited about the results we achieved for Texans this session, but there is more work to be done. I'm running for reelection to continue fighting for the conservative reforms the voters of Texas demand."
         },
@@ -5001,7 +5001,7 @@
           "topic_name": "Social Security & Medicare",
           "score": 3,
           "confidence": "implied",
-          "summary": "Bumgarner favors maintaining current Medicare and Medicaid while reducing federal deficits and wasteful spending \u2014 a moderate-conservative position of preserving current benefits without significant expansion.",
+          "summary": "Bumgarner favors maintaining current Medicare and Medicaid while reducing federal deficits and wasteful spending — a moderate-conservative position of preserving current benefits without significant expansion.",
           "source_url": "https://ivoterguide.com/candidate/60495/race/205/election/1079",
           "notable_quote": ""
         },
@@ -5089,9 +5089,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 3.5,
           "confidence": "explicit",
-          "summary": "Bumgarner has explicitly campaigned on banning taxpayer-funded lobbying and supports local control of governance. His prior service on the Flower Mound Town Council and mayor pro tem role demonstrate direct local government experience.",
+          "summary": "Bumgarner's documented plank is banning taxpayer-funded lobbying — a conservative-flavored accountability restriction on local governments — plus direct local-government experience. No documented positions on proactive publication, ethics-rule expansion, or voting access.",
           "source_url": "https://www.crosstimbersgazette.com/2025/06/29/bumgarner-launches-reelection-bid-for-texas-house-district-63/",
           "notable_quote": ""
         }
@@ -5111,7 +5111,7 @@
         "Denton County Sheriff Murphree",
         "Dallas Morning News editorial board (2024 Republican primary)"
       ],
-      "campaign_finance_notes": "Bumgarner files with the Texas Ethics Commission. His campaign website is votebumgarner.com. Transparency USA tracks his contributions but detailed data was not publicly accessible at the time of research. A $500 contribution was documented in a November 2025 TEC filing. His endorsement base \u2014 including Governor Abbott, multiple congressmen, and county officials \u2014 suggests strong institutional Republican fundraising support typical for a competitive suburban Dallas incumbent. No notable campaign finance controversies were identified."
+      "campaign_finance_notes": "Bumgarner files with the Texas Ethics Commission. His campaign website is votebumgarner.com. Transparency USA tracks his contributions but detailed data was not publicly accessible at the time of research. A $500 contribution was documented in a November 2025 TEC filing. His endorsement base — including Governor Abbott, multiple congressmen, and county officials — suggests strong institutional Republican fundraising support typical for a competitive suburban Dallas incumbent. No notable campaign finance controversies were identified."
     },
     {
       "candidate_name": "H. Denise Wooten",
@@ -5355,7 +5355,7 @@
           "confidence": "explicit",
           "summary": "Hopper explicitly opposes gender-affirming care for minors, calling it 'child abuse,' and has pledged to fight 'radical gender ideology' in schools. He holds a binary view of gender and opposes any taxpayer funding related to gender transition.",
           "source_url": "https://hopper4texas.com/platform/",
-          "notable_quote": "There are only two genders\u2014male and female\u2014and I will never allow taxpayer dollars to fund mutilation of children."
+          "notable_quote": "There are only two genders—male and female—and I will never allow taxpayer dollars to fund mutilation of children."
         },
         {
           "topic_id": 8,
@@ -5442,7 +5442,7 @@
       "level": "state_legislature",
       "incumbent": false,
       "bio_summary": "Julie Evans is a retired special education substitute teacher and longtime Denton County resident who spent over two decades volunteering in public schools before entering the classroom. Born in Corsicana to a railroad family, she is a Navy spouse, mother of three, and grandmother, and earned an Associate's degree from Navarro College with additional study at UNT. She won the March 2026 Democratic primary with roughly 54% of the vote and will face Republican incumbent Andy Hopper in the November 2026 general election for TX House District 64, which covers parts of Denton County and all of Wise County.",
-      "overall_summary": "Evans is a progressive Democrat whose campaign centers on public education funding, opposition to school vouchers, expanding healthcare access, and raising the minimum wage. She frames her candidacy in sharp contrast to incumbent Andy Hopper, opposing ICE collaboration with local law enforcement and advocating for voting rights expansion. Her positions on several issues \u2014 including reproductive rights, gun policy, and LGBTQ+ rights \u2014 are implied by party affiliation and Democratic primary context but not explicitly detailed on her campaign materials. TX House District 64 leans heavily Republican, making this a significant uphill race.",
+      "overall_summary": "Evans is a progressive Democrat whose campaign centers on public education funding, opposition to school vouchers, expanding healthcare access, and raising the minimum wage. She frames her candidacy in sharp contrast to incumbent Andy Hopper, opposing ICE collaboration with local law enforcement and advocating for voting rights expansion. Her positions on several issues — including reproductive rights, gun policy, and LGBTQ+ rights — are implied by party affiliation and Democratic primary context but not explicitly detailed on her campaign materials. TX House District 64 leans heavily Republican, making this a significant uphill race.",
       "key_endorsements": [
         "No named endorsements identified in research; campaign website displays endorsement logos but text was not extractable"
       ],
@@ -5591,7 +5591,7 @@
       "level": "county",
       "incumbent": true,
       "bio_summary": "Andy Eads is a fifth-generation Denton County native and lifelong Flower Mound resident who earned a BBA from Howard Payne University and a Master of Public Administration from the University of North Texas. He served as Denton County Commissioner for Precinct 4 starting in 2007 before being elected County Judge in 2018 and reelected in 2022. He is running for a third term as County Judge in the November 2026 general election against Democrat Nick Pappas.",
-      "overall_summary": "Eads governs as a mainstream Texas Republican county executive, with a record centered on fiscal conservatism (holding the county tax rate to its lowest since 1986), heavy investment in transportation infrastructure, and strong law enforcement support including a human trafficking unit that has made nearly 300 arrests. His public positions are focused almost entirely on county-level issues \u2014 taxes, roads, public safety, economic development, and managed growth \u2014 and he has made no documented public statements on most state or national social policy issues, consistent with his role as a county administrator rather than a legislator.",
+      "overall_summary": "Eads governs as a mainstream Texas Republican county executive, with a record centered on fiscal conservatism (holding the county tax rate to its lowest since 1986), heavy investment in transportation infrastructure, and strong law enforcement support including a human trafficking unit that has made nearly 300 arrests. His public positions are focused almost entirely on county-level issues — taxes, roads, public safety, economic development, and managed growth — and he has made no documented public statements on most state or national social policy issues, consistent with his role as a county administrator rather than a legislator.",
       "key_endorsements": [
         "Texas Governor Greg Abbott (photo association on campaign website; no formal endorsement statement found)",
         "Denton County Republican Party (listed on party site as incumbent elected official)"
@@ -5691,9 +5691,9 @@
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 4,
-          "confidence": "explicit",
-          "summary": "Transportation infrastructure is Eads' most prominent policy accomplishment. He was awarded TxDOT's Road Hand Award and has overseen expansion or improvement of nearly every state highway in the county; he chairs the DCTA board and was former chair of the Regional Transportation Council.",
+          "score": 3,
+          "confidence": "implied",
+          "summary": "Eads has an extensive record of championing public road and transit infrastructure investment in Denton County, suggesting comfort with government-led infrastructure spending, though he has not specifically addressed state water-supply or grid investment.",
           "source_url": "http://www.andyeads.com/top-priorities/",
           "notable_quote": "Growth that outpaces infrastructure only brings frustration. We aim to stay ahead of the curve."
         },
@@ -5708,9 +5708,9 @@
         {
           "topic_id": 14,
           "topic_name": "Community Character & Growth (local)",
-          "score": 4,
-          "confidence": "explicit",
-          "summary": "Eads explicitly calls for preserving Denton County's rural heritage and sense of community even as it grows, supporting open-space purchases and partnerships with local history organizations, while welcoming business attraction and population growth.",
+          "score": 3.5,
+          "confidence": "implied",
+          "summary": "Eads pairs rural-heritage preservation and open-space purchases with active business attraction and welcoming of population growth; on the growth-cost question he leans toward accommodating growth rather than strict developer-pays skepticism.",
           "source_url": "https://www.crosstimbersgazette.com/2025/07/22/eads-growing-with-purpose-denton-countys-next-chapter/",
           "notable_quote": "We must never lose sight of what makes Denton County special: a sense of community, a respect for our rural heritage."
         },
@@ -5725,9 +5725,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 4.5,
           "confidence": "explicit",
-          "summary": "Eads launched the 'Denton County Conversations' podcast to increase government transparency and maintains a robust public communications presence. The county publishes detailed budget and tax-rate data per state law. His record emphasizes efficient, low-cost service delivery over expanded government programs.",
+          "summary": "Eads has refused for four years to implement countywide Election Day vote centers — available in 99 other Texas counties — insisting on party consent the Texas Secretary of State confirmed is not legally required. His transparency efforts (podcast, statutorily required budget publication) are communication and compliance, not expanded-access policy.",
           "source_url": "https://www.crosstimbersgazette.com/2025/11/09/denton-county-judge-andy-eads-announces-campaign-for-reelection/"
         }
       ]
@@ -5827,7 +5827,7 @@
           "topic_name": "Gun Policy",
           "score": 2.5,
           "confidence": "explicit",
-          "summary": "Pappas described himself as both 'pro gun' and 'pro background checks,' indicating a moderate position that supports Second Amendment rights while favoring expanded background check requirements \u2014 a nuanced stance that is somewhat centrist on this issue.",
+          "summary": "Pappas described himself as both 'pro gun' and 'pro background checks,' indicating a moderate position that supports Second Amendment rights while favoring expanded background check requirements — a nuanced stance that is somewhat centrist on this issue.",
           "source_url": "https://www.ntdaily.com/news/democratic-candidates-answer-questions-at-forum-ahead-of-march-2026-election/article_e425d40c-90bf-4394-b817-510da22b8036.html",
           "notable_quote": "Pro gun and pro background checks"
         },
@@ -5850,7 +5850,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 3,
           "confidence": "implied",
           "summary": "His platform includes addressing drainage and transportation gaps, which are closely tied to land use planning. He emphasizes that infrastructure systems must 'match the pace of county growth,' implying support for managed, planned development rather than unconstrained sprawl.",
           "source_url": "https://pappasfordenton.com/"
@@ -5876,7 +5876,7 @@
           "topic_name": "Local Governance & Transparency",
           "score": 1.5,
           "confidence": "explicit",
-          "summary": "Transparency and accountability are core themes of his campaign. He explicitly pledges to establish transparent communication, publish clear testing and audit information for elections, protect nonpartisan election staff, and standardize procedures across polling places \u2014 all direct County Judge responsibilities.",
+          "summary": "Pappas explicitly pledges transparent communication, public explanation of all polling and administrative decisions, published election testing and audit information, protection of nonpartisan election staff, and standardized polling-place procedures — documented expanded-transparency and voting-access commitments.",
           "source_url": "https://pappasfordenton.com/",
           "notable_quote": "Discipline, accountability, and putting others first"
         }
@@ -5884,12 +5884,12 @@
     },
     {
       "candidate_name": "David Wylie",
-      "race": "Denton County Commissioner",
+      "race": "Denton County Commissioner, Precinct 4",
       "party": "Republican",
       "level": "county",
       "incumbent": false,
       "bio_summary": "David Wylie, 62, is a systems architect and longtime Republican activist from Argyle, Texas. He has served as a Republican Precinct Chair and Election Judge since 1990, on the State Republican Executive Committee from 2020 to 2025, and as President of the Argyle Municipal Development District since 2023. He narrowly won the GOP primary runoff for Denton County Commissioner Precinct 4 in May 2026, defeating Valerie Roehrs by just 31 votes, and will face Democrat Stephanie Draper in the November 2026 general election.",
-      "overall_summary": "Wylie runs on a strongly conservative platform centered on road infrastructure, limiting government growth, election integrity, and opposing what he characterizes as threats to the community's \"way of life\" \u2014 including explicit statements about resisting Islamic development. His campaign attracted significant funding from real estate and land development executives, raising questions about developer influence, even as he positioned himself as a check on overdevelopment. He spent roughly $117,000, far less than his primary runoff opponent's $617,000, and won with the backing of key Denton County Republican figures including County Judge Andy Eads.",
+      "overall_summary": "Wylie runs on a strongly conservative platform centered on road infrastructure, limiting government growth, election integrity, and opposing what he characterizes as threats to the community's \"way of life\" — including explicit statements about resisting Islamic development. His campaign attracted significant funding from real estate and land development executives, raising questions about developer influence, even as he positioned himself as a check on overdevelopment. He spent roughly $117,000, far less than his primary runoff opponent's $617,000, and won with the backing of key Denton County Republican figures including County Judge Andy Eads.",
       "key_endorsements": [
         "Denton County Judge Andy Eads",
         "State Senator Brent Hagenbuch",
@@ -5900,14 +5900,14 @@
         "State Rep. Mitch Little (referenced collaborator)",
         "State Rep. Andy Hopper (referenced collaborator)"
       ],
-      "campaign_finance_notes": "Wylie reported total contributions of approximately $69,186 and political expenditures of $77,275 through the runoff period, with total campaign spending around $117,315. Major donors include Tommy Cansler (CEO of TCCI Land Development, $25,000) and Terrance Jobe (CEO of ADI Communities, $25,000), both development-linked figures \u2014 notable given Wylie's stated opposition to overdevelopment. In 2018, the Texas Ethics Commission assessed Wylie $2,500 in civil penalties for failing to file required campaign finance reports tied to a 2016 Tarrant County Republican Party chair race; Wylie states he paid all fines promptly upon notification. Texas Ethics Commission filings apply as this is a Texas local race. Data sourced from KERA News reporting, May 2026.",
+      "campaign_finance_notes": "Wylie reported total contributions of approximately $69,186 and political expenditures of $77,275 through the runoff period, with total campaign spending around $117,315. Major donors include Tommy Cansler (CEO of TCCI Land Development, $25,000) and Terrance Jobe (CEO of ADI Communities, $25,000), both development-linked figures — notable given Wylie's stated opposition to overdevelopment. In 2018, the Texas Ethics Commission assessed Wylie $2,500 in civil penalties for failing to file required campaign finance reports tied to a 2016 Tarrant County Republican Party chair race; Wylie states he paid all fines promptly upon notification. Texas Ethics Commission filings apply as this is a Texas local race. Data sourced from KERA News reporting, May 2026.",
       "positions": [
         {
           "topic_id": 1,
           "topic_name": "Fiscal Policy & Taxes",
           "score": 4.5,
           "confidence": "explicit",
-          "summary": "Wylie advocates for limited government that delivers only essential services \u2014 public safety, roads, health, elections, courts, and tax collection \u2014 and has pledged a budget review aimed at reducing tax spending. He opposes expanding county government into areas better managed by cities or the state.",
+          "summary": "Wylie advocates for limited government that delivers only essential services — public safety, roads, health, elections, courts, and tax collection — and has pledged a budget review aimed at reducing tax spending. He opposes expanding county government into areas better managed by cities or the state.",
           "source_url": "https://wyliefordenton.com/",
           "notable_quote": "Budget review to reduce tax spending"
         },
@@ -6005,7 +6005,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 4,
+          "score": 2,
           "confidence": "explicit",
           "summary": "Wylie pledges to prevent high-density overdevelopment and preserve Southwest Denton County's character, stating a willingness to 'say no to developers.' However, his two largest campaign donors are real estate developers, raising questions about the strength of that commitment.",
           "source_url": "https://www.keranews.org/news/2026-05-19/questions-over-campaign-finance-neighbors-dispute-arise-in-gop-denton-county-commissioner-runoff",
@@ -6156,7 +6156,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 3,
           "confidence": "implied",
           "summary": "Draper supports balanced, responsible growth through collaboration with community leaders, small businesses, hospitals, and nonprofits. She has not staked out a specific anti-development or pro-development position but emphasizes community input in growth decisions.",
           "source_url": "https://draperfortexas.com"
@@ -6164,9 +6164,9 @@
         {
           "topic_id": 14,
           "topic_name": "Community Character & Growth (local)",
-          "score": 2,
-          "confidence": "explicit",
-          "summary": "Draper emphasizes that all residents \u2014 seniors, working families, small businesses, and historically overlooked communities \u2014 should have meaningful representation at the county level. She pledges regular town halls and direct constituent access.",
+          "score": 3,
+          "confidence": "unknown",
+          "summary": "Draper's documented platform addresses representation, town halls, and constituent access, not growth management or who should pay for development infrastructure.",
           "source_url": "https://draperfortexas.com"
         },
         {
@@ -6326,8 +6326,8 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 3,
-          "confidence": "implied",
-          "summary": "Johnson has served since 2007 without major ethics controversies and publicly emphasizes ethical, fair prosecution. His office's mission statement stresses accountability to the public and ethical conduct.",
+          "confidence": "unknown",
+          "summary": "Long-tenured incumbent who touts ethical prosecution and lacks major ethics controversies, but has no documented position on expanded transparency, ethics rules, or election administration.",
           "source_url": "https://www.dentoncounty.gov/223/District-Attorney",
           "notable_quote": "not to convict, but to see that justice is done"
         }
@@ -6340,7 +6340,7 @@
       "level": "county",
       "incumbent": true,
       "bio_summary": "Juli Luke has served as Denton County Clerk since 2015, winning four consecutive elections (2014, 2018, 2022, and the 2026 Republican primary). Before becoming clerk, she worked in a school district and then joined the Denton County Clerk's Office, developing a passion for public service and records management. She is running for a fifth term in the November 2026 general election against Democrat Dale Frey.",
-      "overall_summary": "As a county clerk, Juli Luke's public focus is almost entirely on the administrative functions of her office \u2014 records management, transparency, online services, and fraud protection \u2014 rather than partisan policy issues. She has been a vocal advocate for government transparency, expanded digital access to public records, and property fraud alerts. The County Clerk role is largely non-partisan in practice; the vast majority of the 16-topic issue taxonomy is not applicable or addressable from this office, and her public statements reflect an administrative, service-oriented philosophy rather than ideological positioning on most topics.",
+      "overall_summary": "As a county clerk, Juli Luke's public focus is almost entirely on the administrative functions of her office — records management, transparency, online services, and fraud protection — rather than partisan policy issues. She has been a vocal advocate for government transparency, expanded digital access to public records, and property fraud alerts. The County Clerk role is largely non-partisan in practice; the vast majority of the 16-topic issue taxonomy is not applicable or addressable from this office, and her public statements reflect an administrative, service-oriented philosophy rather than ideological positioning on most topics.",
       "key_endorsements": [],
       "campaign_finance_notes": "No specific campaign finance data was found in Texas Ethics Commission online records. As a local filer, Juli Luke's campaign finance reports would be filed with the local filing authority (Denton County). No dedicated campaign website was identified; her primary campaign presence is a Facebook page at facebook.com/julilukeforcountyclerk. No major donor disclosures or notable fundraising figures were located in available sources.",
       "positions": [
@@ -6467,9 +6467,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 2.5,
           "confidence": "explicit",
-          "summary": "Luke has written and spoken extensively about government transparency, stating it is essential to accountable governance. She expanded online access to court and public records via re:SearchTX integration, implemented a property fraud alert program, and aims to respond to public records requests same-day rather than waiting the legally allowed 10 days. She supports open meetings and public engagement with government proceedings.",
+          "summary": "Luke's documented record expands transparency: online court/public records access via re:SearchTX, a property fraud alert program, and same-day open-records responses well ahead of the 10-day legal deadline. She has no documented position on countywide vote centers (elections are run by the county elections administrator, not the clerk).",
           "source_url": "https://dentonrc.com/opinion/columnists/juli-luke-transparency-critical-to-good-government/article_e57d6d61-c21e-5bf6-b0be-17755de82e5a.html",
           "notable_quote": "Transparency and accountability are uniquely intertwined. You can't have one without the other."
         }
@@ -6482,7 +6482,7 @@
       "level": "county",
       "incumbent": false,
       "bio_summary": "Dale Frey is a government web developer with experience at federal agencies including the Department of Education, GSA, U.S. Geological Survey, and NOAA. He holds a degree from George Mason University and relocated to Denton County, Texas with his wife to be near her family. He serves as President of the Frisco Democratic Club, Precinct Chair 2085 for the Denton County Democrats, and co-hosts the \"Let's Talk About It, Steph\" podcast. He previously ran unsuccessfully for Texas State Senate District 30 in the 2024 general election.",
-      "overall_summary": "Frey is the Democratic challenger facing Republican incumbent Juli Luke in the November 2026 general election for Denton County Clerk. His campaign focuses primarily on voting access \u2014 specifically advocating for countywide voting centers on Election Day, which he argues would eliminate voter redirection he characterizes as suppression. His campaign website is thin on clerk-specific administrative policy and leans heavily on broader Democratic issue positions from his prior State Senate campaign. His digital footprint for this race is limited, with almost no independent news coverage or detailed policy positions specific to the clerk's office.",
+      "overall_summary": "Frey is the Democratic challenger facing Republican incumbent Juli Luke in the November 2026 general election for Denton County Clerk. His campaign focuses primarily on voting access — specifically advocating for countywide voting centers on Election Day, which he argues would eliminate voter redirection he characterizes as suppression. His campaign website is thin on clerk-specific administrative policy and leans heavily on broader Democratic issue positions from his prior State Senate campaign. His digital footprint for this race is limited, with almost no independent news coverage or detailed policy positions specific to the clerk's office.",
       "key_endorsements": [
         "Texas Teachers Classroom Association (Friendly rating)",
         "Texas for Public Education (Friendly rating)"
@@ -6612,9 +6612,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 2,
+          "score": 1.5,
           "confidence": "explicit",
-          "summary": "Frey's signature county clerk issue is expanding voting access through countywide voting centers on Election Day, citing data that 11-15% of voters were redirected under the current precinct-based system. He frames the existing system as voter suppression and positions himself as an advocate for accessible election administration.",
+          "summary": "Frey's signature issue is countywide Election Day vote centers, citing 11-15% of voters redirected under the precinct system, which he calls voter suppression — a documented voting-access-expansion platform squarely on 16d's access side.",
           "source_url": "https://freyfortexas.com/",
           "notable_quote": "This. Is. Voter. Suppression."
         }
@@ -6622,11 +6622,11 @@
     },
     {
       "candidate_name": "Kevin Falconer",
-      "race": "Denton County Commissioner Precinct 2",
+      "race": "Denton County Commissioner, Precinct 2",
       "party": "Republican",
       "level": "county",
       "incumbent": true,
-      "bio_summary": "Kevin Falconer is a North Texas native who has lived in Carrollton and Denton County for over 32 years. He holds a Bachelor's in Architecture and an MBA from Texas Tech University and is a registered architect. He served on the Carrollton City Council (2009\u20132015) and as Mayor of Carrollton (2017\u20132022) before winning the Denton County Precinct 2 Commissioner seat in November 2022 and taking office January 1, 2023.",
+      "bio_summary": "Kevin Falconer is a North Texas native who has lived in Carrollton and Denton County for over 32 years. He holds a Bachelor's in Architecture and an MBA from Texas Tech University and is a registered architect. He served on the Carrollton City Council (2009–2015) and as Mayor of Carrollton (2017–2022) before winning the Denton County Precinct 2 Commissioner seat in November 2022 and taking office January 1, 2023.",
       "overall_summary": "Falconer is a mainstream Texas Republican county commissioner focused on fiscal conservatism (cutting tax rates, controlling spending), public safety funding, and managing rapid growth through infrastructure investment. His positions on county-level issues are well-documented; he has no public record on state or federal social issues as those fall outside his jurisdiction. He runs in a solidly Republican county and has broad support from local elected officials across Precinct 2 cities.",
       "key_endorsements": [
         "Commissioner Ryan Williams",
@@ -6740,9 +6740,9 @@
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
-          "score": 4,
-          "confidence": "explicit",
-          "summary": "Infrastructure and transportation is Falconer's most active policy area. He touts $650 million in bonds for roads and bridges, serves on the North Central Texas Council of Governments Regional Transportation Council, and championed the King Road widening project connecting Frisco, Hackberry, and Little Elm in 2026.",
+          "score": 3,
+          "confidence": "implied",
+          "summary": "Falconer has backed $650 million in public bonds for roads and bridges and serves on the Regional Transportation Council, indicating support for substantial public infrastructure investment, though he has not addressed water or grid policy.",
           "source_url": "https://www.crosstimbersgazette.com/2025/07/31/falconer-delivering-efficient-transparent-service-to-denton-county-residents/",
           "notable_quote": "We recognize how important this reconstruction is for the area, and we're proud to have worked closely with officials from Frisco, Hackberry, and Little Elm to bring it to fruition."
         },
@@ -6775,7 +6775,7 @@
           "topic_name": "Local Governance & Transparency",
           "score": 4,
           "confidence": "explicit",
-          "summary": "Transparency and efficiency in government service delivery is a stated top priority. Falconer consistently emphasizes responsive constituent service and accessible government, including providing direct contact information and welcoming public input.",
+          "summary": "As a sitting commissioner, Falconer has for years declined to implement countywide Election Day vote centers despite the county having clear legal authority, while touting transparency and constituent responsiveness. Documented inaction on access expansion outweighs generic transparency rhetoric.",
           "source_url": "https://www.crosstimbersgazette.com/2025/07/31/falconer-delivering-efficient-transparent-service-to-denton-county-residents/",
           "notable_quote": "Meeting these needs while also making sure we are transparent and efficient in how we deliver those services is important to me."
         }
@@ -6893,7 +6893,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 2,
+          "score": 4,
           "confidence": "implied",
           "summary": "Affordable housing access is a stated campaign priority, and her HUD background gives her deep expertise in housing development policy. She has acknowledged the urgency and opportunity of Denton County's rapid growth, suggesting she would lean toward managed, inclusive development.",
           "source_url": "https://candacefordentoncounty.com/",
@@ -6940,7 +6940,7 @@
       "level": "local",
       "incumbent": true,
       "bio_summary": "Chris Drew is a lifelong Flower Mound-area resident and Marcus High School graduate who purchased his first home in Flower Mound in 2016. He holds a Master's in Business Administration and a Bachelor's in Mechanical Engineering, and works as a registered professional engineer and program manager in the automotive industry. Before winning his council seat in 2023, Drew served on the Planning & Zoning Commission, SMARTGrowth Commission, and Capital Improvements Advisory Committee since approximately 2015.",
-      "overall_summary": "Drew is a fiscally conservative, growth-cautious local official whose platform centers on three pillars: no more apartments, lower taxes, and strict adherence to Flower Mound's Master Plan. He ran unopposed in May 2026 and was re-elected with 3,271 votes, receiving a new term through 2029. His council record reflects consistent skepticism of higher-density development and support for incremental tax rate reductions; the council unanimously adopted both the FY 2025-26 budget and a marginally reduced tax rate. On most social and national policy issues, no public positions are available \u2014 typical for a nonpartisan local official in a DFW suburb.",
+      "overall_summary": "Drew is a fiscally conservative, growth-cautious local official whose platform centers on three pillars: no more apartments, lower taxes, and strict adherence to Flower Mound's Master Plan. He ran unopposed in May 2026 and was re-elected with 3,271 votes, receiving a new term through 2029. His council record reflects consistent skepticism of higher-density development and support for incremental tax rate reductions; the council unanimously adopted both the FY 2025-26 budget and a marginally reduced tax rate. On most social and national policy issues, no public positions are available — typical for a nonpartisan local official in a DFW suburb.",
       "key_endorsements": [],
       "campaign_finance_notes": "Drew files campaign finance reports with the Flower Mound Town Secretary in accordance with Texas Ethics Commission schedules. Reports on file span from April 2023 through January 2026. He ran unopposed in 2026, which typically correlates with minimal campaign spending. Specific contribution and expenditure totals were not publicly summarized in available sources; full reports are available at flowermound.gov/580/Campaign-Finance-Reports.",
       "positions": [
@@ -7045,7 +7045,7 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 4,
+          "score": 1,
           "confidence": "explicit",
           "summary": "Drew is firmly anti-apartment and anti-high-density development, making adherence to the town's Master Plan a central campaign commitment. He voted against the 2023 TIRZ creation and has dissented on individual development decisions he viewed as insufficiently justified.",
           "source_url": "https://www.crosstimbersgazette.com/2023/03/16/meet-the-candidates-flower-mound-town-council-place-2/",
@@ -7056,7 +7056,7 @@
           "topic_name": "Community Character & Growth",
           "score": 4,
           "confidence": "explicit",
-          "summary": "Preserving Flower Mound's suburban, low-density character is Drew's defining issue. He emphasizes protecting parks, trails, and community events, and opposes development that he believes degrades quality of life.",
+          "summary": "Preserving Flower Mound's low-density suburban character is Drew's defining issue; he opposes development he believes degrades quality of life and resists ad hoc zoning exceptions and developer-friendly tax financing tools, consistent with a developer-should-pay orientation.",
           "source_url": "https://www.crosstimbersgazette.com/2023/02/09/chris-drew-announces-candidacy-for-flower-mound-town-council/",
           "notable_quote": "Development must occur and will occur, but we must grow smart."
         },
@@ -7071,9 +7071,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 3,
           "confidence": "implied",
-          "summary": "Drew supports democratic approval processes for new town facilities and emphasizes rule-bound governance through the Master Plan framework. He has opposed ad hoc exceptions to established zoning and tax financing tools.",
+          "summary": "Drew supports voter approval processes for new town facilities and rule-bound governance under the Master Plan, but has no documented position on proactive disclosure, ethics rules, or election access.",
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/government/2023/04/03/qa-meet-the-candidates-for-flower-mound-town-council-place-2/"
         }
       ]
@@ -7099,7 +7099,7 @@
           "confidence": "explicit",
           "summary": "Harris supports expanding the commercial tax base to reduce residential property tax burden while maintaining fiscal discipline in town spending. She emphasized 'strengthening the long-term financial strategy' as a top priority.",
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/government/2026/03/20/meet-the-candidates-running-for-flower-mound-town-council-place-5/",
-          "notable_quote": "Ready to serve \u2014 with fiscal responsibility and transparency."
+          "notable_quote": "Ready to serve — with fiscal responsibility and transparency."
         },
         {
           "topic_id": 2,
@@ -7201,9 +7201,9 @@
         {
           "topic_id": 14,
           "topic_name": "Community Character & Growth",
-          "score": 2,
+          "score": 4,
           "confidence": "explicit",
-          "summary": "Preserving Flower Mound's small-town character is central to her platform. She opposes state legislative overreach that would weaken local zoning and budgeting authority, stating local decisions should be made by accountable local residents.",
+          "summary": "Harris centers her platform on preserving Flower Mound's small-town character and defending local zoning authority against state preemption that would ease development — a growth-skeptical, character-preservation stance.",
           "source_url": "https://www.crosstimbersgazette.com/2026/03/25/meet-the-candidates-flower-mound-town-council-place-5-2/",
           "notable_quote": "Local decisions should be made by the people who live here and are directly accountable to our residents."
         },
@@ -7352,7 +7352,7 @@
           "confidence": "implied",
           "summary": "Barker supports broad, diverse programming including arts, CTE, and AP courses, and emphasizes data-driven, student-centered curriculum decisions. She did not complete iVoterGuide's questionnaire on curriculum specifics. Her inclusive framing and Denton Together endorsement suggest she does not align with the parental-rights conservative movement on curriculum restrictions.",
           "source_url": "https://www.crosstimbersgazette.com/2026/01/19/barker-seeking-new-seat-on-lewisville-isd-board-of-trustees/",
-          "notable_quote": "Keep investing in the whole child\u2014academically, artistically, and athletically."
+          "notable_quote": "Keep investing in the whole child—academically, artistically, and athletically."
         },
         {
           "topic_id": 16,
@@ -7501,9 +7501,9 @@
         {
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
-          "score": 4,
+          "score": 2,
           "confidence": "explicit",
-          "summary": "Transparency and accountability were central to Pollard's campaign. He criticized the lack of communication around campus closures and called for clear, collaborative decision-making between the board, administration, and community.",
+          "summary": "Pollard explicitly campaigned on transparency and accountability, criticizing the district's poor communication around campus closures and demanding clear, collaborative public decision-making — a documented expanded-transparency platform.",
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/03/25/qa-meet-the-candidates-running-for-lewisville-isd-board-of-trustees-single-member-district-5/",
           "notable_quote": "transparent decision-making, responsible budgeting and strong advocacy for LISD students and taxpayers"
         }
