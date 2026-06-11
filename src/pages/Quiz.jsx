@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import questionsData from '../data/questions.json'
 import { buildVoterAnswers } from '../matcher.js'
+import { normalizeAnswer } from '../scaleDirections.js'
 
 // Quiz steps: 'intro' → 'priorities' → 'questions_<topicIdx>' → 'reviewing' → done
 const TOPICS = questionsData.topics
@@ -75,9 +76,15 @@ export default function Quiz() {
       responses.push({ topicId: topic.topic_id, priority })
       // Add each answered question
       for (const q of topic.questions) {
-        const answer = answers[q.question_id]
-        if (answer != null) {
-          responses.push({ topicId: topic.topic_id, questionId: q.question_id, answer })
+        const raw = answers[q.question_id]
+        if (raw != null) {
+          // Normalize into the candidate-data convention (5 = conservative)
+          // before matching — question scales are independently oriented.
+          responses.push({
+            topicId: topic.topic_id,
+            questionId: q.question_id,
+            answer: normalizeAnswer(q.question_id, raw),
+          })
         }
       }
     }
