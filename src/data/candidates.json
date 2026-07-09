@@ -605,12 +605,12 @@
       "party": "Republican",
       "level": "federal",
       "incumbent": false,
-      "bio_summary": "Warren Kenneth Paxton Jr. (born December 23, 1962) served as Texas Attorney General from 2015 through 2025, previously serving in the Texas House (2003-2013) and Texas Senate (2013-2015). He holds degrees from Baylor University and the University of Virginia School of Law, and built his political identity as an aggressive litigator against federal overreach, filing over 100 lawsuits against the Biden administration. His tenure was marked by a 2023 impeachment by the Texas House (acquitted by the Senate) and a long-running securities fraud indictment (dismissed in 2025).",
+      "bio_summary": "Warren Kenneth Paxton Jr. (born December 23, 1962) served as Texas Attorney General from 2015 through 2025, previously serving in the Texas House (2003-2013) and Texas Senate (2013-2015). He holds degrees from Baylor University and the University of Virginia School of Law, and built his political identity as an aggressive litigator against federal overreach, filing over 100 lawsuits against the Biden administration. His tenure was marked by a 2023 impeachment by the Texas House (acquitted by the Senate) and a long-running securities fraud indictment (dismissed in 2025). In July 2026, the Texas Tribune reported that Paxton appears to have voted in six elections over two years while registered at a Collin County address where he no longer resided (having moved to a Denton County home since February), potentially violating the same voter-registration laws his office publicly enforced.",
       "overall_summary": "Paxton is a hardline MAGA-aligned conservative who defeated incumbent Sen. John Cornyn by over 25 points in the May 2026 Republican runoff, propelled by a last-minute Trump endorsement. He will face Democrat James Talarico in the November 2026 general election. His campaign centers on his record as a combative attorney general — fighting abortion access, opposing LGBTQ+ protections, challenging federal climate and immigration policies, and litigating against Big Tech — rather than a detailed legislative agenda. His campaign website at the time of research contained placeholder policy text, making explicit positions primarily derivable from his AG record and statements.",
       "key_endorsements": [
         "Donald Trump (endorsed May 19, 2026 via Truth Social)",
         "Gun Owners of America",
-        "National Republican Senatorial Committee — 'Paxton Victory' joint fundraising committee; Senate Majority Leader John Thune pledged the party is 'all in' (June 2, 2026)"
+        "National Republican Senatorial Committee — 'Paxton Victory' joint fundraising committee; Senate Majority Leader John Thune pledged the party is 'all in' (June 2, 2026). A July 22, 2026 Washington, D.C. fundraiser features Thune, NRSC Chair Tim Scott, Ted Cruz, and 'more than a dozen' senators including Katie Britt, Lindsey Graham, Mike Lee, Rick Scott, and Tommy Tuberville."
       ],
       "campaign_finance_notes": "FEC committee C00901918 (Ken Paxton for Senate) reported total receipts of approximately $7.6 million and disbursements of approximately $5.3 million through early May 2026. Key large donors include Jonathan Knutz (Houston medical device CEO, $1.1M) and Douglas Scharbauer (Midland oilman, $750,000). Paxton was significantly outraised by incumbent John Cornyn during the primary but won anyway due to Trump's endorsement. The Texas primary was described as record-breaking in total spending.",
       "positions": [
@@ -1707,9 +1707,9 @@
           "topic_id": 1,
           "topic_name": "Fiscal Policy & Taxes",
           "score": 1.5,
-          "confidence": "implied",
-          "summary": "Hinojosa scores consistently low (F grades) on conservative taxpayer scorecards (Texas Taxpayers index score: 30 out of 100), indicating a progressive voting record on spending and taxes. Her campaign focuses on corporate accountability and investment in public services rather than tax cuts.",
-          "source_url": "https://index.texastaxpayers.com/legislators/gina-hinojosa/2025-index"
+          "confidence": "explicit",
+          "summary": "On July 7, 2026, Hinojosa proposed a one-time $1,500 rebate check to every Texas household (a 'corruption tax refund'), funded by drawing roughly $17 billion from the state's rainy day fund (Economic Stabilization Fund). She framed it as affordability relief and anti-'hoarding' populism, contrasting with Abbott's property-tax-cut plan. Prior Texas Taxpayers scorecard: 30/100 (F).",
+          "source_url": "https://www.texastribune.org/2026/07/07/gina-hinojosa-proposes-sending-every-texas-household-1500-in-her-bid-to-oust-greg-abbott/"
         },
         {
           "topic_id": 2,
@@ -4778,7 +4778,8 @@
         }
       ],
       "key_endorsements": [
-        "Texas AFL-CIO (COPE Committee)"
+        "Texas AFL-CIO (COPE Committee)",
+        "Hawk Dunlap (former 2026 GOP Railroad Commission candidate)"
       ],
       "campaign_finance_notes": "Campaign finance details were not available through public search results. Texas Ethics Commission filings can be searched at ethics.state.tx.us. Transparency USA tracks his committee at transparencyusa.org/tx/candidate/jon-rosenthal. As the sole Democrat in this race, fundraising is expected to lag significantly behind Republican incumbents who have historically received large contributions from oil and gas interests — a dynamic Rosenthal is running against rhetorically."
     },
