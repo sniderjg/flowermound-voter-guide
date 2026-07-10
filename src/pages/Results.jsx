@@ -108,8 +108,17 @@ export default function Results() {
 
   return (
     <div>
+      {/* Print-only header */}
+      <div className="print-only" style={{ display: 'none' }}>
+        <h1 style={{ fontSize: '1.4rem', marginBottom: '.25rem' }}>Flower Mound Voter Guide — Your Candidate Matches</h1>
+        <p style={{ fontSize: '.85rem', color: '#555', marginBottom: '1rem' }}>
+          November 2026 general election · Non-partisan · Match % reflects alignment on policy
+          positions, not an endorsement · flowermound-voter-guide.vercel.app
+        </p>
+      </div>
+
       {/* Header */}
-      <div style={{ background: 'var(--blue)', color: '#fff', padding: '2.5rem 1.5rem' }}>
+      <div className="print-hide" style={{ background: 'var(--blue)', color: '#fff', padding: '2.5rem 1.5rem' }}>
         <div className="container text-center">
           <div style={{ fontSize: '2.5rem', marginBottom: '.75rem' }}>🎯</div>
           <h1 style={{ color: '#fff', fontSize: '1.75rem', marginBottom: '.5rem' }}>
@@ -118,13 +127,22 @@ export default function Results() {
           <p style={{ opacity: .85 }}>
             Based on your quiz answers, here's how you align with every candidate on your November 2026 ballot.
           </p>
-          <button
-            className="btn btn--sm"
-            style={{ marginTop: '1rem', background: 'rgba(255,255,255,.15)', color: '#fff', border: '1px solid rgba(255,255,255,.3)' }}
-            onClick={() => navigate('/quiz')}
-          >
-            ← Retake quiz
-          </button>
+          <div style={{ display: 'flex', gap: '.75rem', justifyContent: 'center', marginTop: '1rem', flexWrap: 'wrap' }}>
+            <button
+              className="btn btn--sm"
+              style={{ background: 'rgba(255,255,255,.15)', color: '#fff', border: '1px solid rgba(255,255,255,.3)' }}
+              onClick={() => navigate('/quiz')}
+            >
+              ← Retake quiz
+            </button>
+            <button
+              className="btn btn--sm"
+              style={{ background: '#fff', color: 'var(--blue)', fontWeight: 700 }}
+              onClick={() => window.print()}
+            >
+              🖨️ Download PDF / Print
+            </button>
+          </div>
         </div>
       </div>
 
@@ -156,8 +174,18 @@ export default function Results() {
         })}
       </div>
 
+      {/* Print-only footnote */}
+      <div className="print-only" style={{ display: 'none' }}>
+        <p style={{ fontSize: '.75rem', color: '#666', marginTop: '1rem' }}>
+          Candidate positions researched from public sources (voting records, campaign websites,
+          news coverage) as of the data date shown on the site. ⚠ marks indicate positions based
+          on implied or inferred statements rather than direct quotes. Verify with candidates'
+          official materials before voting.
+        </p>
+      </div>
+
       {/* Footer CTA */}
-      <div style={{ background: '#fff', borderTop: '1px solid var(--border)', padding: '2rem 1.5rem' }}>
+      <div className="print-hide" style={{ background: '#fff', borderTop: '1px solid var(--border)', padding: '2rem 1.5rem' }}>
         <div className="container text-center">
           <h3 style={{ marginBottom: '.75rem' }}>Want to learn more about a candidate?</h3>
           <p className="text-muted" style={{ marginBottom: '1.25rem' }}>
@@ -255,7 +283,7 @@ function CandidateRow({ candidate, rank }) {
         </div>
       )}
 
-      <Link to={`/candidate/${encodeURIComponent(candidate.name)}`} className="btn btn--ghost btn--sm" style={{ alignSelf: 'flex-start', paddingLeft: 0 }}>
+      <Link to={`/candidate/${encodeURIComponent(candidate.name)}`} className="btn btn--ghost btn--sm print-hide" style={{ alignSelf: 'flex-start', paddingLeft: 0 }}>
         View full profile →
       </Link>
     </div>

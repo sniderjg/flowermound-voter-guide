@@ -204,3 +204,23 @@ button { cursor: pointer; font-family: inherit; }
 @media (max-width: 600px) {
   .hide-mobile { display: none !important; }
 }
+
+/* Print / PDF export */
+@media print {
+  .print-hide { display: none !important; }
+  .print-only { display: block !important; }
+  body, :root { background: #fff; }
+  .card {
+    box-shadow: none;
+    border: 1px solid #bbb;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  a { color: inherit; text-decoration: none; }
+  .match-meter { border: 1px solid #ccc; }
+  .match-meter__fill--high { background: #1a7a4a !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .match-meter__fill--mid  { background: #1a56a4 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .match-meter__fill--low  { background: #9ca3af !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .badge { border: 1px solid #999; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .container { max-width: 100%; padding: 0 0.25in; }
+}

@@ -1,85 +1,57 @@
-import { useState, useEffect } from 'react'
+import { useState, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import questionsData from '../data/questions.json'
 import { buildVoterAnswers } from '../matcher.js'
 import { normalizeAnswer } from '../scaleDirections.js'
 
-// Quiz steps: 'intro' → 'priorities' → 'questions_<topicIdx>' → 'reviewing' → done
 const TOPICS = questionsData.topics
+
+// Lite assessment: the single most-discriminating question per topic,
+// 15 questions total (Community Character is covered by the full quiz only).
+const LITE_QUESTION_IDS = new Set([
+  '1a',  // Fiscal: spending/tax tradeoff
+  '2b',  // Public safety: rehabilitation vs punishment
+  '3b',  // Education: vouchers — THE live TX differentiator
+  '4a',  // Reproductive rights: legality
+  '5a',  // Safety net: role of government
+  '6a',  // Social Security: solvency tradeoff
+  '7a',  // LGBTQ+: legal protections
+  '8a',  // Healthcare: coverage structure
+  '9b',  // Immigration: status of undocumented residents
+  '10b', // Guns: AR-platform restrictions
+  '11a', // Energy: transition mandates
+  '12c', // Infrastructure: water & grid investment
+  '13a', // Land use: density and growth
+  '15b', // Curriculum: parental control of materials
+  '16c', // Governance: ethics rules strictness
+])
 
 export default function Quiz() {
   const navigate = useNavigate()
-  const [step, setStep] = useState('intro')
-  const [topicIdx, setTopicIdx] = useState(0)
-  const [questionIdx, setQuestionIdx] = useState(0)
-
-  // priorities[topicId] = 1–5
+  const [mode, setMode] = useState(null)       // null → mode select; 'full' | 'lite'
   const [priorities, setPriorities] = useState({})
-  // answers[questionId] = 1–5 | null (skipped)
   const [answers, setAnswers] = useState({})
 
-  const totalTopics = TOPICS.length
+  // Topics + questions visible in the chosen mode
+  const visibleTopics = useMemo(() => {
+    if (mode !== 'lite') return TOPICS
+    return TOPICS
+      .map(t => ({ ...t, questions: t.questions.filter(q => LITE_QUESTION_IDS.has(q.question_id)) }))
+      .filter(t => t.questions.length > 0)
+  }, [mode])
 
-  // ── helpers ─────────────────────────────────────────────
-  const currentTopic = TOPICS[topicIdx]
-  const currentQuestion = currentTopic?.questions[questionIdx]
-
-  const progressPercent = step === 'intro' ? 0
-    : step === 'priorities' ? 5
-    : step === 'done' ? 100
-    : Math.round(10 + (topicIdx / totalTopics) * 88)
-
-  function handlePrioritySelect(topicId, value) {
-    setPriorities(p => ({ ...p, [topicId]: value }))
-  }
-
-  function handleAnswerSelect(questionId, value) {
-    setAnswers(a => ({ ...a, [questionId]: value }))
-  }
-
-  function advanceQuestion() {
-    const topic = TOPICS[topicIdx]
-    if (questionIdx < topic.questions.length - 1) {
-      setQuestionIdx(q => q + 1)
-    } else if (topicIdx < totalTopics - 1) {
-      setTopicIdx(t => t + 1)
-      setQuestionIdx(0)
-    } else {
-      setStep('done')
-    }
-  }
-
-  function goBackQuestion() {
-    if (questionIdx > 0) {
-      setQuestionIdx(q => q - 1)
-    } else if (topicIdx > 0) {
-      setTopicIdx(t => t - 1)
-      setQuestionIdx(TOPICS[topicIdx - 1].questions.length - 1)
-    } else {
-      setStep('priorities')
-    }
-  }
-
-  function startQuestions() {
-    setTopicIdx(0)
-    setQuestionIdx(0)
-    setStep('questions')
-  }
+  const totalQuestions = visibleTopics.reduce((s, t) => s + t.questions.length, 0)
+  const answeredCount = visibleTopics.reduce(
+    (s, t) => s + t.questions.filter(q => answers[q.question_id] != null).length, 0)
+  const progressPercent = totalQuestions ? Math.round((answeredCount / totalQuestions) * 100) : 0
 
   function handleFinish() {
-    // Build voterAnswers: one entry per topic to set priority,
-    // then one entry per answered question
     const responses = []
-    for (const topic of TOPICS) {
-      const priority = priorities[topic.topic_id] ?? 3
-      // Set priority for this topic (no questionId = priority-only entry)
-      responses.push({ topicId: topic.topic_id, priority })
-      // Add each answered question
+    for (const topic of visibleTopics) {
+      responses.push({ topicId: topic.topic_id, priority: priorities[topic.topic_id] ?? 3 })
       for (const q of topic.questions) {
         const raw = answers[q.question_id]
         if (raw != null) {
-          // Normalize into the candidate-data convention (5 = conservative)
-          // before matching — question scales are independently oriented.
           responses.push({
             topicId: topic.topic_id,
             questionId: q.question_id,
@@ -88,133 +60,196 @@ export default function Quiz() {
         }
       }
     }
-    const voterAnswers = buildVoterAnswers(responses)
-    sessionStorage.setItem('voterAnswers', JSON.stringify(voterAnswers))
+    sessionStorage.setItem('voterAnswers', JSON.stringify(buildVoterAnswers(responses)))
+    sessionStorage.setItem('quizMode', mode)
     navigate('/results')
   }
 
-  // ── render ───────────────────────────────────────────────
-  // Guard: rapid double-clicks can advance indices past the last question
-  // before state settles; recover instead of rendering a blank screen.
-  if (step === 'questions' && !currentQuestion) {
-    if (!currentTopic) setStep('done')
-    else setQuestionIdx(0)
-    return null
-  }
-  if (step === 'intro') return <IntroScreen onStart={() => setStep('priorities')} />
-  if (step === 'priorities') return (
-    <PrioritiesScreen
-      topics={TOPICS}
-      priorities={priorities}
-      onSelect={handlePrioritySelect}
-      onNext={startQuestions}
-      onBack={() => setStep('intro')}
-    />
-  )
-  if (step === 'questions') return (
-    <QuestionScreen
-      topic={currentTopic}
-      question={currentQuestion}
-      topicIdx={topicIdx}
-      questionIdx={questionIdx}
-      totalTopics={totalTopics}
-      totalQuestionsInTopic={currentTopic?.questions.length ?? 0}
-      answer={answers[currentQuestion?.question_id]}
-      progressPercent={progressPercent}
-      onAnswer={val => handleAnswerSelect(currentQuestion.question_id, val)}
-      onNext={advanceQuestion}
-      onBack={goBackQuestion}
-      onSkip={advanceQuestion}
-    />
-  )
-  if (step === 'done') return (
-    <ReviewScreen
-      topics={TOPICS}
-      answers={answers}
-      priorities={priorities}
-      onFinish={handleFinish}
-      onBack={() => { setTopicIdx(totalTopics - 1); setQuestionIdx(TOPICS[totalTopics - 1].questions.length - 1); setStep('questions') }}
-    />
-  )
-}
+  if (!mode) return <ModeSelect onSelect={setMode} />
 
-// ── Sub-screens ──────────────────────────────────────────────────────────────
-
-function IntroScreen({ onStart }) {
   return (
-    <div className="container" style={{ padding: '3rem 1.5rem' }}>
-      <div className="card" style={{ maxWidth: 620, margin: '0 auto', textAlign: 'center' }}>
-        <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📋</div>
-        <h1 style={{ fontSize: '1.75rem', marginBottom: '1rem' }}>About this quiz</h1>
-        <p style={{ marginBottom: '1rem' }}>
-          {questionsData.quiz_intro}
-        </p>
-        <div style={{ background: 'var(--gray-50)', borderRadius: 8, padding: '1rem', marginBottom: '1.5rem', textAlign: 'left' }}>
-          <strong>How it works:</strong>
-          <ul style={{ margin: '.5rem 0 0', paddingLeft: '1.25rem', lineHeight: 2 }}>
-            <li>First, rate how important each <strong>topic</strong> is to you (1–5)</li>
-            <li>Then answer 2–3 questions per topic about your position</li>
-            <li>Skip any question you'd rather not answer</li>
-            <li>We'll show your match % for every candidate on your November ballot</li>
-          </ul>
+    <div>
+      {/* Sticky progress header */}
+      <div style={{
+        position: 'sticky', top: 0, zIndex: 10,
+        background: '#fff', borderBottom: '1px solid var(--border)',
+        padding: '.6rem 1.5rem',
+      }}>
+        <div className="container" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <span className="text-sm" style={{ whiteSpace: 'nowrap', fontWeight: 600, color: 'var(--text-h)' }}>
+            {mode === 'lite' ? 'Lite' : 'Full'} assessment
+          </span>
+          <div className="progress-bar" style={{ flex: 1 }}>
+            <div className="progress-bar__fill" style={{ width: `${progressPercent}%` }} />
+          </div>
+          <span className="text-sm text-muted" style={{ whiteSpace: 'nowrap' }}>
+            {answeredCount}/{totalQuestions} answered
+          </span>
         </div>
-        <p className="text-muted text-sm" style={{ marginBottom: '1.5rem' }}>
-          Takes about 10–15 minutes. Your answers are never stored — they stay in your browser.
-        </p>
-        <button className="btn btn--primary btn--lg w-full" onClick={onStart}>
-          Let's begin →
+      </div>
+
+      <div className="container" style={{ padding: '1.5rem' }}>
+        <button className="btn btn--ghost btn--sm" onClick={() => { setMode(null); setAnswers({}); setPriorities({}) }}>
+          ← Change assessment type
         </button>
+
+        <div className="alert alert--info mt-2" style={{ marginBottom: '1.5rem' }}>
+          <strong>How to answer:</strong> For each question, 1 means you agree with the left
+          statement, 5 with the right, 3 = middle ground. Leave a question blank to skip it —
+          skipped questions don't count toward your match. Above each topic, rate how important
+          that issue is to you (1 = not important, 5 = extremely important).
+        </div>
+
+        {/* All topics + questions on one page */}
+        {visibleTopics.map(topic => (
+          <TopicBlock
+            key={topic.topic_id}
+            topic={topic}
+            priority={priorities[topic.topic_id]}
+            onPriority={v => setPriorities(p => ({ ...p, [topic.topic_id]: v }))}
+            answers={answers}
+            onAnswer={(qid, v) => setAnswers(a => ({ ...a, [qid]: a[qid] === v ? null : v }))}
+          />
+        ))}
+
+        {/* Finish */}
+        <div className="card" style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+          <p style={{ marginBottom: '1rem' }}>
+            <strong>{answeredCount}</strong> of <strong>{totalQuestions}</strong> questions answered
+            {answeredCount < totalQuestions && ` — unanswered questions are skipped`}
+          </p>
+          <button
+            className="btn btn--primary btn--lg"
+            disabled={answeredCount === 0}
+            onClick={handleFinish}
+          >
+            See my candidate matches →
+          </button>
+          {answeredCount === 0 && (
+            <p className="text-muted text-sm mt-1">Answer at least one question to see matches</p>
+          )}
+        </div>
       </div>
     </div>
   )
 }
 
-function PrioritiesScreen({ topics, priorities, onSelect, onNext, onBack }) {
-  const allSet = topics.every(t => priorities[t.topic_id] != null)
+// ─── Mode selection ──────────────────────────────────────────────────────────
 
+function ModeSelect({ onSelect }) {
   return (
-    <div className="container" style={{ padding: '2rem 1.5rem' }}>
-      <div style={{ maxWidth: 660, margin: '0 auto' }}>
-        <button className="btn btn--ghost" onClick={onBack} style={{ marginBottom: '1rem' }}>← Back</button>
-        <h2 style={{ marginBottom: '.25rem' }}>Step 1 of 2 — Set your priorities</h2>
-        <p className="text-muted" style={{ marginBottom: '1rem' }}>
-          {questionsData.priority_intro || 'How important is each topic to you? This determines how much weight it gets in your match.'}
+    <div className="container" style={{ padding: '3rem 1.5rem' }}>
+      <div style={{ maxWidth: 640, margin: '0 auto', textAlign: 'center' }}>
+        <div style={{ fontSize: '3rem', marginBottom: '.75rem' }}>📋</div>
+        <h1 style={{ fontSize: '1.75rem', marginBottom: '.75rem' }}>Choose your assessment</h1>
+        <p className="text-muted" style={{ marginBottom: '2rem' }}>
+          {questionsData.quiz_intro}
         </p>
-        <div className="alert alert--info" style={{ marginBottom: '1.5rem' }}>
-          <strong>Scale: 1 = Not important at all &nbsp;·&nbsp; 5 = Extremely important</strong><br />
-          <span style={{ fontSize: '.85rem' }}>Topics you rate 4 or 5 will count more heavily in your candidate matches.</span>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.25rem' }}>
+          <button
+            onClick={() => onSelect('lite')}
+            className="card"
+            style={{ cursor: 'pointer', textAlign: 'center', border: '2px solid var(--border)', background: '#fff' }}
+          >
+            <div style={{ fontSize: '2.25rem', marginBottom: '.5rem' }}>⚡</div>
+            <h3 style={{ marginBottom: '.35rem' }}>Lite Assessment</h3>
+            <div style={{ fontWeight: 700, color: 'var(--blue)', marginBottom: '.5rem' }}>15 questions · ~5 minutes</div>
+            <p className="text-muted text-sm">
+              One key question per issue. A quick read on your matches — great starting point.
+            </p>
+          </button>
+          <button
+            onClick={() => onSelect('full')}
+            className="card"
+            style={{ cursor: 'pointer', textAlign: 'center', border: '2px solid var(--blue)', background: 'var(--blue-pale)' }}
+          >
+            <div style={{ fontSize: '2.25rem', marginBottom: '.5rem' }}>🎯</div>
+            <h3 style={{ marginBottom: '.35rem' }}>Full Assessment</h3>
+            <div style={{ fontWeight: 700, color: 'var(--blue)', marginBottom: '.5rem' }}>49 questions · ~15 minutes</div>
+            <p className="text-muted text-sm">
+              2–4 questions per issue for the most accurate matches. Recommended if you have the time.
+            </p>
+          </button>
         </div>
+        <p className="text-muted text-sm" style={{ marginTop: '1.5rem' }}>
+          Your answers stay in your browser — nothing is stored or sent anywhere.
+        </p>
+      </div>
+    </div>
+  )
+}
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
-          {topics.map(topic => (
-            <div key={topic.topic_id} className="card" style={{ padding: '1rem 1.25rem' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '.5rem' }}>
-                <div>
-                  <div style={{ fontWeight: 600, color: 'var(--text-h)' }}>{topic.topic_name}</div>
-                  <div className="text-muted text-sm">
-                    Applies to: {topic.applicable_levels?.join(', ') ?? 'all races'}
-                  </div>
-                </div>
-                <PriorityPicker
-                  value={priorities[topic.topic_id]}
-                  onChange={v => onSelect(topic.topic_id, v)}
-                />
-              </div>
-            </div>
-          ))}
+// ─── One topic section: priority row + its questions ────────────────────────
+
+function TopicBlock({ topic, priority, onPriority, answers, onAnswer }) {
+  const answered = topic.questions.filter(q => answers[q.question_id] != null).length
+  return (
+    <div className="card" style={{ marginBottom: '1.25rem' }}>
+      {/* Topic header with priority picker */}
+      <div style={{
+        display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',
+        flexWrap: 'wrap', gap: '.75rem', borderBottom: '2px solid var(--border)',
+        paddingBottom: '.85rem', marginBottom: '1rem',
+      }}>
+        <div>
+          <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{topic.topic_name}</h3>
+          <span className="text-muted text-sm">{answered}/{topic.questions.length} answered</span>
         </div>
+        <div style={{ textAlign: 'right' }}>
+          <div className="text-sm" style={{ marginBottom: '.25rem', color: 'var(--text-muted)' }}>
+            How important is this to you?
+          </div>
+          <PriorityPicker value={priority} onChange={onPriority} />
+        </div>
+      </div>
 
-        {!allSet && (
-          <p className="text-muted text-sm" style={{ marginBottom: '1rem' }}>
-            Rate all topics to continue (or we'll default unrated topics to 3).
-          </p>
-        )}
-        <button
-          className="btn btn--primary btn--lg w-full"
-          onClick={onNext}
-        >
-          Continue to questions →
-        </button>
+      {/* Questions */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '1.35rem' }}>
+        {topic.questions.map(q => (
+          <QuestionRow
+            key={q.question_id}
+            question={q}
+            value={answers[q.question_id]}
+            onChange={v => onAnswer(q.question_id, v)}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function QuestionRow({ question, value, onChange }) {
+  return (
+    <div>
+      <p style={{ fontWeight: 600, color: 'var(--text-h)', marginBottom: '.6rem' }}>
+        {question.question_text}
+      </p>
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', marginBottom: '.4rem' }}>
+        <span className="text-sm" style={{ color: 'var(--text-muted)', maxWidth: '44%' }}>{question.scale_low_label}</span>
+        <span className="text-sm" style={{ color: 'var(--text-muted)', maxWidth: '44%', textAlign: 'right' }}>{question.scale_high_label}</span>
+      </div>
+      <div style={{ display: 'flex', gap: '.45rem' }}>
+        {[1, 2, 3, 4, 5].map(v => {
+          const selected = value === v
+          const color = v <= 2 ? '#1a56a4' : v === 3 ? '#6b7280' : '#c0392b'
+          return (
+            <button
+              key={v}
+              onClick={() => onChange(v)}
+              aria-pressed={selected}
+              style={{
+                flex: 1, padding: '.55rem .25rem', borderRadius: 8,
+                border: `2px solid ${selected ? color : 'var(--border)'}`,
+                background: selected ? color : '#fff',
+                color: selected ? '#fff' : 'var(--gray-700)',
+                fontWeight: selected ? 700 : 400,
+                fontSize: '1rem', transition: 'all .12s',
+              }}
+            >
+              {v}
+            </button>
+          )
+        })}
       </div>
     </div>
   )
@@ -224,20 +259,19 @@ function PriorityPicker({ value, onChange }) {
   const labels = ['', 'Not important', 'Somewhat important', 'Moderately important', 'Very important', 'Extremely important']
   const colors = ['', '#9ca3af', '#6b7280', '#2563eb', '#1a56a4', '#c0392b']
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '.3rem' }}>
-      <div style={{ display: 'flex', gap: '.35rem', alignItems: 'center' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '.25rem' }}>
+      <div style={{ display: 'flex', gap: '.3rem' }}>
         {[1, 2, 3, 4, 5].map(v => (
           <button
             key={v}
             title={`${v} — ${labels[v]}`}
             onClick={() => onChange(v)}
             style={{
-              width: 32, height: 32, borderRadius: '50%', border: '2px solid',
+              width: 28, height: 28, borderRadius: '50%', border: '2px solid',
               borderColor: value === v ? colors[v] : 'var(--border)',
               background: value === v ? colors[v] : '#fff',
               color: value === v ? '#fff' : 'var(--gray-500)',
-              fontWeight: 700, fontSize: '.85rem',
-              transition: 'all .15s',
+              fontWeight: 700, fontSize: '.8rem', transition: 'all .12s',
             }}
           >
             {v}
@@ -245,172 +279,10 @@ function PriorityPicker({ value, onChange }) {
         ))}
       </div>
       {value != null && (
-        <div style={{ fontSize: '.75rem', color: colors[value], fontWeight: 600 }}>
-          {value} — {labels[value]}
-        </div>
+        <span style={{ fontSize: '.72rem', color: colors[value], fontWeight: 600 }}>
+          {labels[value]}
+        </span>
       )}
-    </div>
-  )
-}
-
-function QuestionScreen({
-  topic, question, topicIdx, questionIdx,
-  totalTopics, totalQuestionsInTopic,
-  answer, progressPercent,
-  onAnswer, onNext, onBack, onSkip
-}) {
-  if (!question) return null
-
-  return (
-    <div className="container" style={{ padding: '2rem 1.5rem' }}>
-      <div style={{ maxWidth: 660, margin: '0 auto' }}>
-        {/* Progress */}
-        <div style={{ marginBottom: '1.5rem' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.35rem' }}>
-            <span className="text-muted text-sm">
-              Topic {topicIdx + 1} of {totalTopics}: <strong style={{ color: 'var(--text-h)' }}>{topic.topic_name}</strong>
-            </span>
-            <span className="text-muted text-sm">{Math.round(progressPercent)}%</span>
-          </div>
-          <div className="progress-bar">
-            <div className="progress-bar__fill" style={{ width: `${progressPercent}%` }} />
-          </div>
-        </div>
-
-        {/* Question card */}
-        <div className="card" style={{ marginBottom: '1rem' }}>
-          <div className="text-muted text-sm" style={{ marginBottom: '.75rem' }}>
-            Question {questionIdx + 1} of {totalQuestionsInTopic}
-          </div>
-          <h2 style={{ fontSize: '1.2rem', marginBottom: '1.5rem', lineHeight: 1.4 }}>
-            {question.question_text}
-          </h2>
-
-          {/* Scale */}
-          <ScalePicker
-            value={answer}
-            lowLabel={question.scale_low_label}
-            highLabel={question.scale_high_label}
-            onChange={onAnswer}
-          />
-        </div>
-
-        {/* Navigation */}
-        <div style={{ display: 'flex', gap: '.75rem', flexWrap: 'wrap' }}>
-          <button className="btn btn--secondary" onClick={onBack}>← Back</button>
-          <button
-            className="btn btn--ghost text-sm"
-            onClick={onSkip}
-            style={{ marginLeft: 'auto' }}
-            title="Skipped questions don't count toward your match. Answer 3 if you hold a middle-ground position."
-          >
-            Skip — no opinion
-          </button>
-          <button
-            className="btn btn--primary"
-            onClick={onNext}
-            disabled={answer == null}
-          >
-            {topicIdx === totalTopics - 1 && questionIdx === totalQuestionsInTopic - 1
-              ? 'Finish →' : 'Next →'}
-          </button>
-        </div>
-        {answer == null && (
-          <p className="text-muted text-sm mt-1" style={{ textAlign: 'right' }}>
-            Select an answer or skip to continue
-          </p>
-        )}
-      </div>
-    </div>
-  )
-}
-
-function ScalePicker({ value, lowLabel, highLabel, onChange }) {
-  return (
-    <div>
-      {/* Labels */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.5rem' }}>
-        <span className="text-sm" style={{ color: 'var(--text-muted)', maxWidth: '42%' }}>{lowLabel}</span>
-        <span className="text-sm" style={{ color: 'var(--text-muted)', maxWidth: '42%', textAlign: 'right' }}>{highLabel}</span>
-      </div>
-      {/* Buttons */}
-      <div style={{ display: 'flex', gap: '.5rem', justifyContent: 'center' }}>
-        {[1, 2, 3, 4, 5].map(v => {
-          const selected = value === v
-          const color = selected
-            ? v <= 2 ? '#1a56a4' : v === 3 ? '#6b7280' : '#c0392b'
-            : 'transparent'
-          return (
-            <button
-              key={v}
-              onClick={() => onChange(v)}
-              style={{
-                flex: 1, padding: '.75rem .25rem', borderRadius: 8,
-                border: `2px solid ${selected ? color : 'var(--border)'}`,
-                background: selected ? color : '#fff',
-                color: selected ? '#fff' : 'var(--gray-700)',
-                fontWeight: selected ? 700 : 400,
-                fontSize: '1.1rem',
-                transition: 'all .15s',
-              }}
-            >
-              {v}
-            </button>
-          )
-        })}
-      </div>
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '.35rem' }}>
-        <span className="text-sm" style={{ color: '#1a56a4' }}>← Agree more</span>
-        <span className="text-sm" style={{ color: '#6b7280' }}>Middle ground</span>
-        <span className="text-sm" style={{ color: '#c0392b' }}>Agree more →</span>
-      </div>
-    </div>
-  )
-}
-
-function ReviewScreen({ topics, answers, priorities, onFinish, onBack }) {
-  const answeredCount = Object.values(answers).filter(v => v != null).length
-  const totalQuestions = topics.reduce((s, t) => s + t.questions.length, 0)
-
-  return (
-    <div className="container" style={{ padding: '2rem 1.5rem' }}>
-      <div style={{ maxWidth: 620, margin: '0 auto', textAlign: 'center' }}>
-        <div className="card">
-          <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✅</div>
-          <h2 style={{ marginBottom: '1rem' }}>Quiz complete!</h2>
-          <p style={{ marginBottom: '1.5rem' }}>
-            You answered <strong>{answeredCount}</strong> of <strong>{totalQuestions}</strong> questions.
-            {answeredCount < totalQuestions && ` (${totalQuestions - answeredCount} skipped)`}
-          </p>
-
-          {/* Quick priority summary */}
-          <div style={{ background: 'var(--gray-50)', borderRadius: 8, padding: '1rem', marginBottom: '1.5rem', textAlign: 'left' }}>
-            <strong style={{ fontSize: '.9rem', display: 'block', marginBottom: '.5rem' }}>Your top priorities:</strong>
-            {topics
-              .filter(t => (priorities[t.topic_id] ?? 3) >= 4)
-              .sort((a, b) => (priorities[b.topic_id] ?? 3) - (priorities[a.topic_id] ?? 3))
-              .map(t => (
-                <div key={t.topic_id} style={{ display: 'flex', justifyContent: 'space-between', padding: '.25rem 0', borderBottom: '1px solid var(--border)' }}>
-                  <span className="text-sm">{t.topic_name}</span>
-                  <span style={{ color: '#c0392b', fontWeight: 700 }}>{'★'.repeat(priorities[t.topic_id] ?? 3)}</span>
-                </div>
-              ))
-            }
-            {topics.filter(t => (priorities[t.topic_id] ?? 3) >= 4).length === 0 && (
-              <p className="text-muted text-sm">No topics rated 4 or 5 — all topics weighted equally.</p>
-            )}
-          </div>
-
-          <div style={{ display: 'flex', gap: '.75rem', flexDirection: 'column' }}>
-            <button className="btn btn--primary btn--lg w-full" onClick={onFinish}>
-              See my candidate matches →
-            </button>
-            <button className="btn btn--secondary w-full" onClick={onBack}>
-              ← Go back and review answers
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   )
 }

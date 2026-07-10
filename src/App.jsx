@@ -18,7 +18,7 @@ export default function App() {
           <Route path="/candidate/:name" element={<CandidateDetail />} />
         </Routes>
       </main>
-      <footer style={{
+      <footer className="print-hide" style={{
         textAlign: 'center',
         padding: '1.5rem',
         fontSize: '.8rem',

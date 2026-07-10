@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Nav() {
   return (
-    <nav className="nav">
+    <nav className="nav print-hide">
       <Link to="/" className="nav__brand" style={{ textDecoration: 'none' }}>
         <span>🗳️</span>
         <div>
