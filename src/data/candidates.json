@@ -1072,7 +1072,7 @@
       "party": "Republican",
       "level": "federal",
       "incumbent": true,
-      "bio_summary": "Brandon Gene Gill (born February 26, 1994) is the U.S. Representative for Texas's 26th congressional district, serving since January 2025. He is the youngest Republican member of Congress and a member of the House Freedom Caucus. Gill was raised on a ranch in Texas, graduated from Dartmouth College with degrees in history and economics, worked as an investment banker at Nomura Securities, and founded the online newspaper D.C. Enquirer. He is married to Danielle D'Souza, daughter of conservative commentator Dinesh D'Souza.",
+      "bio_summary": "Brandon Gene Gill (born February 26, 1994) is the U.S. Representative for Texas's 26th congressional district, serving since January 2025. He is the youngest Republican member of Congress and a member of the House Freedom Caucus. Gill was raised on a ranch in Texas, graduated from Dartmouth College with degrees in history and economics, worked as an investment banker at Nomura Securities, and founded the online newspaper D.C. Enquirer. He is married to Danielle D'Souza, daughter of conservative commentator Dinesh D'Souza. In early July 2026, Gill drew national media attention over a re-election campaign image featuring him and his two children but not his wife, Danielle D'Souza Gill, who is Indian American; critics accused him of excluding her, while Gill did not directly address the criticism and D'Souza Gill publicly defended the family.",
       "overall_summary": "Gill is one of the most conservative members of the House, aligning closely with the MAGA wing of the Republican Party and the House Freedom Caucus. His legislative priorities center on immigration enforcement and border security, with secondary focus on tax cuts, Second Amendment rights, and anti-abortion legislation. He has been a reliable vote for the Trump agenda in the 119th Congress, including voting for the \"One Big Beautiful Bill\" which cuts Medicaid, SNAP, and reduces Medicare drug price negotiation savings.",
       "key_endorsements": [
         "President Donald Trump",
@@ -1231,7 +1231,7 @@
       "bio_summary": "Steven Shook, 45, is a critical care nurse practitioner from Haslet, Texas, who has provided frontline healthcare since 2009. He holds a bachelor's degree from Texas Tech University (Summa Cum Laude) and a master's degree from the University of Texas at Arlington. He won the March 3, 2026 Democratic primary over Ernest Lineberger III and faces Republican incumbent Brandon Gill in the November 2026 general election in a district rated R+11 by Cook PVI.",
       "overall_summary": "Shook is running on a healthcare-first platform rooted in his nearly two decades as a nurse practitioner. His campaign themes — lowering drug and insurance costs, protecting Social Security and Medicare, and opposing school vouchers — are mainstream Democratic positions, but he moderates on immigration (emphasizing \"smart, humane enforcement\") and frames public safety as both police investment and gun-safety reform. His campaign finance picture is very modest, with just over $12,000 raised through March 2026, reflecting the long-shot nature of this R+11 district. No major organizational endorsements were publicly identified as of research date.",
       "key_endorsements": [],
-      "campaign_finance_notes": "FEC filings (H6TX26144) show $12,220 raised and $11,155 spent through March 31, 2026, with $1,239 cash on hand. All contributions came from individuals; no PAC, party committee, or candidate-to-candidate transfers reported. Statement of candidacy filed October 21, 2025. Fundraising is extremely low relative to a competitive House race, underscoring the district's R+11 partisan lean.",
+      "campaign_finance_notes": "Per FEC filings (H6TX26144), Q2 2026 reporting (coverage 07/01/2025-06/30/2026): total receipts $17,226.54, total disbursements $14,623.00, cash on hand $3,807.04. This updates the prior March 31, 2026 figures ($12,220 raised, $1,239 cash on hand). Statement of candidacy filed October 21, 2025. Fundraising remains very low relative to a competitive House race, underscoring the district's R+11 partisan lean.",
       "positions": [
         {
           "topic_id": 1,
@@ -2420,8 +2420,8 @@
           "topic_name": "Energy & Environment",
           "score": 1.5,
           "confidence": "explicit",
-          "summary": "Advocates for clean drinking water, reliable home energy, stronger TCEQ enforcement, higher maximum penalties for environmental violators, cumulative impact regulations, wildfire-resilient building codes, and comprehensive climate resilience strategies.",
-          "source_url": "https://www.vikkigoodwin.com/",
+          "summary": "Advocates for clean drinking water, reliable home energy, stronger TCEQ enforcement, higher maximum penalties for environmental violators, cumulative impact regulations, wildfire-resilient building codes, and comprehensive climate resilience strategies. In July 2026, as Lt. Gov. nominee, she called for a special legislative session and a statewide moratorium on new data-center construction to protect water supplies, groundwater, and the electric grid, and to require public transparency and local community input before major data-center projects proceed.",
+          "source_url": "https://www.cbsnews.com/texas/news/democratic-candidate-lt-governor-texas-democrats-moratorium-data-centers/",
           "notable_quote": ""
         },
         {
@@ -2940,8 +2940,8 @@
           "topic_name": "Local Governance & Transparency",
           "score": 2,
           "confidence": "explicit",
-          "summary": "Johnson explicitly pledges consistent, unbiased application of open-records and transparency laws, criticizing Paxton's selective enforcement favoring Republican interests. He prioritizes government transparency as a core AG function and supports strengthening the AG's basic infrastructure for legal opinions and information requests.",
-          "source_url": "https://www.nathanfortexas.com/priorities",
+          "summary": "Johnson explicitly pledges consistent, unbiased application of open-records and transparency laws, criticizing Paxton's selective enforcement favoring Republican interests. He prioritizes government transparency as a core AG function and supports strengthening the AG's basic infrastructure for legal opinions and information requests. In July 2026, he pledged that as AG he would open an inquiry into Texas's ~$109 million BEAD broadband grant to SpaceX/Starlink, questioning whether the company received preferential treatment and saying the procurement process undermined public confidence.",
+          "source_url": "https://broadbandbreakfast.com/texas-ag-candidate-vows-to-investigate-spacexs-bead-awards/",
           "notable_quote": "It's been so long since people thought of the attorney general's office as a place where they have an attorney, an elected official on their side."
         }
       ]
