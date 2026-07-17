@@ -610,7 +610,8 @@
       "key_endorsements": [
         "Donald Trump (endorsed May 19, 2026 via Truth Social)",
         "Gun Owners of America",
-        "National Republican Senatorial Committee — 'Paxton Victory' joint fundraising committee; Senate Majority Leader John Thune pledged the party is 'all in' (June 2, 2026). A July 22, 2026 Washington, D.C. fundraiser features Thune, NRSC Chair Tim Scott, Ted Cruz, and 'more than a dozen' senators including Katie Britt, Lindsey Graham, Mike Lee, Rick Scott, and Tommy Tuberville."
+        "National Republican Senatorial Committee — 'Paxton Victory' joint fundraising committee; Senate Majority Leader John Thune pledged the party is 'all in' (June 2, 2026). A July 22, 2026 Washington, D.C. fundraiser features Thune, NRSC Chair Tim Scott, Ted Cruz, and 'more than a dozen' senators including Katie Britt, Lindsey Graham, Mike Lee, Rick Scott, and Tommy Tuberville.",
+        "National Border Patrol Council — the country's largest Border Patrol officers' union (endorsed July 15, 2026, the day of Paxton's McAllen campaign rally; per KRGV reporting)."
       ],
       "campaign_finance_notes": "FEC committee C00901918 (Ken Paxton for Senate) reported total receipts of approximately $7.6 million and disbursements of approximately $5.3 million through early May 2026. Key large donors include Jonathan Knutz (Houston medical device CEO, $1.1M) and Douglas Scharbauer (Midland oilman, $750,000). Paxton was significantly outraised by incumbent John Cornyn during the primary but won anyway due to Trump's endorsement. The Texas primary was described as record-breaking in total spending. In Q2 2026 (April–June), Paxton raised over $9 million — his largest quarter, with most arriving after his May 26 runoff win — bringing his cycle total to roughly $16.7 million. It was less than one-third of Democrat James Talarico's $30 million Q2 haul, leaving Paxton with a cash-on-hand disadvantage (about $2.3 million to Talarico's $9.9 million). Full FEC reports were due July 15, 2026.",
       "positions": [
@@ -1142,9 +1143,10 @@
           "topic_id": 7,
           "topic_name": "LGBTQ+ Rights",
           "score": 5,
-          "confidence": "inferred",
-          "summary": "No direct statements found on LGBTQ+ rights. As a House Freedom Caucus member with a strongly socially conservative voting record and profile, he would be expected to oppose LGBTQ+ protections and support traditional values policies.",
-          "source_url": "https://en.wikipedia.org/wiki/Brandon_Gill"
+          "confidence": "implied",
+          "summary": "No direct statement on LGBTQ+ anti-discrimination law, gender-affirming care, or religious exemptions. At a July 14, 2026 House Oversight task force hearing, when Rep. Ayanna Pressley asked him to co-sponsor the Equal Rights Amendment, Gill responded with a gender-critical framing, asking whether it defines 'what a woman is' — consistent with a socially conservative posture, though not a direct LGBTQ+ policy statement.",
+          "source_url": "https://redstate.com/sister-toldjah/2026/07/14/brandon-gill-and-ayanna-pressley-remarks-during-house-hearing-on-dei-n2204327",
+          "notable_quote": "Does it define what a woman is?"
         },
         {
           "topic_id": 8,
