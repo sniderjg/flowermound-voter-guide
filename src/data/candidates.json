@@ -605,7 +605,7 @@
       "party": "Republican",
       "level": "federal",
       "incumbent": false,
-      "bio_summary": "Warren Kenneth Paxton Jr. (born December 23, 1962) served as Texas Attorney General from 2015 through 2025, previously serving in the Texas House (2003-2013) and Texas Senate (2013-2015). He holds degrees from Baylor University and the University of Virginia School of Law, and built his political identity as an aggressive litigator against federal overreach, filing over 100 lawsuits against the Biden administration. His tenure was marked by a 2023 impeachment by the Texas House (acquitted by the Senate) and a long-running securities fraud indictment (dismissed in 2025). In July 2026, the Texas Tribune reported that Paxton appears to have voted in six elections over two years while registered at a Collin County address where he no longer resided (having moved to a Denton County home since February), potentially violating the same voter-registration laws his office publicly enforced.",
+      "bio_summary": "Warren Kenneth Paxton Jr. (born December 23, 1962) served as Texas Attorney General from 2015 through 2025, previously serving in the Texas House (2003-2013) and Texas Senate (2013-2015). He holds degrees from Baylor University and the University of Virginia School of Law, and built his political identity as an aggressive litigator against federal overreach, filing over 100 lawsuits against the Biden administration. His tenure was marked by a 2023 impeachment by the Texas House (acquitted by the Senate) and a long-running securities fraud indictment (dismissed in 2025). In July 2026, the Texas Tribune reported that Paxton appears to have voted in six elections over two years while registered at a Collin County address where he no longer resided (having moved to a Denton County home since February), potentially violating the same voter-registration laws his office publicly enforced. On July 14, 2026, the Collin County Democratic Party filed a complaint with the Texas Secretary of State asking it to investigate whether Paxton committed election fraud by voting in the May 2026 primary runoff while still registered at a Collin County address where he no longer resided. On July 16, 2026, Paxton’s campaign said he will debate Talarico — senior adviser Nick Maddux stated “Of course we are going to debate James Talarico” — though the campaign did not commit to a specific debate host, marking a shift after Paxton campaigned without debates during the GOP primary and runoff.",
       "overall_summary": "Paxton is a hardline MAGA-aligned conservative who defeated incumbent Sen. John Cornyn by over 25 points in the May 2026 Republican runoff, propelled by a last-minute Trump endorsement. He will face Democrat James Talarico in the November 2026 general election. His campaign centers on his record as a combative attorney general — fighting abortion access, opposing LGBTQ+ protections, challenging federal climate and immigration policies, and litigating against Big Tech — rather than a detailed legislative agenda. His campaign website at the time of research contained placeholder policy text, making explicit positions primarily derivable from his AG record and statements.",
       "key_endorsements": [
         "Donald Trump (endorsed May 19, 2026 via Truth Social)",
@@ -756,7 +756,7 @@
       "party": "Democrat",
       "level": "federal",
       "incumbent": false,
-      "bio_summary": "James Dell Talarico (born May 17, 1989) is a Round Rock, Texas Democrat who served four terms in the Texas House of Representatives (District 52) before winning the March 2026 Democratic primary for U.S. Senate with 52.4% of the vote, defeating U.S. Rep. Jasmine Crockett. He holds a BA from UT Austin, an MEd from Harvard, and an MDiv from Austin Presbyterian Theological Seminary, and previously worked as a Teach For America teacher and nonprofit director. He faces Republican Ken Paxton in the November 3, 2026 general election.",
+      "bio_summary": "James Dell Talarico (born May 17, 1989) is a Round Rock, Texas Democrat who served four terms in the Texas House of Representatives (District 52) before winning the March 2026 Democratic primary for U.S. Senate with 52.4% of the vote, defeating U.S. Rep. Jasmine Crockett. He holds a BA from UT Austin, an MEd from Harvard, and an MDiv from Austin Presbyterian Theological Seminary, and previously worked as a Teach For America teacher and nonprofit director. He faces Republican Ken Paxton in the November 3, 2026 general election. On July 16, 2026, Talarico challenged Paxton to debate and said he had accepted invitations for televised debates from three Texas media groups: Nexstar Media Group/KXAN, NBC News/NBCUniversal/Hearst Texas, and WFAA/Tegna.",
       "overall_summary": "Talarico runs as a progressive Democrat framing his campaign around a \"top vs. bottom\" economic populism — fighting billionaire influence and corporate corruption — while grounding his liberal social positions in Christian theology. He is one of the best-funded Senate challengers in Texas history, raising a record $27 million in Q1 2026 largely from small-dollar donors, though a pro-Talarico super PAC (Lone Star Rising PAC) has drawn scrutiny given his anti-billionaire messaging. On the major federal issues, he holds strongly progressive positions across healthcare, reproductive rights, LGBTQ+ rights, gun safety, climate, and immigration, with more moderate framing on border security than some Democratic peers.",
       "positions": [
         {
@@ -1701,7 +1701,8 @@
         "San Antonio Express-News (editorial board)",
         "Andrew White (former Democratic gubernatorial candidate, endorsed after dropping out)",
         "State Senators César Blanco, Sarah Eckhardt, Roland Gutierrez, Jose Menéndez",
-        "More than 35 Texas House Democratic members"
+        "More than 35 Texas House Democratic members",
+        "Colin Allred (former U.S. Representative)"
       ],
       "campaign_finance_notes": "In the Texas Ethics Commission semiannual report filed July 15, 2026 (covering the period ending June 30, 2026), Hinojosa reported raising $6,171,779, spending $3,990,461, and holding $3,002,415 cash on hand — a major improvement over the roughly $1.3 million she raised in the final 10 weeks of 2025. She remains far behind Abbott, who reported $67.4 million on hand over the same period. Her campaign has acknowledged the gap, with Hinojosa stating \"He can have his dirty money, and we will have the people of Texas.\" Her father, Texas Democratic Party Chair Gilberto Hinojosa, donated $6,250 for campaign signs, and the Texas American Federation of Teachers PAC contributed $10,000.",
       "positions": [
@@ -2438,10 +2439,10 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 4,
-          "confidence": "implied",
-          "summary": "Supports increasing housing supply and controlling rental costs as part of her affordability agenda; no detailed land-use regulatory positions found beyond general housing affordability stances.",
-          "source_url": "https://www.vikkigoodwin.com/",
+          "score": 2,
+          "confidence": "explicit",
+          "summary": "Goodwin supports increasing housing supply and controlling rental costs as part of her affordability agenda. In July 2026, as Lt. Gov. nominee, she called for a special legislative session and a statewide moratorium on approval of new data-center development until safeguards and mandatory local community input and transparency are in place — a regulatory, slow-growth posture toward large-scale development (the same action also reflected under Energy & Environment).",
+          "source_url": "https://www.cbsnews.com/texas/news/democratic-candidate-lt-governor-texas-democrats-moratorium-data-centers/",
           "notable_quote": ""
         },
         {
@@ -4791,7 +4792,7 @@
       "party": "Republican",
       "level": "state_legislature",
       "incumbent": true,
-      "bio_summary": "Tan Parker is a Republican businessman and entrepreneur from Flower Mound, Texas, who has served in the Texas Senate (District 12) since January 2023 after 16 years in the Texas House (2007-2023). He holds degrees from the University of Dallas and the London School of Economics, with professional background in technology and private equity. He campaigns as a strongly conservative voice committed to protecting \"Texas values,\" economic development, cybersecurity, and border security.",
+      "bio_summary": "Tan Parker is a Republican businessman and entrepreneur from Flower Mound, Texas, who has served in the Texas Senate (District 12) since January 2023 after 16 years in the Texas House (2007-2023). He holds degrees from the University of Dallas and the London School of Economics, with professional background in technology and private equity. He campaigns as a strongly conservative voice committed to protecting \"Texas values,\" economic development, cybersecurity, and border security. In July 2026, cybersecurity firm MazeBolt announced Parker’s appointment to its Board of Directors; the announcement (dated July 22, 2026) identifies his role as Texas Senate Majority Leader.",
       "overall_summary": "Parker is a firmly conservative incumbent with a well-documented voting record aligned with the Texas Republican mainstream. He holds strong anti-abortion, pro-gun, pro-school-choice, and border-security positions, and chairs the Senate Transportation Committee. His legislative focus in 2025 centered on capital markets reform, AI governance, human trafficking enforcement, and homeland security. The Texas Freedom Index rates him at 67-72% conservative across recent sessions, slightly below the hardline caucus but consistently to the right on social issues.",
       "positions": [
         {
