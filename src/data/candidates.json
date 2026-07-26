@@ -611,7 +611,8 @@
         "Donald Trump (endorsed May 19, 2026 via Truth Social)",
         "Gun Owners of America",
         "National Republican Senatorial Committee — 'Paxton Victory' joint fundraising committee; Senate Majority Leader John Thune pledged the party is 'all in' (June 2, 2026). A July 22, 2026 Washington, D.C. fundraiser features Thune, NRSC Chair Tim Scott, Ted Cruz, and 'more than a dozen' senators including Katie Britt, Lindsey Graham, Mike Lee, Rick Scott, and Tommy Tuberville.",
-        "National Border Patrol Council — the country's largest Border Patrol officers' union (endorsed July 15, 2026, the day of Paxton's McAllen campaign rally; per KRGV reporting)."
+        "National Border Patrol Council — the country's largest Border Patrol officers' union (endorsed July 15, 2026, the day of Paxton's McAllen campaign rally; per KRGV reporting).",
+        "Texas sheriffs — Tarrant County Sheriff Bill Waybourn and roughly two dozen Texas sheriffs publicly endorsed Paxton at a July 21, 2026 law-enforcement campaign event in Fort Worth. Waybourn: \"It is a great honor to stand with the Attorney General today and endorse him.\" (Audacy/KRLD; corroborated by FOX4, CBS Texas, Dallas Express.)"
       ],
       "campaign_finance_notes": "Per the July 15, 2026 FEC quarterly filing, Paxton's principal campaign committee (Ken Paxton for Senate, C00901918) reported $9,240,577 in total receipts, $7,485,283 in disbursements, and $1,755,294 cash on hand for the coverage period April 1, 2025 through June 30, 2026. Campaign-announced Q2 figures of \"over $9 million\" and a roughly $16.7 million cycle total appear to have counted joint-fundraising committee money beyond the principal committee; the committee's own FEC filing is the figure reported here. Key large donors earlier in the cycle included Jonathan Knutz (Houston medical device CEO, $1.1M) and Douglas Scharbauer (Midland oilman, $750,000). Paxton trails Democrat James Talarico badly: Talarico's committee reported $21.5 million cash on hand at the same date. An Axios analysis of the July 2026 filings reported that of the roughly 100 donors who gave at least $50,000 this cycle to John Cornyn's campaign or its supporting PACs, none had given directly to Paxton's campaign or affiliated PACs since the late-May runoff, suggesting establishment Republican donors have not consolidated behind him. FEC data: https://www.fec.gov/data/committee/C00901918/",
       "positions": [
@@ -773,8 +774,8 @@
           "topic_name": "Public Safety & Criminal Justice",
           "score": 2,
           "confidence": "explicit",
-          "summary": "Talarico prioritizes crime prevention services over stricter punishment and supports prosecuting ICE agents who abuse power. He authored HB 54 (Javier Ambler's Law) restricting police reality TV contracts in the Texas Legislature.",
-          "source_url": "https://www.ontheissues.org/Senate/James_Talarico.htm"
+          "summary": "Talarico prioritizes crime prevention services over stricter punishment and supports prosecuting ICE agents who abuse power. He authored HB 54 (Javier Ambler's Law) restricting police reality TV contracts in the Texas Legislature. At a July 20, 2026 town hall in DeSoto he said, \"We failed to pass the George Floyd Act, which would have been transformational in ensuring that police officers are actually protecting and serving all of us,\" and said he hopes that winning the Senate seat would let Congress pass similar federal legislation protecting Americans, including Black communities, from police violence.",
+          "source_url": "https://texasscorecard.com/decisiontexas/black-democrats-press-talarico-on-outreach-as-candidate-defends-repairing-past-harms/"
         },
         {
           "topic_id": 3,
@@ -1161,9 +1162,9 @@
           "topic_name": "Immigration",
           "score": 5,
           "confidence": "explicit",
-          "summary": "Immigration enforcement is Gill's stated top priority. He introduced the REMAIN in Mexico Act (H.R. 273) as his first bill, supports mass deportations, introduced impeachment articles against a federal judge who blocked use of the Alien Enemies Act for deportations, and 42% of his sponsored bills are immigration-related.",
-          "source_url": "https://en.wikipedia.org/wiki/Brandon_Gill",
-          "notable_quote": "Fortifying the border is his main policy objective."
+          "summary": "Immigration enforcement remains Gill's top priority. On July 22, 2026, he introduced the 'Citizenship Act' with Sen. Jim Banks, the House companion to Banks's Senate bill, which would classify anyone entering the U.S. illegally or for birth-tourism purposes as an 'invader' and amend the Immigration and Nationality Act to exclude their children from birthright citizenship. He also introduced the REMAIN in Mexico Act (H.R. 273) as his first bill, supports mass deportations, pushed impeachment articles against a federal judge who blocked Alien Enemies Act deportations, and 42% of his sponsored bills are immigration-related.",
+          "source_url": "https://texasscorecard.com/federal/texas-congressman-files-legislation-to-disincentivize-birth-tourism/",
+          "notable_quote": "I have officially introduced the 'Citizenship Act' with Senator Banks, under which individuals who enter the United States illegally or for birth tourism would be classified as 'invaders' and therefore would be excluded from birthright citizenship."
         },
         {
           "topic_id": 10,
@@ -1640,11 +1641,11 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 4,
-          "confidence": "inferred",
-          "summary": "Abbott generally favors property rights and limited local government regulation, consistent with a conservative approach to land use. His push to cap local governments' ability to raise taxes even in booming regions signals skepticism of local regulatory authority, though specific land-use stances are not a prominent campaign theme.",
-          "source_url": "https://www.texastribune.org/2025/12/10/greg-abbott-texas-local-taxes-election-2026/",
-          "notable_quote": "Local governments must be held accountable to taxpayers when they try to raise taxes."
+          "score": 3.5,
+          "confidence": "explicit",
+          "summary": "Amid the 2026 data-center boom, Abbott directed PUCT/ERCOT (June 10, 2026 order, with compliance filings confirmed as of a July 24, 2026 report) to require data centers to fund their own grid infrastructure rather than shift costs to residential ratepayers, and at a June 30 campaign stop in Bullard said Texas must prohibit AI data centers in rural neighborhoods and end their tax break. This explicit, restrictive stance toward a specific high-profile development type tempers his generally pro-development, limited-local-regulation posture on land use.",
+          "source_url": "https://www.fox4news.com/news/abbott-calls-ban-data-center-development-rural-texas",
+          "notable_quote": "We must prohibit them from building AI data centers in rural Texas neighborhoods, and we must eliminate the tax break they are getting."
         },
         {
           "topic_id": 14,
@@ -1793,11 +1794,11 @@
         {
           "topic_id": 11,
           "topic_name": "Energy & Environment",
-          "score": 2,
+          "score": 1.5,
           "confidence": "explicit",
-          "summary": "Hinojosa collaborated with House Democrats on a 'Texas Climate Plan' to reduce emissions and has emphasized that any national climate policy must address Texas's outsize carbon footprint. On the grid, she has blamed Abbott for soaring electricity bills and called for consumer protection reforms post-Winter Storm Uri.",
-          "source_url": "https://www.ontheissues.org/Governor/Gina_Hinojosa_Energy_+_Oil.htm",
-          "notable_quote": "Any national plan to combat climate change must have a substantial Texas component."
+          "summary": "Hinojosa collaborated with House Democrats on a 'Texas Climate Plan' to reduce emissions and has blamed Abbott for soaring electricity bills, calling for consumer protection reforms after Winter Storm Uri. On July 23, 2026 she went further, calling on Abbott to impose a moratorium on new data-center construction until the Legislature can better regulate the industry. She attributed the data-center boom to a 2015 state law Abbott signed exempting data centers from taxes on consumed electricity, said Abbott has taken millions in contributions from data-center interests, and warned that current rules let builders use unlicensed electricians. (The same action is also reflected under Land Use & Development.)",
+          "source_url": "https://www.sacurrent.com/news/gina-hinojosa-calls-on-rival-gov-greg-abbott-to-issue-moratorium-on-new-data-centers/",
+          "notable_quote": "People will die because they're just trying to get warm bodies on these data centers... We can have responsible development that has everybody at the table, including those communities that are impacted most."
         },
         {
           "topic_id": 12,
@@ -1810,10 +1811,10 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 3,
-          "confidence": "implied",
-          "summary": "Hinojosa has cited Texas's affordable housing crisis as a key concern, blaming corporate and private equity interests for driving up housing costs. She has not outlined specific land use or zoning policies but frames housing affordability as a priority issue.",
-          "source_url": "https://www.kut.org/politics/2025-10-15/gina-hinojosa-governor-greg-abbott-texas-election"
+          "score": 2,
+          "confidence": "explicit",
+          "summary": "On July 23, 2026, Hinojosa publicly called on Gov. Greg Abbott to issue a moratorium on new data-center construction until lawmakers can better regulate the industry, saying state officials are now approving data centers \"in batches\" because developers are \"trying to get their project in under the wire\" ahead of anticipated legislative restrictions. This is a specific, explicit regulate-first, slow-growth position on a major current land-use issue, beyond her prior general housing-affordability framing (the same action is also reflected under Energy & Environment).",
+          "source_url": "https://www.sacurrent.com/news/gina-hinojosa-calls-on-rival-gov-greg-abbott-to-issue-moratorium-on-new-data-centers/"
         },
         {
           "topic_id": 14,
@@ -2324,7 +2325,8 @@
         "Fort Worth Star-Telegram (editorial board)",
         "Austin American-Statesman (editorial board)",
         "San Antonio Express-News (editorial board)",
-        "The Austin Chronicle (editorial board)"
+        "The Austin Chronicle (editorial board)",
+        "Texas AFL-CIO COPE (Committee on Political Education) — state labor federation (endorsed June 24, 2026)"
       ],
       "campaign_finance_notes": "As of late 2025, Goodwin reported approximately $161,000 cash on hand, compared to primary opponent Marcos Vélez's $51,000. She outspent Vélez in the second half of 2025 ($492,000 to $6,000). However, she acknowledged her fundraising must significantly improve to mount a realistic challenge to Dan Patrick, who holds over $30 million. Campaign finance filings are on record with the Texas Ethics Commission.",
       "positions": [
