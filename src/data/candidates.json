@@ -3667,7 +3667,7 @@
         {
           "topic_id": 14,
           "topic_name": "Community Character & Growth",
-          "score": 2,
+          "score": 3,
           "confidence": "unknown",
           "summary": "No position found on community character or local growth issues. As a statewide candidate, this topic was not addressed in available campaign materials.",
           "source_url": "https://www.faizifortexas.com/"
@@ -3675,7 +3675,7 @@
         {
           "topic_id": 15,
           "topic_name": "Education Curriculum & Parental Rights",
-          "score": 2,
+          "score": 3,
           "confidence": "unknown",
           "summary": "No position found on education curriculum or parental rights. Faizi mentioned school vouchers in the context of equitable administration but did not address curriculum issues.",
           "source_url": "https://www.faizifortexas.com/"
@@ -4767,7 +4767,7 @@
         {
           "topic_id": 15,
           "topic_name": "Education Curriculum & Parental Rights",
-          "score": 2,
+          "score": 3,
           "confidence": "unknown",
           "summary": "Not relevant to the Texas Railroad Commission. No positions found on curriculum or parental rights issues in this campaign.",
           "source_url": "https://ballotpedia.org/Jon_Rosenthal"
