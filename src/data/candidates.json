@@ -562,7 +562,7 @@
         "party": "Nonpartisan",
         "race": "Flower Mound Town Council Place 5",
         "district": "Flower Mound",
-        "incumbent": false,
+        "incumbent": true,
         "level": "local",
         "website": "",
         "sources": [
@@ -832,10 +832,11 @@
         {
           "topic_id": 9,
           "topic_name": "Immigration",
-          "score": 2,
-          "confidence": "implied",
-          "summary": "Talarico supports welcoming immigration policy and pathways to legal status for undocumented immigrants, but has also acknowledged border security concerns and criticized President Biden's handling of the southern border. He opposes treating immigration purely as an enforcement issue.",
-          "source_url": "https://en.wikipedia.org/wiki/James_Talarico"
+          "score": 2.5,
+          "confidence": "explicit",
+          "summary": "On his July 2026 'Frontera Tour' through Eagle Pass, Del Rio and Sanderson, Talarico released a border security plan calling for hiring more Border Patrol agents and more immigration judges and deploying surveillance technology to detect unlawful crossings and drug trafficking. He opposes the proposed border wall through Big Bend National Park — which he has called a 'monument to corruption' — but says physical barriers make sense in some parts of the border. He has also said Texas Democrats should have pushed back harder on border conditions under the Biden administration, while continuing to support lawful pathways and due process.",
+          "source_url": "https://www.texastribune.org/2026/07/23/texas-us-mexico-border-security-immigration-voters-paxton-talarico-senate-2026/",
+          "notable_quote": "there are some parts of the border where a physical barrier makes sense"
         },
         {
           "topic_id": 10,
@@ -1233,7 +1234,21 @@
       "incumbent": false,
       "bio_summary": "Steven Shook, 45, is a critical care nurse practitioner from Haslet, Texas, who has provided frontline healthcare since 2009. He holds a bachelor's degree from Texas Tech University (Summa Cum Laude) and a master's degree from the University of Texas at Arlington. He won the March 3, 2026 Democratic primary over Ernest Lineberger III and faces Republican incumbent Brandon Gill in the November 2026 general election in a district rated R+11 by Cook PVI.",
       "overall_summary": "Shook is running on a healthcare-first platform rooted in his nearly two decades as a nurse practitioner. His campaign themes — lowering drug and insurance costs, protecting Social Security and Medicare, and opposing school vouchers — are mainstream Democratic positions, but he moderates on immigration (emphasizing \"smart, humane enforcement\") and frames public safety as both police investment and gun-safety reform. His campaign finance picture is very modest, with just over $12,000 raised through March 2026, reflecting the long-shot nature of this R+11 district. No major organizational endorsements were publicly identified as of research date.",
-      "key_endorsements": [],
+      "key_endorsements": [
+        "The following are listed by the campaign under \"Proudly Endorsed By\" on shookforcongress2026.com (accessed July 28, 2026); none has been independently corroborated:",
+        "Denton County Democratic Party",
+        "Young Democrats of Denton County",
+        "Flower Mound Area Democrats",
+        "Lantana Area Democrats",
+        "Vikki Goodwin (Democratic nominee for Lieutenant Governor)",
+        "Jordan Villarreal, Denton City Council - District 1",
+        "Flip Texas Blue",
+        "DC Statehood PAC",
+        "Citizens Against AIPAC Corruption",
+        "Track AIPAC",
+        "Elect Evan Hunt",
+        "Claire for Congress"
+      ],
       "campaign_finance_notes": "Per FEC filings (H6TX26144), Q2 2026 reporting (coverage 07/01/2025-06/30/2026): total receipts $17,226.54, total disbursements $14,623.00, cash on hand $3,807.04. This updates the prior March 31, 2026 figures ($12,220 raised, $1,239 cash on hand). Statement of candidacy filed October 21, 2025. Fundraising remains very low relative to a competitive House race, underscoring the district's R+11 partisan lean.",
       "positions": [
         {
@@ -3876,7 +3891,7 @@
         "Danny Tejada, former Mayor of Floresville",
         "Carlos Aguilar III, former El Paso County Commissioner"
       ],
-      "campaign_finance_notes": "Per Texas Tribune reporting (early 2026), Flores had approximately $67,720 cash on hand — a modest sum for a statewide race. Notable expenditures include $13,750 in-kind to Bill Naso Strategic Messages and $2,500 to Campaign Strategy Services. No significant large-dollar donors were identified. Texas Ethics Commission filings govern this race. His fundraising significantly trails incumbent Dawn Buckingham's war chest.",
+      "campaign_finance_notes": "In Texas Ethics Commission filings covering the period ending June 30, 2026 (compiled July 20, 2026), Flores reported $3,604 raised, $53,660 spent, a $100,000 outstanding loan, and $3,001 cash on hand — down sharply from the roughly $67,720 cash on hand reported earlier in 2026. Earlier notable expenditures included $13,750 in-kind to Bill Naso Strategic Messages and $2,500 to Campaign Strategy Services. His fundraising trails incumbent Dawn Buckingham’s by a wide margin.",
       "positions": [
         {
           "topic_id": 1,
@@ -4200,7 +4215,7 @@
         "Former TX Agriculture Commissioner Jim Hightower (donor)",
         "Multiple Texas Democratic state representatives"
       ],
-      "campaign_finance_notes": "As of July 2025, Tucker had raised over $40,000 from 300+ donors with approximately $31,854–$45,130 cash on hand. The campaign is described as 100% volunteer-powered with a grassroots small-dollar donor base. Former Agriculture Commissioner Jim Hightower contributed $1,000. Texas Ethics Commission filings would contain official totals. This is a modest fundraising haul for a statewide Texas race, consistent with Democratic underdog status in a reliably Republican statewide office.",
+      "campaign_finance_notes": "In Texas Ethics Commission filings covering the period ending June 30, 2026 (compiled July 20, 2026), Tucker reported $237,124 raised, $119,012 spent, no outstanding loans, and $162,455 cash on hand — a large increase over the roughly $40,000 he had raised as of July 2025. Former Agriculture Commissioner Jim Hightower has contributed $1,000. The campaign describes itself as volunteer-powered with a grassroots small-dollar donor base. This remains a modest haul for a Texas statewide race.",
       "positions": [
         {
           "topic_id": 1,
@@ -5284,7 +5299,7 @@
       "party": "Republican",
       "level": "state_legislature",
       "incumbent": true,
-      "bio_summary": "Andy Hopper (born February 18, 1977, Kansas City, MO) is a software engineer, small farmer, and Chief Warrant Officer in the Texas State Guard who represents HD-64 (Wise County and part of Denton County). He holds a bachelor's degree from Ohio University (1997) and a graduate degree from the University of North Texas (2000), and previously taught as an adjunct professor at UNT. He defeated incumbent Lynn Stucky in the May 2024 Republican primary runoff, then won the general election in November 2024, taking office January 14, 2025 as part of the 89th Legislature.",
+      "bio_summary": "Andy Hopper (born February 18, 1977, Kansas City, MO) is a software engineer, small farmer, and Chief Warrant Officer in the Texas State Guard who represents HD-64 (Wise County and part of Denton County). He holds a bachelor's degree from Ohio University (1997) and a graduate degree from the University of North Texas (2000), and previously taught as an adjunct professor at UNT. He defeated incumbent Lynn Stucky in the May 2024 Republican primary runoff, then won the general election in November 2024, taking office January 14, 2025 as part of the 89th Legislature. In March 2026, Hopper was named a founding member of the Sharia Free Texas Caucus, a Texas House Republican caucus organized by state Rep. Brent Money (R-Greenville).",
       "overall_summary": "Hopper is a strongly conservative first-term state representative who self-identifies as a \"Jeffersonian conservative.\" He earned a 94/100 rating from the Young Conservatives of Texas in the 89th Legislature and holds explicit far-right positions on most major issues including abolishing abortion, eliminating property taxes, opposing school voucher voter referenda, strong Second Amendment protections, and restricting transgender healthcare for minors. He is running for re-election in 2026 and defeated a primary challenger (Lisa McEntire) on March 3, 2026. He entered the race as an outsider defeating a long-incumbent Republican and has aligned himself closely with the Texas Freedom Caucus wing of the party.",
       "key_endorsements": [
         "Donald Trump, President of the United States",
@@ -5321,8 +5336,8 @@
           "topic_name": "Public Safety & Criminal Justice",
           "score": 5,
           "confidence": "implied",
-          "summary": "Hopper emphasizes law enforcement support and border security as public safety priorities. He opposes sanctuary cities and supports strong state-level enforcement measures, though detailed criminal justice reform positions are not prominent in his platform.",
-          "source_url": "https://hopper4texas.com/platform/"
+          "summary": "Hopper emphasizes law enforcement support and border security as public safety priorities and opposes sanctuary cities. In the 2025 session he filed HB 1391, which would have made certain sex crimes capital offenses when the victim is under the age of 14; the measure drew 19 co-authors but never received a hearing in the House Criminal Jurisprudence subcommittee on Juvenile Justice.",
+          "source_url": "https://texasscorecard.com/state/are-texans-ready-to-put-child-rapists-to-death/"
         },
         {
           "topic_id": 3,
@@ -5753,7 +5768,9 @@
       "overall_summary": "Pappas runs as a progressive Democrat in a heavily Republican county, emphasizing infrastructure investment, emergency preparedness, food security, housing assistance for the unhoused, evidence-based jail reentry programs, and transparent election administration. At a UNT-area Democratic forum in October 2025, he explicitly described himself as \"pro humane immigration reform, pro women and LGBTQ rights, pro gun and pro background checks,\" giving unusually clear signals on social issues for a county-level candidate. Most of his positions on federal and state-level issues can only be inferred from party affiliation, as the county judge role does not directly govern those areas.",
       "key_endorsements": [
         "Lewisville Democratic Club",
-        "Young Democrats of Denton County"
+        "Young Democrats of Denton County",
+        "VoteVets",
+        "Moms Demand Action 2026 Gun Sense Candidate — a distinction, not an endorsement; the campaign’s own page states \"This is not an endorsement.\""
       ],
       "campaign_finance_notes": "Campaign fundraises via ActBlue (secure.actblue.com/donate/pappasfordentoncounty). Denton County judge candidates file campaign finance reports with the local filing authority (Denton County Elections Office), not the Texas Ethics Commission. No specific filing data was publicly accessible during research. No notable finance-related news or controversies were found.",
       "positions": [
@@ -5761,10 +5778,10 @@
           "topic_id": 1,
           "topic_name": "Fiscal Policy & Taxes",
           "score": 1.5,
-          "confidence": "implied",
-          "summary": "At a Democratic candidate forum, Pappas proposed 'taxing the rich' and a $25 minimum wage as economic priorities. At the county level, his platform emphasizes data-driven, efficient allocation of public resources rather than explicit tax positions.",
-          "source_url": "https://www.ntdaily.com/news/democratic-candidates-answer-questions-at-forum-ahead-of-march-2026-election/article_e425d40c-90bf-4394-b817-510da22b8036.html",
-          "notable_quote": "Taxing the rich"
+          "confidence": "explicit",
+          "summary": "Pappas's county platform states that any new taxes should start with businesses and that nobody earning under $100K would pay more, and that the county should audit existing county contracts before raising taxes on working families. (At a March 2026 Democratic primary forum he also voiced support for 'taxing the rich' and a $25 minimum wage — statements about state and federal policy rather than positions a county judge sets.)",
+          "source_url": "https://pappasfordenton.com/priorities.html",
+          "notable_quote": "Any new taxes start with businesses, and nobody making under $100K pays more."
         },
         {
           "topic_id": 2,
@@ -5819,28 +5836,29 @@
         {
           "topic_id": 8,
           "topic_name": "Healthcare Access",
-          "score": 2,
-          "confidence": "implied",
-          "summary": "His platform includes partnering with local mental health providers and connecting residents to health services. His broader platform (at the forum) suggested support for expanded healthcare access, consistent with his Democratic affiliation.",
-          "source_url": "https://pappasfordenton.com/"
+          "score": 1.5,
+          "confidence": "explicit",
+          "summary": "Pappas's platform calls for building a public county hospital with mental health and addiction treatment centers attached, funded with local, state and federal money — a substantially more expansive commitment than the provider partnerships and service referrals previously reflected.",
+          "source_url": "https://pappasfordenton.com/priorities.html",
+          "notable_quote": "A public county hospital with mental health and addiction treatment centers attached. Built with local, state, and federal money."
         },
         {
           "topic_id": 9,
           "topic_name": "Immigration",
-          "score": 2,
+          "score": 1.5,
           "confidence": "explicit",
-          "summary": "Pappas explicitly described himself as 'pro humane immigration reform' at a Democratic candidate forum, indicating support for a more compassionate and less enforcement-focused approach to immigration policy.",
-          "source_url": "https://www.ntdaily.com/news/democratic-candidates-answer-questions-at-forum-ahead-of-march-2026-election/article_e425d40c-90bf-4394-b817-510da22b8036.html",
-          "notable_quote": "Pro humane immigration reform"
+          "summary": "Pappas's county platform calls for ending Denton County's 287(g) agreement with federal immigration authorities, arguing that local law enforcement should spend local resources on local safety. He has separately described himself as 'pro humane immigration reform.'",
+          "source_url": "https://pappasfordenton.com/priorities.html",
+          "notable_quote": "End the county’s 287(g) agreement. Local law enforcement spends local resources on local safety."
         },
         {
           "topic_id": 10,
           "topic_name": "Gun Policy",
-          "score": 2.5,
+          "score": 2,
           "confidence": "explicit",
-          "summary": "Pappas described himself as both 'pro gun' and 'pro background checks,' indicating a moderate position that supports Second Amendment rights while favoring expanded background check requirements — a nuanced stance that is somewhat centrist on this issue.",
-          "source_url": "https://www.ntdaily.com/news/democratic-candidates-answer-questions-at-forum-ahead-of-march-2026-election/article_e425d40c-90bf-4394-b817-510da22b8036.html",
-          "notable_quote": "Pro gun and pro background checks"
+          "summary": "Pappas explicitly supports safe-storage and red-flag laws, drawing an analogy to the rules that apply to service members. He continues to describe himself as both 'pro gun' and 'pro background checks' and does not call for confiscation.",
+          "source_url": "https://pappasfordenton.com/priorities.html",
+          "notable_quote": "If our warfighters have safe storage laws and red flag laws, why wouldn’t anyone else?"
         },
         {
           "topic_id": 11,
@@ -5902,14 +5920,21 @@
       "bio_summary": "David Wylie, 62, is a systems architect and longtime Republican activist from Argyle, Texas. He has served as a Republican Precinct Chair and Election Judge since 1990, on the State Republican Executive Committee from 2020 to 2025, and as President of the Argyle Municipal Development District since 2023. He narrowly won the GOP primary runoff for Denton County Commissioner Precinct 4 in May 2026, defeating Valerie Roehrs by just 31 votes, and will face Democrat Stephanie Draper in the November 2026 general election.",
       "overall_summary": "Wylie runs on a strongly conservative platform centered on road infrastructure, limiting government growth, election integrity, and opposing what he characterizes as threats to the community's \"way of life\" — including explicit statements about resisting Islamic development. His campaign attracted significant funding from real estate and land development executives, raising questions about developer influence, even as he positioned himself as a check on overdevelopment. He spent roughly $117,000, far less than his primary runoff opponent's $617,000, and won with the backing of key Denton County Republican figures including County Judge Andy Eads.",
       "key_endorsements": [
+        "Denton County Conservative Coalition",
+        "Denton County Republican Assembly",
+        "True Texas Project",
+        "Grassroots America – We the People",
+        "Texas Gun Rights",
+        "Texas Eagle Forum",
+        "Texas Homeschool Coalition",
         "Denton County Judge Andy Eads",
         "State Senator Brent Hagenbuch",
         "State Senator Tan Parker",
+        "State Rep. Mitch Little (HD-65)",
+        "State Rep. Andy Hopper (HD-64)",
         "Former Mayor Steve Dixon",
         "Former Mayor Larry Lipscomb",
-        "Denton County Conservative Coalition",
-        "State Rep. Mitch Little (referenced collaborator)",
-        "State Rep. Andy Hopper (referenced collaborator)"
+        "Approximately 140 individual endorsers in total are listed on his campaign endorsements page (accessed July 28, 2026)"
       ],
       "campaign_finance_notes": "Wylie reported total contributions of approximately $69,186 and political expenditures of $77,275 through the runoff period, with total campaign spending around $117,315. Major donors include Tommy Cansler (CEO of TCCI Land Development, $25,000) and Terrance Jobe (CEO of ADI Communities, $25,000), both development-linked figures — notable given Wylie's stated opposition to overdevelopment. In 2018, the Texas Ethics Commission assessed Wylie $2,500 in civil penalties for failing to file required campaign finance reports tied to a 2016 Tarrant County Republican Party chair race; Wylie states he paid all fines promptly upon notification. Texas Ethics Commission filings apply as this is a Texas local race. Data sourced from KERA News reporting, May 2026.",
       "positions": [
@@ -6406,10 +6431,11 @@
         {
           "topic_id": 7,
           "topic_name": "LGBTQ+ Rights",
-          "score": 3,
-          "confidence": "unknown",
-          "summary": "No public statements found on LGBTQ+ rights. This issue falls outside the stated scope of the County Clerk office.",
-          "source_url": "https://ballotpedia.org/Juli_Luke"
+          "score": 4,
+          "confidence": "explicit",
+          "summary": "In June 2015, following the Obergefell decision, Denton County Clerk Juli Luke stated that same-sex marriage contradicted her faith and her belief that marriage is between one man and one woman, but said her oath to uphold the law came first and that her personal belief could not prevent her from issuing the licenses; Denton County began issuing same-sex marriage licenses. No more recent public statement on LGBTQ+ policy was located.",
+          "source_url": "https://www.nbcdfw.com/news/local/First-Same-Sex-Marriage-Liscense-Issued-in-Denton-County-310658651.html",
+          "notable_quote": "My personal belief cannot prevent me from issuing the licenses as required."
         },
         {
           "topic_id": 8,
@@ -6567,10 +6593,11 @@
         {
           "topic_id": 9,
           "topic_name": "Immigration",
-          "score": 2,
-          "confidence": "inferred",
-          "summary": "Frey has previously advocated for immigrant rights as part of his broader Democratic platform during his State Senate campaign.",
-          "source_url": "https://freyfortexas.com/"
+          "score": 1.5,
+          "confidence": "explicit",
+          "summary": "Frey's campaign site states that Denton County should advocate against 287(g) integration, arguing that local public safety depends on community trust — a county-scoped position that replaces the inference previously drawn from his 2024 State Senate campaign.",
+          "source_url": "https://freyfortexas.com/",
+          "notable_quote": "Denton County should advocate against 287(g) integration because local public safety depends on trust."
         },
         {
           "topic_id": 10,
@@ -7094,7 +7121,7 @@
       "race": "Flower Mound Town Council Place 5",
       "party": "Nonpartisan",
       "level": "local",
-      "incumbent": false,
+      "incumbent": true,
       "bio_summary": "Clare Harris, age 60, is a retired registered nurse originally from Wales who has lived in Flower Mound for approximately six years. She served on the Environmental Conservation Commission, the Blue Ribbon Bond Committee, and most recently as a Commissioner on both the Planning and Zoning Commission and the SMARTGrowth Commission. She won the May 2, 2026 election for Town Council Place 5 with 54.96% of the vote in a three-way race.",
       "overall_summary": "Harris ran as a nonpartisan candidate with a progressive-leaning local platform focused on environmental conservation, managed growth, fiscal responsibility, and transparency. Although the race was officially nonpartisan, she received backing from the Denton County Democratic Party and the Flower Mound Area Democrats club, while her opponent was backed by three Republican elected officials including a U.S. congressman. Her campaign emphasized protecting Flower Mound's SMARTGrowth framework from development pressure and state legislative overreach, preserving the Cross Timbers ecosystem, expanding the commercial tax base to relieve residential property taxes, and delivering infrastructure to west Flower Mound. Her positions on national social issues are unknown, as she did not address them during the local campaign.",
       "key_endorsements": [
