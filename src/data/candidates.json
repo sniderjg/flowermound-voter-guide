@@ -212,7 +212,7 @@
         "party": "Republican",
         "race": "Comptroller of Public Accounts",
         "district": "Texas Statewide",
-        "incumbent": false,
+        "incumbent": true,
         "level": "statewide",
         "website": "https://www.donhuffines.com/",
         "sources": [
@@ -852,16 +852,18 @@
           "topic_name": "Energy & Environment",
           "score": 1.5,
           "confidence": "explicit",
-          "summary": "Talarico supports greenhouse gas emission reduction targets, transitioning to clean/renewable energy, energy efficiency standards, and diversifying energy sources. He opposes business pollution rights and has criticized Texas grid failures caused by deregulation and privatization.",
-          "source_url": "https://www.ontheissues.org/Senate/James_Talarico.htm"
+          "summary": "Talarico supports greenhouse gas emission reduction targets, transitioning to clean/renewable energy, energy efficiency standards, and diversifying energy sources. He opposes business pollution rights and has criticized Texas grid failures caused by deregulation and privatization. On July 22, 2026 he added a data center environmental plank: mandating closed-loop water systems that reuse a fixed amount of water, federal minimum environmental and grid standards for new data centers, and making large energy users pay their own grid costs rather than shifting them onto ratepayers.",
+          "source_url": "https://www.texastribune.org/2026/07/22/texas-james-talarico-data-centers-regulation-senate-2026/",
+          "notable_quote": "Data centers are jacking up utility bills across the state of Texas"
         },
         {
           "topic_id": 12,
           "topic_name": "Infrastructure & Transportation",
           "score": 2,
-          "confidence": "implied",
-          "summary": "Talarico supports expanding high-speed internet access to rural Texas and requiring AI data centers to pay for their own energy infrastructure upgrades. Broader infrastructure positions are implied by his platform but not explicitly detailed.",
-          "source_url": "https://jamestalarico.com/issues"
+          "confidence": "explicit",
+          "summary": "Talarico supports expanding high-speed internet access to rural Texas and, in a July 22, 2026 policy rollout, called for minimum federal requirements protecting the grid, environment, jobs and transparency for new data center development, and for requiring large energy users to pay their own infrastructure and grid interconnection costs. He also wants government records on individual data center tax breaks released.",
+          "source_url": "https://www.texastribune.org/2026/07/22/texas-james-talarico-data-centers-regulation-senate-2026/",
+          "notable_quote": "Billionaire-backed politicians are giving sweetheart tax deals to giant AI companies and then sticking us with the bill"
         },
         {
           "topic_id": 13,
@@ -921,7 +923,7 @@
         "Actors' Equity Association (endorsed June 8, 2026)",
         "Dan Cogdell, attorney who defended Ken Paxton in his 2023 impeachment trial (endorsed June 8, 2026)"
       ],
-      "campaign_finance_notes": "Per the July 15, 2026 FEC quarterly filing, Talarico's committee (Talarico for Texas, C00919084) reported $68.6 million raised, $47.0 million spent, and $21.5 million cash on hand for the period Sept. 8, 2025 through June 30, 2026 — roughly $65.6 million of it from individual donors, including $36.7 million in unitemized (small-dollar) contributions. His $30 million second quarter was the largest Q2 ever reported by a U.S. Senate candidate, more than triple Paxton's, and leaves him with an enormous cash advantage (about $21.5 million to Paxton's $1.76 million). He has sworn off corporate PAC money, though the pro-Talarico super PAC Lone Star Rising PAC has taken billionaire and dark-money funding — a tension with his anti-billionaire message. On July 20, 2026, at a Houston town hall, he pledged $25 million to mobilize Black voters, which he described as the largest such investment in modern Texas history. FEC data: https://www.fec.gov/data/candidate/S6TX00479/"
+      "campaign_finance_notes": "Per the July 15, 2026 FEC quarterly filing, Talarico's committee (Talarico for Texas, C00919084) reported $68.6 million raised, $47.0 million spent, and $21.5 million cash on hand for the period Sept. 8, 2025 through June 30, 2026 — roughly $65.6 million of it from individual donors, including $36.7 million in unitemized (small-dollar) contributions. His $30 million second quarter was the largest Q2 ever reported by a U.S. Senate candidate, more than triple Paxton's, and leaves him with an enormous cash advantage (about $21.5 million to Paxton's $1.76 million). He has sworn off corporate PAC money, though the pro-Talarico super PAC Lone Star Rising PAC has taken billionaire and dark-money funding — a tension with his anti-billionaire message. On July 20, 2026, at a Houston town hall, he pledged $25 million to mobilize Black voters, which he described as the largest such investment in modern Texas history. FEC data: https://www.fec.gov/data/candidate/S6TX00479/ Forbes reported on July 16, 2026 that LinkedIn cofounder Reid Hoffman gave $10 million in support of Talarico's Senate bid; per a Forbes correction issued the same day, the money went to a super PAC supporting Talarico, not his campaign committee. It was the largest gift to any super PAC in the second quarter of 2026. Asked about it, Talarico's campaign reiterated that he wants to ban super PACs, ban corporate PACs, ban congressional stock trading, and tax billionaires. Separately, the Texas Tribune reported on July 20, 2026 that of roughly $4.1 million in outside spending supporting Talarico through the primary, nearly $4 million came from Lone Star Rising PAC, his largest outside spender, and that his campaign has since launched its largest general-election ad push to date, a $4.4 million buy per AdImpact. (Sources: https://www.forbes.com/sites/saradorn/2026/07/16/reid-hoffman-gives-10-million-to-texas-senate-candidate-james-talaricos-campaign/ ; https://www.texastribune.org/2026/07/20/texas-senate-talarico-paxton-fundraising-spending-money-donors/)"
     },
     {
       "candidate_name": "Ted Brown",
@@ -1543,7 +1545,11 @@
       "key_endorsements": [
         "President Donald Trump",
         "Lt. Gov. Dan Patrick (mutual support)",
-        "Texas Republican Party"
+        "Texas Republican Party",
+        "Teamsters Joint Council 58 and Joint Council 80 — 40,000 Texas members (endorsed February 2026)",
+        "Plumbers Local Union 68 (February 2026)",
+        "International Longshoremen South Atlantic & Gulf Coast District Association (February 2026)",
+        "Pipefitters Local Union 211 (February 2026)"
       ],
       "campaign_finance_notes": "In the Texas Ethics Commission semiannual report filed July 15, 2026 (covering the period ending June 30, 2026), Abbott reported raising $25.5 million with $67.4 million cash on hand — down from the record $105.7 million he held entering 2026, reflecting heavy spending including support for fellow Republicans. He raised $22.7 million in the second half of 2025 through more than 48,000 contributions from all 254 Texas counties. Top donors have included Midland oil executive Javaid Anwar ($1.6M+), casino magnate Miriam Adelson ($1M), and the Texas Republican Leadership Fund ($1M). He retains by far the largest war chest in the governor's race, roughly 22 times Democratic nominee Gina Hinojosa's $3 million on hand.",
       "positions": [
@@ -1720,7 +1726,10 @@
         "Andrew White (former Democratic gubernatorial candidate, endorsed after dropping out)",
         "State Senators César Blanco, Sarah Eckhardt, Roland Gutierrez, Jose Menéndez",
         "More than 35 Texas House Democratic members",
-        "Colin Allred (former U.S. Representative)"
+        "Colin Allred (former U.S. Representative)",
+        "Former President Barack Obama — campaigned with Hinojosa and James Talarico in Austin on May 12, 2026, greeting her as \"Madame governor to be\"; reported as an appearance boosting her campaign rather than a formal written endorsement",
+        "Service Employees International Union-Texas (SEIU-Texas)",
+        "End Citizens United (endorsed May 28, 2026)"
       ],
       "campaign_finance_notes": "In the Texas Ethics Commission semiannual report filed July 15, 2026 (covering the period ending June 30, 2026), Hinojosa reported raising $6,171,779, spending $3,990,461, and holding $3,002,415 cash on hand — a major improvement over the roughly $1.3 million she raised in the final 10 weeks of 2025. She remains far behind Abbott, who reported $67.4 million on hand over the same period. Her campaign has acknowledged the gap, with Hinojosa stating \"He can have his dirty money, and we will have the people of Texas.\" Her father, Texas Democratic Party Chair Gilberto Hinojosa, donated $6,250 for campaign signs, and the Texas American Federation of Teachers PAC contributed $10,000.",
       "positions": [
@@ -2461,9 +2470,9 @@
           "topic_name": "Land Use & Development",
           "score": 2,
           "confidence": "explicit",
-          "summary": "Goodwin supports increasing housing supply and controlling rental costs as part of her affordability agenda. In July 2026, as Lt. Gov. nominee, she called for a special legislative session and a statewide moratorium on approval of new data-center development until safeguards and mandatory local community input and transparency are in place — a regulatory, slow-growth posture toward large-scale development (the same action also reflected under Energy & Environment).",
-          "source_url": "https://www.cbsnews.com/texas/news/democratic-candidate-lt-governor-texas-democrats-moratorium-data-centers/",
-          "notable_quote": ""
+          "summary": "Goodwin supports increasing housing supply and controlling rental costs as part of her affordability agenda. In July 2026, as Lt. Gov. nominee, she called for a special legislative session and a statewide moratorium on approval of new data-center development until safeguards and mandatory local community input and transparency are in place — a regulatory, slow-growth posture toward large-scale development (the same action also reflected under Energy & Environment). On July 24, 2026 she framed the issue explicitly as one of consulting affected neighbors before irreversible approvals.",
+          "source_url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/07/24/data-centers-flash-point-election",
+          "notable_quote": "The people living next to these proposed projects too often feel like they're the last to know and the last to be consulted. They deserve better. They deserve transparency. They deserve a seat at the table. And they deserve elected leaders who are willing to listen before making decisions that can't be undone."
         },
         {
           "topic_id": 14,
@@ -3115,7 +3124,7 @@
       "race": "Comptroller of Public Accounts",
       "party": "Republican",
       "level": "statewide",
-      "incumbent": false,
+      "incumbent": true,
       "bio_summary": "Donald \"Don\" Huffines is a fifth-generation Texan, businessman, and former state senator (SD-16, 2015-2019) who built his wealth through car dealerships and real estate development with his twin brother. He entered politics as a tea party insurgent, served one Senate term without accepting a salary or perks, and previously ran for governor in 2022 before winning the 2026 GOP comptroller primary with 57% of the vote against Abbott-backed rivals. On July 2, 2026, Gov. Greg Abbott appointed Huffines to serve as Texas Comptroller for the remainder of the year, taking office after acting comptroller Kelly Hancock steps down at the end of July 2026, making him a sitting appointee while he runs for a full term.",
       "overall_summary": "Huffines is a strongly conservative, self-funding candidate who ran on \"DOGE-ing\" Texas government — auditing waste, eliminating DEI, and directing savings toward property tax relief. His platform blends fiscal conservatism (abolish property taxes, repeal franchise tax, gold-backed currency) with hardline social positions (no abortion exceptions, undoing LGBTQ protections, aggressive anti-immigration accounting). He defeated the Abbott-backed incumbent and won a Trump endorsement, positioning himself as the most ideologically consistent conservative in the race.",
       "key_endorsements": [
@@ -3125,7 +3134,12 @@
         "Former U.S. Rep. Ron Paul",
         "Former U.S. Rep. Louie Gohmert",
         "Independent Bankers Association of Texas",
-        "The Amarillo Pioneer (newspaper endorsement)"
+        "The Amarillo Pioneer (newspaper endorsement)",
+        "Texas Automobile Association (announced July 13, 2026)",
+        "Beer Alliance of Texas PAC (announced July 6, 2026)",
+        "Rural Friends of Electric Cooperatives (announced June 19, 2026)",
+        "Texas Hotel and Lodging Association (announced June 10, 2026)",
+        "Texas Telephone Association (announced May 29, 2026)"
       ],
       "campaign_finance_notes": "Huffines is predominantly self-funded and has spent millions of his personal wealth on the race, mirroring his self-funded 2022 gubernatorial campaign. In the Texas Ethics Commission semiannual report filed July 15, 2026 (covering the period ending June 30, 2026), Huffines reported raising $4.7 million, far outpacing Democratic nominee Sarah Eckhardt's roughly $320,000; his cash-on-hand balance was not broken out in available reporting. He has historically refused government salary, pension, or office perks while in public office, and his financial dominance overwhelmed Abbott-backed opponent Kelly Hancock in the primary.",
       "positions": [
@@ -3416,9 +3430,9 @@
           "topic_name": "Local Governance & Transparency",
           "score": 1,
           "confidence": "explicit",
-          "summary": "Transparency and government accountability are the central themes of Eckhardt's comptroller campaign. She wants to restore independent oversight of the state budget, eliminate no-bid contracts, and ensure the comptroller's office exposes state leaders who 'refuse to play by the rules.'",
-          "source_url": "https://www.texasobserver.org/sarah-eckhardt-texas-comptroller-bob-bullock/",
-          "notable_quote": "The comptroller's office has not been using its full power for the benefit of the people of Texas."
+          "summary": "Transparency and government accountability are the central themes of Eckhardt's comptroller campaign. She wants to restore independent oversight of the state budget, eliminate no-bid contracts, and ensure the comptroller's office exposes state leaders who 'refuse to play by the rules.' On July 19, 2026 she argued that a comptroller appointed by the governor cannot credibly investigate corruption inside state government, and criticized Huffines's 'DOGE Texas' approach as having failed to root out corruption at the federal level.",
+          "source_url": "https://www.cbsnews.com/texas/news/search-fraud-huffines-plans-shift-auditors-texas-comptrollers-office-auditing-businesses-government/",
+          "notable_quote": "But we cannot expect a comptroller who's been appointed by the governor to actually look at corruption inside state government."
         }
       ]
     },
@@ -4062,7 +4076,7 @@
         "National Cutting Horse Association",
         "Vocational Agriculture Teachers Association"
       ],
-      "campaign_finance_notes": "Sheets reported over $410,000 cash on hand in his first campaign finance report per the Texas Ethics Commission. Major donors include Mattress Mack ($10,000), Sen. Kevin Sparks and family ($13,000), and the Saulsbury Family ($25,000). By comparison, incumbent Sid Miller had only $37,000 on hand heading into the primary, reflecting Sheets' strong fundraising advantage.",
+      "campaign_finance_notes": "Sheets reported over $410,000 cash on hand in his first campaign finance report per the Texas Ethics Commission. Major donors include Mattress Mack ($10,000), Sen. Kevin Sparks and family ($13,000), and the Saulsbury Family ($25,000). By comparison, incumbent Sid Miller had only $37,000 on hand heading into the primary, reflecting Sheets' strong fundraising advantage. UNVERIFIED / OUT OF DATE: the figures above are from his pre-primary report. His opponent’s campaign asserted on July 16, 2026 that the July semiannual Texas Ethics Commission filings show Sheets at $104,506.79 cash on hand against Clayton Tucker’s $162,455.86. That claim comes from the opposing campaign and could not be confirmed against the TEC filing itself, so Sheets’ current cash position should be treated as unverified pending a direct check of the July 2026 TEC report.",
       "positions": [
         {
           "topic_id": 1,
@@ -4216,7 +4230,10 @@
         "U.S. Rep. Lloyd Doggett (D-TX)",
         "U.S. Rep. Jamie Raskin (D-MD)",
         "Former TX Agriculture Commissioner Jim Hightower (donor)",
-        "Multiple Texas Democratic state representatives"
+        "Multiple Texas Democratic state representatives",
+        "Texas AFT Committee on Political Education (COPE)",
+        "Our Revolution",
+        "Lone Star Left (endorsed November 11, 2025)"
       ],
       "campaign_finance_notes": "In Texas Ethics Commission filings covering the period ending June 30, 2026 (compiled July 20, 2026), Tucker reported $237,124 raised, $119,012 spent, no outstanding loans, and $162,455 cash on hand — a large increase over the roughly $40,000 he had raised as of July 2025. Former Agriculture Commissioner Jim Hightower has contributed $1,000. The campaign describes itself as volunteer-powered with a grassroots small-dollar donor base. This remains a modest haul for a Texas statewide race.",
       "positions": [
@@ -5434,8 +5451,9 @@
           "topic_name": "Land Use & Development",
           "score": 4,
           "confidence": "implied",
-          "summary": "Hopper emphasizes protecting Texas land from federal overreach and opposes squatter protections. His broader platform favors property rights and minimal government regulation over land use, consistent with conservative rural district priorities.",
-          "source_url": "https://hopper4texas.com/platform/"
+          "summary": "Hopper emphasizes protecting Texas land from federal overreach and opposes squatter protections. His broader platform favors property rights and minimal government regulation over land use, consistent with conservative rural district priorities. One project-specific exception is documented: on June 29, 2026 he announced via social media that his office had requested a TCEQ contested case hearing on Municipal Solid Waste Permit No. 2421 for a proposed landfill near Aurora in his district. Details of the coalition and the stated grounds are behind the publication’s paywall and are not independently verified here.",
+          "source_url": "https://www.wcmessenger.com/articles/state-county-officials-request-contested-hearing-for-aurora-landfill/",
+          "notable_quote": "Texas House District 64 Rep. Andy Hopper (R-Decatur) announced via social media Friday that his office requested a case hearing for Municipal Solid Waste (MSW) Permit No. 2421"
         },
         {
           "topic_id": 14,
@@ -6657,9 +6675,9 @@
           "topic_name": "Local Governance & Transparency",
           "score": 1.5,
           "confidence": "explicit",
-          "summary": "Frey's signature issue is countywide Election Day vote centers, citing 11-15% of voters redirected under the precinct system, which he calls voter suppression — a documented voting-access-expansion platform squarely on 16d's access side.",
+          "summary": "Frey's signature issue is countywide Election Day vote centers, citing 11-15% of voters redirected under the precinct system, which he calls voter suppression. He has backed it with sustained documented advocacy: his campaign site logs him speaking at Denton County Commissioners Court for countywide Election Day voting on July 3, July 14, and July 16, 2026, the last picked up by local NBC coverage. His platform also now includes a second voting-access plank opposing the federal SAVE Act's documentary-proof-of-citizenship requirement, which he characterizes as a modern poll tax because of the cost of obtaining a passport.",
           "source_url": "https://freyfortexas.com/",
-          "notable_quote": "This. Is. Voter. Suppression."
+          "notable_quote": "Elections are supposed to be free. If government policy turns a passport into the practical price of registering to vote, then that cost functions like a modern poll tax."
         }
       ]
     },
@@ -6686,7 +6704,11 @@
         "Mayor Richard Boyer (The Colony)",
         "Dallas County Commissioner JJ Koch",
         "DCTA Chairman Cesar Molina",
-        "Andrew Palacios (Carrollton Mayor Pro Tem)"
+        "Andrew Palacios (Carrollton Mayor Pro Tem)",
+        "Mayor Bill Heidemann (Corinth)",
+        "Mayor Lynn Clark (Hickory Creek)",
+        "Mayor Lynn Tompkins (Cross Roads)",
+        "Nine members of the Denton County Republican Executive Committee, plus former mayors, former justices of the peace and community members listed on his campaign endorsements page (accessed July 29, 2026)"
       ],
       "campaign_finance_notes": "Falconer files campaign finance reports with the Texas Ethics Commission as required for Denton County (population over 350,000). Specific contribution and expenditure totals were not retrieved in this research. His campaign website (votefalconer.com) solicits donations in amounts from $25 to $500. No ethics complaints or notable campaign finance controversies were found in available sources.",
       "positions": [
