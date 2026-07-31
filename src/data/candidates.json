@@ -866,10 +866,11 @@
         {
           "topic_id": 13,
           "topic_name": "Land Use & Development",
-          "score": 3,
-          "confidence": "unknown",
-          "summary": "No specific positions on land use or development policy were found for this federal Senate candidate.",
-          "source_url": "https://jamestalarico.com/issues"
+          "score": 2,
+          "confidence": "explicit",
+          "summary": "On July 22, 2026, at an Austin news conference, Talarico rolled out a data center regulation plan that includes granting local communities the authority to approve and reject data center development in their towns, repealing Texas's data center sales tax exemption to end what he calls 'sweetheart tax deals for big tech companies,' and setting minimum federal requirements on new data center development to prevent a race to the bottom among communities competing to recruit data centers. This is his first explicit land-use/development position: it favors local approval authority over developer- and state-friendly siting rules.",
+          "source_url": "https://www.texastribune.org/2026/07/22/texas-james-talarico-data-centers-regulation-senate-2026/",
+          "notable_quote": "Texas should be a leader when it comes to innovation and technology, but that only works if Texans get a say and get a share of that economic growth — and that's not what's happening right now"
         },
         {
           "topic_id": 14,
@@ -934,7 +935,7 @@
         "Libertarian Party of Texas (official nominee)",
         "No major external endorsements found"
       ],
-      "campaign_finance_notes": "Per FEC filings (FEC ID S4TX00888), Brown raised $6,200 total through March 2026, of which $5,000 came from the candidate's own funds and only $1,200 from individual contributors. Total disbursements were $5,257.79. Cash on hand was $1,010.09 with no outstanding debt. No independent expenditures or outside spending reported. This is an extremely low-budget campaign by U.S. Senate standards.",
+      "campaign_finance_notes": "Per FEC filings for the Ted Brown Election Committee (FEC ID S4TX00888), covering January 1, 2025 through June 30, 2026, Brown reported $7,459.52 in total receipts, $6,376.43 in total disbursements, and $1,150.97 cash on hand. Of the receipts, $5,000 came from the candidate's own funds and $2,459.52 from individual contributions ($1,150.00 itemized, $1,309.52 unitemized), with no party or other committee money. No independent expenditures or outside spending reported. This remains an extremely low-budget campaign by U.S. Senate standards. (Source: https://www.fec.gov/data/candidate/S4TX00888/)",
       "positions": [
         {
           "topic_id": 1,
@@ -1212,9 +1213,10 @@
           "topic_id": 15,
           "topic_name": "Education Curriculum & Parental Rights",
           "score": 5,
-          "confidence": "inferred",
-          "summary": "No direct statements found on specific curriculum issues. As a strong social conservative and Freedom Caucus member, Gill would be expected to support parental rights in education and oppose progressive curriculum changes.",
-          "source_url": "https://en.wikipedia.org/wiki/Brandon_Gill"
+          "confidence": "explicit",
+          "summary": "Gill chairs the House Oversight Task Force on Defending Constitutional Rights and Exposing Constitutional Abuses. On July 22-23, 2026 he convened a hearing on the future of DEI in law schools and the legal profession, questioning American Bar Association President Michelle Behnke over the ABA's accreditation standards. In his statement as task force chairman he called DEI 'a cancerous ideology that promotes unlawful discrimination' and said the ABA has abused its accreditation power to force DEI policies and coursework into law schools nationwide, calling on Congress to root such policies out. He also led a July 21-22, 2026 Oversight hearing criticizing the Smithsonian's presentation of American history. Note: his on-record curriculum statements concern higher education and professional accreditation; no direct K-12 curriculum or parental-rights statements were located.",
+          "source_url": "https://legalinsurrection.com/2026/07/rep-brandon-gill-grills-head-of-american-bar-association-about-dei-future-of-law-schools/",
+          "notable_quote": "DEI is a cancerous ideology that promotes unlawful discrimination."
         },
         {
           "topic_id": 16,
@@ -1851,9 +1853,10 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 2,
-          "confidence": "implied",
-          "summary": "Hinojosa's campaign centers on combating what she calls 'failures and grift' in state government, and she has participated in Democratic walkouts to prevent loss of quorum on controversial legislation. Her general platform emphasizes accountability and transparent use of tax dollars.",
-          "source_url": "https://www.texasobserver.org/gina-hinojosa-campaign-for-texas-governor/"
+          "confidence": "explicit",
+          "summary": "Hinojosa's campaign centers on combating what she calls 'failures and grift' in state government, and she has participated in Democratic walkouts to prevent loss of quorum on controversial legislation. On July 23, 2026 she published a six-point 'Texans First Data Center Priorities' platform that includes two specific governance/transparency planks: 'Creating full transparency' by stopping data center companies from using NDAs, and 'Giving Texans a seat at the table' to decide if and how data centers come to their communities.",
+          "source_url": "https://ginafortexas.com/2026/07/new-hinojosa-calls-on-greg-abbott-to-put-moratorium-on-data-centers-until-a-legislative-session-that-puts-texans-first/",
+          "notable_quote": "Creating full transparency by stopping data center companies from using NDAs."
         }
       ]
     },
@@ -2972,7 +2975,7 @@
       "party": "Libertarian",
       "level": "statewide",
       "incumbent": false,
-      "bio_summary": "Tom Oxford is a Beaumont, Texas attorney and perennial Libertarian Party candidate who earned his B.A. in Political Science from the University of Texas (1979) and his J.D. from the University of Houston Law School (1982). He is the managing attorney at Waldman Smallwood PC, where he practices personal injury, civil rights, and immigration law, and has previously served as a supervising attorney for a Catholic Charities immigration project and worked in nonprofit legal aid representing low-income Texans. Oxford has run multiple times for the Texas Supreme Court (2012, 2014, 2020, 2022) before seeking the Attorney General post in 2026.",
+      "bio_summary": "Tom Oxford is a Beaumont, Texas attorney and perennial Libertarian Party candidate who earned his B.A. in Political Science from the University of Texas (1979) and his J.D. from the University of Houston Law School (1982). He owns and practices at his own firm, Oxford Law PLLC, near Beaumont, handling personal injury and civil rights work, and is a member of the Texas Trial Lawyers Association. He previously served as managing attorney at Waldman Smallwood PC, as a supervising attorney for a Catholic Charities immigration project, and in nonprofit legal aid representing low-income Texans. Oxford has run multiple times for the Texas Supreme Court (2012, 2014, 2020, 2022) before seeking the Attorney General post in 2026.",
       "overall_summary": "Tom Oxford is a low-profile Libertarian candidate with a sparse campaign digital footprint and no dedicated 2026 campaign website identified. His policy positions are almost entirely inferred from Libertarian Party platform alignment and his professional background in civil rights and immigration law; he has not completed candidate questionnaires or given substantive interviews in the 2026 cycle. Voters seeking detailed policy positions will find very little publicly available information beyond his party affiliation and legal practice areas.",
       "key_endorsements": [],
       "campaign_finance_notes": "No significant campaign finance activity identified through the Texas Ethics Commission search. Oxford has historically run low-budget Libertarian campaigns across multiple statewide cycles. No filings were readily surfaced for the 2026 Attorney General race as of June 2026.",
@@ -3255,9 +3258,9 @@
           "topic_name": "Local Governance & Transparency",
           "score": 3.5,
           "confidence": "explicit",
-          "summary": "Huffines explicitly pledges honest, transparent budgets and audits exposing wasteful spending (proactive-publication side), but his documented history of demanding 2020 election audits and stricter election-security measures places him on the security side of the voting-access dimension.",
-          "source_url": "https://www.donhuffines.com/",
-          "notable_quote": "Demand honest transparent budgets."
+          "summary": "Huffines explicitly pledges honest, transparent budgets and audits exposing wasteful spending. In a July 19, 2026 interview, days before taking office on August 1 as Abbott's appointed comptroller, he said he will redirect the office's 600-plus auditors away from auditing private businesses for revenue and toward auditing government agencies, and will expand that audit staff. His documented history of demanding 2020 election audits and stricter election-security measures still places him on the security side of the voting-access dimension.",
+          "source_url": "https://www.cbsnews.com/texas/news/search-fraud-huffines-plans-shift-auditors-texas-comptrollers-office-auditing-businesses-government/",
+          "notable_quote": "I'm shifting a lot of my auditors over to auditing government from auditing businesses currently for revenue."
         }
       ]
     },
@@ -4343,10 +4346,10 @@
           "topic_id": 16,
           "topic_name": "Local Governance & Transparency",
           "score": 2,
-          "confidence": "implied",
-          "summary": "Tucker frames his campaign as a rejection of the influence of wealthy donors and lobbyists on the Agriculture Commissioner's office, and runs a grassroots volunteer-powered campaign as a demonstration of his transparency and accountability values.",
-          "source_url": "https://www.claytontuckertx.com/2025_july_2_surpassed_40k",
-          "notable_quote": "We're building a people and volunteer-powered campaign — one where people aren't just donors to the campaign, but members of the movement."
+          "confidence": "explicit",
+          "summary": "Tucker frames his campaign as a rejection of the influence of wealthy donors and lobbyists on the Agriculture Commissioner's office and runs a grassroots volunteer-powered campaign. He has also stated an explicit process plank: after Diode Ventures withdrew its proposed Henderson County data center near Cedar Creek Lake on July 23, 2026 following community opposition, Tucker said every Texas community deserves transparency, meaningful local input, and a fair review before large data center projects are approved.",
+          "source_url": "https://www.claytontuckertx.com/henderson_county_ai_data_center_withdrawal",
+          "notable_quote": "This should be the standard across Texas. Every community deserves transparency, meaningful local input, and a fair review before billion-dollar AI projects break ground."
         }
       ]
     },
@@ -5693,10 +5696,11 @@
         {
           "topic_id": 9,
           "topic_name": "Immigration",
-          "score": 4,
-          "confidence": "inferred",
-          "summary": "No direct immigration policy statements found for Eads. The creation of a human trafficking unit could touch immigration-adjacent issues but was framed solely as a public safety initiative.",
-          "source_url": "http://www.andyeads.com/top-priorities/"
+          "score": 5,
+          "confidence": "implied",
+          "summary": "On January 13, 2026, the Denton County Commissioners Court — over which Eads presides as County Judge and on which he votes — unanimously approved an expanded 287(g) task force agreement with ICE, allowing trained Sheriff’s Office personnel to identify and detain people suspected of immigration violations during routine patrols and traffic stops, not just those already in county jail. This follows a jail-model 287(g) agreement the commissioners approved in February 2025. Eads is not individually quoted in the coverage; his position is inferred from the court’s unanimous action rather than from a personal statement.",
+          "source_url": "https://www.keranews.org/news/2026-01-15/denton-county-expands-sheriffs-office-agreement-with-ice-for-immigration-enforcement",
+          "notable_quote": "The Denton County Commissioners Court on Tuesday unanimously approved a 287(g) agreement between the Sheriff's Office and U.S. Immigration and Customs Enforcement to establish a task force partnership."
         },
         {
           "topic_id": 10,
@@ -5753,8 +5757,9 @@
           "topic_name": "Local Governance & Transparency",
           "score": 4.5,
           "confidence": "explicit",
-          "summary": "Eads has refused for four years to implement countywide Election Day vote centers — available in 99 other Texas counties — insisting on party consent the Texas Secretary of State confirmed is not legally required. His transparency efforts (podcast, statutorily required budget publication) are communication and compliance, not expanded-access policy.",
-          "source_url": "https://www.crosstimbersgazette.com/2025/11/09/denton-county-judge-andy-eads-announces-campaign-for-reelection/"
+          "summary": "Denton County still has not adopted countywide Election Day vote centers. At the June 17, 2026 Commissioners Court meeting, dozens of Voting Centers Now! advocates and election workers appeared to press the county and vowed to keep returning; the court had taken no action as of that date. Eads told the Denton Record-Chronicle in February 2024 that both the county Democratic and Republican parties must consent before countywide voting centers can be implemented, a position advocates dispute. His transparency efforts (podcast, statutorily required budget publication) are communication and compliance, not expanded-access policy.",
+          "source_url": "https://dentonrc.com/elections/group-wants-denton-county-to-let-residents-vote-at-any-polling-site-and-they-vow/article_9d25ec5d-3ac4-41b8-b92a-32004c197819.html",
+          "notable_quote": "In February 2024, County Judge Andy Eads told the Record-Chronicle that the county Democratic and Republican parties both needed to consent to implementing countywide voting centers."
         }
       ]
     },
@@ -6755,9 +6760,10 @@
           "topic_id": 9,
           "topic_name": "Immigration",
           "score": 5,
-          "confidence": "inferred",
-          "summary": "No statements found on immigration policy. A conservative position is inferred by party affiliation. Immigration enforcement at the county level would relate to Sheriff cooperation with federal agencies, but no specific stance was documented.",
-          "source_url": "https://ballotpedia.org/Kevin_Falconer"
+          "confidence": "implied",
+          "summary": "Falconer, seated as Precinct 2 Commissioner since January 1, 2023, was a member of the Denton County Commissioners Court that voted unanimously on January 13, 2026 to approve an expanded 287(g) task force agreement with ICE, authorizing trained Sheriff’s Office personnel to identify and detain people suspected of immigration violations during routine patrols, traffic stops, and community interactions rather than only in the jail. The commissioners had previously approved a jail-model 287(g) agreement in February 2025. Falconer is not individually quoted in the coverage; the score is anchored on the court’s unanimous action rather than a personal statement.",
+          "source_url": "https://www.keranews.org/news/2026-01-15/denton-county-expands-sheriffs-office-agreement-with-ice-for-immigration-enforcement",
+          "notable_quote": "The Denton County Commissioners Court on Tuesday unanimously approved a 287(g) agreement between the Sheriff's Office and U.S. Immigration and Customs Enforcement to establish a task force partnership."
         },
         {
           "topic_id": 10,
@@ -6977,7 +6983,7 @@
       "party": "Nonpartisan",
       "level": "local",
       "incumbent": true,
-      "bio_summary": "Chris Drew is a lifelong Flower Mound-area resident and Marcus High School graduate who purchased his first home in Flower Mound in 2016. He holds a Master's in Business Administration and a Bachelor's in Mechanical Engineering, and works as a registered professional engineer and program manager in the automotive industry. Before winning his council seat in 2023, Drew served on the Planning & Zoning Commission, SMARTGrowth Commission, and Capital Improvements Advisory Committee since approximately 2015.",
+      "bio_summary": "Chris Drew is a lifelong Flower Mound-area resident and Marcus High School graduate who purchased his first home in Flower Mound in 2016. He holds a Master's in Business Administration and a Bachelor's in Mechanical Engineering, and works as a registered professional engineer and program manager in the automotive industry. Before winning his council seat in 2023, Drew served on the Planning & Zoning Commission, SMARTGrowth Commission, and Capital Improvements Advisory Committee since approximately 2015. STATUS NOTE (verified July 29, 2026): Drew is not on the November 3, 2026 ballot. The Town of Flower Mound holds its general elections on the first Saturday in May; Council Places 2 and 5 were filled at the May 2, 2026 election and are next scheduled for May 5, 2029. He is a seated incumbent, not a November 2026 candidate. (Source: https://www.flowermound.gov/251/Election-Information)",
       "overall_summary": "Drew is a fiscally conservative, growth-cautious local official whose platform centers on three pillars: no more apartments, lower taxes, and strict adherence to Flower Mound's Master Plan. He ran unopposed in May 2026 and was re-elected with 3,271 votes, receiving a new term through 2029. His council record reflects consistent skepticism of higher-density development and support for incremental tax rate reductions; the council unanimously adopted both the FY 2025-26 budget and a marginally reduced tax rate. On most social and national policy issues, no public positions are available — typical for a nonpartisan local official in a DFW suburb.",
       "key_endorsements": [],
       "campaign_finance_notes": "Drew files campaign finance reports with the Flower Mound Town Secretary in accordance with Texas Ethics Commission schedules. Reports on file span from April 2023 through January 2026. He ran unopposed in 2026, which typically correlates with minimal campaign spending. Specific contribution and expenditure totals were not publicly summarized in available sources; full reports are available at flowermound.gov/580/Campaign-Finance-Reports.",
@@ -7122,7 +7128,7 @@
       "party": "Nonpartisan",
       "level": "local",
       "incumbent": true,
-      "bio_summary": "Clare Harris, age 60, is a retired registered nurse originally from Wales who has lived in Flower Mound for approximately six years. She served on the Environmental Conservation Commission, the Blue Ribbon Bond Committee, and most recently as a Commissioner on both the Planning and Zoning Commission and the SMARTGrowth Commission. She won the May 2, 2026 election for Town Council Place 5 with 54.96% of the vote in a three-way race.",
+      "bio_summary": "Clare Harris, age 60, is a retired registered nurse originally from Wales who has lived in Flower Mound for approximately six years. She served on the Environmental Conservation Commission, the Blue Ribbon Bond Committee, and most recently as a Commissioner on both the Planning and Zoning Commission and the SMARTGrowth Commission. She won the May 2, 2026 election for Town Council Place 5 with 54.96% of the vote in a three-way race. STATUS NOTE (verified July 29, 2026): Harris is not on the November 3, 2026 ballot. The Town of Flower Mound holds its general elections on the first Saturday in May; she won Place 5 on May 2, 2026 and that seat is next scheduled for election on May 5, 2029. She is a seated incumbent, not a November 2026 candidate. (Source: https://www.flowermound.gov/251/Election-Information)",
       "overall_summary": "Harris ran as a nonpartisan candidate with a progressive-leaning local platform focused on environmental conservation, managed growth, fiscal responsibility, and transparency. Although the race was officially nonpartisan, she received backing from the Denton County Democratic Party and the Flower Mound Area Democrats club, while her opponent was backed by three Republican elected officials including a U.S. congressman. Her campaign emphasized protecting Flower Mound's SMARTGrowth framework from development pressure and state legislative overreach, preserving the Cross Timbers ecosystem, expanding the commercial tax base to relieve residential property taxes, and delivering infrastructure to west Flower Mound. Her positions on national social issues are unknown, as she did not address them during the local campaign.",
       "key_endorsements": [
         "Denton County Democratic Party",
@@ -7270,7 +7276,7 @@
       "party": "Nonpartisan",
       "level": "local",
       "incumbent": true,
-      "bio_summary": "Dr. Staci Barker, age 40, is a Flower Mound resident with a PhD in Educational Leadership and Policy Studies from UT Arlington. She works as a Research and Strategic Priorities Analyst at a Regional Education Service Center and has served on the LISD Board of Trustees since 2023 (Place 7). She is a parent of a student at Flower Mound High School and is a vestry clerk at Episcopal Church of the Annunciation. In the May 2, 2026 Lewisville ISD single-member-district election, Barker won a full term on the Board of Trustees, defeating challenger Brian Pollard with 54.07% of the vote (2,134 to 1,813).",
+      "bio_summary": "Dr. Staci Barker, age 40, is a Flower Mound resident with a PhD in Educational Leadership and Policy Studies from UT Arlington. She works as a Research and Strategic Priorities Analyst at a Regional Education Service Center and has served on the LISD Board of Trustees since 2023 (Place 7). She is a parent of a student at Flower Mound High School and is a vestry clerk at Episcopal Church of the Annunciation. In the May 2, 2026 Lewisville ISD single-member-district election, Barker won a full term on the Board of Trustees, defeating challenger Brian Pollard with 54.07% of the vote (2,134 to 1,813). STATUS NOTE (verified July 29, 2026): Barker is not on the November 3, 2026 ballot. LISD holds trustee elections in May; the district’s official Board of Trustees roster lists her as holding Single-Member District Place 5 with a term expiring in 2029. The same roster lists Paige Dixon in Single-Member District Place 4, which means the \"Place 4\" label in this record is incorrect — her seat is Single-Member District Place 5. (Source: https://www.lisd.net/our-district/board-of-trustees)",
       "overall_summary": "Barker is a center-left incumbent school board member whose platform centers on whole-child education, teacher retention, student safety, and fiscal responsibility. She is endorsed by Denton Together (a progressive-leaning local organization) and was opposed by the Denton County Republican Party's endorsement of her opponent. Her language around \"safe and welcoming\" schools, support for diverse student programs, and a $200 expenditure to TrueBlue Democrats in 2023 all signal a progressive orientation on school climate issues, though she avoids explicit partisan language. She won re-election in May 2026 with 54% of the vote.",
       "key_endorsements": [
         "Denton Together"
@@ -7297,10 +7303,10 @@
           "topic_id": 3,
           "topic_name": "Education Funding & Access",
           "score": 2,
-          "confidence": "implied",
-          "summary": "Barker strongly advocates for protecting and expanding student programs, preserving extracurricular and CTE opportunities, and ensuring all students have access to meaningful post-secondary pathways. She has flagged underfunding of public schools as a systemic challenge.",
-          "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/03/25/qa-meet-the-candidates-running-for-lewisville-isd-board-of-trustees-single-member-district-5/",
-          "notable_quote": "Running because I love this community and believe strong public schools lift everyone."
+          "confidence": "explicit",
+          "summary": "Barker advocates for protecting and expanding student programs, extracurriculars and CTE, and has flagged public-school underfunding as a systemic problem. In a board action reported May 12, 2026, she joined the LISD trustees in approving over $7 million in locally funded raises (about $2,000 per employee on average) plus $2 million in additional employee health benefits, with the benefits package approved unanimously. She explicitly criticized the Legislature's HB 2 for restricting the district's ability to compensate non-teaching staff and veteran teachers.",
+          "source_url": "https://www.crosstimbersgazette.com/2026/05/12/lewisville-isd-approves-increase-in-salaries-benefits-for-teachers-non-instructional-professionals/",
+          "notable_quote": "The legislature did us a real disservice in writing House Bill 2 in the way they did. Everyone knows I'm all for teacher raises, but without the funding to be able to also compensate all the staff around our teachers and support our teachers, without the ability to layer compensation for teachers who have been here for over 20 years, it took a lot of control out of our hands to be able to compete and retain those solid teachers."
         },
         {
           "topic_id": 4,
@@ -7409,7 +7415,7 @@
       "party": "Nonpartisan",
       "level": "local",
       "incumbent": false,
-      "bio_summary": "Brian Pollard, 57, is a mortgage broker and retired educator with 30 years of classroom experience, holding a Bachelor's and Master's in Music Education from the University of North Texas and Texas A&M University-Commerce respectively, as well as a Principal's Certification from Lamar University. He is a 12-year resident of Lewisville and parent of two elementary-age students (Caiden and Charlotte) at Forest Vista Elementary within LISD. He ran for Place 5 on the LISD Board of Trustees in May 2026, losing to Dr. Staci Barker 45.93% to 54.07%.",
+      "bio_summary": "Brian Pollard, 57, is a mortgage broker and retired educator with 30 years of classroom experience, holding a Bachelor's and Master's in Music Education from the University of North Texas and Texas A&M University-Commerce respectively, as well as a Principal's Certification from Lamar University. He is a 12-year resident of Lewisville and parent of two elementary-age students (Caiden and Charlotte) at Forest Vista Elementary within LISD. He ran for Place 5 on the LISD Board of Trustees in May 2026, losing to Dr. Staci Barker 45.93% to 54.07%. STATUS NOTE (verified July 29, 2026): Pollard is not on the November 3, 2026 ballot. The seat he sought — LISD Single-Member District Place 5 — was decided at the May 2, 2026 election, which he lost to Dr. Staci Barker; the district’s official roster shows that seat held with a term expiring in 2029. LISD holds no trustee election in November 2026, and no November 2026 candidacy for any other office was identified. (Source: https://www.lisd.net/our-district/board-of-trustees)",
       "overall_summary": "Pollard ran on a platform of \"Responsible Leadership = Strong Schools,\" emphasizing fiscal stewardship, transparent governance, and protecting academic and extracurricular programs. His campaign was driven in part by his personal experience with a campus closure affecting his family, and he consistently stressed the need for better long-term facilities planning, sustainable budgeting, and keeping students at the center of board decisions. He did not take explicit public positions on culturally charged curriculum or social issues, keeping his messaging focused on operational and financial themes typical of a school board challenger.",
       "key_endorsements": [],
       "campaign_finance_notes": "No campaign finance data was found in publicly available sources or Texas Ethics Commission search results. As a local school board candidate, Pollard would file with the Texas Ethics Commission if contributions or expenditures exceeded applicable thresholds, but no filings were surfaced during research.",
