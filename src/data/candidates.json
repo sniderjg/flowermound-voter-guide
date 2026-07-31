@@ -356,7 +356,8 @@
           "https://ballotpedia.org/Texas_State_Senate_District_12",
           "https://senate.texas.gov/member.php?d=12",
           "https://www.texastribune.org/directory/tan-parker/"
-        ]
+        ],
+        "on_november_ballot": false
       },
       {
         "name": "TBD",
@@ -555,7 +556,8 @@
           "https://www.flowermound.gov/1077/Candidate-Filings---General-Election-May",
           "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/02/13/check-out-who-filed-for-local-may-elections-in-flower-mound-highland-village-argyle/",
           "https://www.crosstimbersgazette.com/2026/05/02/tight-races-familiar-faces-lead-election-day-results-across-southern-denton-county/"
-        ]
+        ],
+        "on_november_ballot": false
       },
       {
         "name": "Clare Harris",
@@ -568,7 +570,8 @@
         "sources": [
           "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/03/20/meet-the-candidates-running-for-flower-mound-town-council-place-5/",
           "https://www.crosstimbersgazette.com/2026/05/02/tight-races-familiar-faces-lead-election-day-results-across-southern-denton-county/"
-        ]
+        ],
+        "on_november_ballot": false
       },
       {
         "name": "Staci L. Barker",
@@ -581,7 +584,8 @@
         "sources": [
           "https://ballotpedia.org/Lewisville_Independent_School_District,_Texas,_elections_(2026)",
           "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/03/25/qa-meet-the-candidates-running-for-lewisville-isd-board-of-trustees-single-member-district-5/"
-        ]
+        ],
+        "on_november_ballot": false
       },
       {
         "name": "Brian Pollard",
@@ -594,7 +598,8 @@
         "sources": [
           "https://ballotpedia.org/Lewisville_Independent_School_District,_Texas,_elections_(2026)",
           "https://www.crosstimbersgazette.com/2026/03/28/meet-the-candidates-lewisville-isd-board-place-5/"
-        ]
+        ],
+        "on_november_ballot": false
       }
     ]
   },
@@ -749,7 +754,8 @@
           "summary": "Paxton's documented record includes a securities-fraud indictment, a corruption impeachment trial, and court findings of whistleblower retaliation, alongside selective enforcement of municipal transparency laws. His record reflects resistance to ethics accountability applied to his own office.",
           "source_url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-launches-statewide-investigation-nearly-1000-texas-cities-ensure"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "James Talarico",
@@ -923,7 +929,8 @@
         "Actors' Equity Association (endorsed June 8, 2026)",
         "Dan Cogdell, attorney who defended Ken Paxton in his 2023 impeachment trial (endorsed June 8, 2026)"
       ],
-      "campaign_finance_notes": "Per the July 15, 2026 FEC quarterly filing, Talarico's committee (Talarico for Texas, C00919084) reported $68.6 million raised, $47.0 million spent, and $21.5 million cash on hand for the period Sept. 8, 2025 through June 30, 2026 — roughly $65.6 million of it from individual donors, including $36.7 million in unitemized (small-dollar) contributions. His $30 million second quarter was the largest Q2 ever reported by a U.S. Senate candidate, more than triple Paxton's, and leaves him with an enormous cash advantage (about $21.5 million to Paxton's $1.76 million). He has sworn off corporate PAC money, though the pro-Talarico super PAC Lone Star Rising PAC has taken billionaire and dark-money funding — a tension with his anti-billionaire message. On July 20, 2026, at a Houston town hall, he pledged $25 million to mobilize Black voters, which he described as the largest such investment in modern Texas history. FEC data: https://www.fec.gov/data/candidate/S6TX00479/ Forbes reported on July 16, 2026 that LinkedIn cofounder Reid Hoffman gave $10 million in support of Talarico's Senate bid; per a Forbes correction issued the same day, the money went to a super PAC supporting Talarico, not his campaign committee. It was the largest gift to any super PAC in the second quarter of 2026. Asked about it, Talarico's campaign reiterated that he wants to ban super PACs, ban corporate PACs, ban congressional stock trading, and tax billionaires. Separately, the Texas Tribune reported on July 20, 2026 that of roughly $4.1 million in outside spending supporting Talarico through the primary, nearly $4 million came from Lone Star Rising PAC, his largest outside spender, and that his campaign has since launched its largest general-election ad push to date, a $4.4 million buy per AdImpact. (Sources: https://www.forbes.com/sites/saradorn/2026/07/16/reid-hoffman-gives-10-million-to-texas-senate-candidate-james-talaricos-campaign/ ; https://www.texastribune.org/2026/07/20/texas-senate-talarico-paxton-fundraising-spending-money-donors/)"
+      "campaign_finance_notes": "Per the July 15, 2026 FEC quarterly filing, Talarico's committee (Talarico for Texas, C00919084) reported $68.6 million raised, $47.0 million spent, and $21.5 million cash on hand for the period Sept. 8, 2025 through June 30, 2026 — roughly $65.6 million of it from individual donors, including $36.7 million in unitemized (small-dollar) contributions. His $30 million second quarter was the largest Q2 ever reported by a U.S. Senate candidate, more than triple Paxton's, and leaves him with an enormous cash advantage (about $21.5 million to Paxton's $1.76 million). He has sworn off corporate PAC money, though the pro-Talarico super PAC Lone Star Rising PAC has taken billionaire and dark-money funding — a tension with his anti-billionaire message. On July 20, 2026, at a Houston town hall, he pledged $25 million to mobilize Black voters, which he described as the largest such investment in modern Texas history. FEC data: https://www.fec.gov/data/candidate/S6TX00479/ Forbes reported on July 16, 2026 that LinkedIn cofounder Reid Hoffman gave $10 million in support of Talarico's Senate bid; per a Forbes correction issued the same day, the money went to a super PAC supporting Talarico, not his campaign committee. It was the largest gift to any super PAC in the second quarter of 2026. Asked about it, Talarico's campaign reiterated that he wants to ban super PACs, ban corporate PACs, ban congressional stock trading, and tax billionaires. Separately, the Texas Tribune reported on July 20, 2026 that of roughly $4.1 million in outside spending supporting Talarico through the primary, nearly $4 million came from Lone Star Rising PAC, his largest outside spender, and that his campaign has since launched its largest general-election ad push to date, a $4.4 million buy per AdImpact. (Sources: https://www.forbes.com/sites/saradorn/2026/07/16/reid-hoffman-gives-10-million-to-texas-senate-candidate-james-talaricos-campaign/ ; https://www.texastribune.org/2026/07/20/texas-senate-talarico-paxton-fundraising-spending-money-donors/)",
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Ted Brown",
@@ -1070,7 +1077,8 @@
           "source_url": "https://texaspolitics.com/2026/03/02/ted-brown-offers-libertarian-voice-in-texas-senate-race/",
           "notable_quote": "I'm not going to be beholden to any special interest groups or to corrupt party leaders."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Brandon Gill",
@@ -1228,7 +1236,8 @@
           "summary": "No documented positions found on government transparency, ethics rules, or voting access; a House task-force chairmanship title is not a transparency record.",
           "source_url": "https://legisletter.org/legislator/brandon-gill-G000603"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Steven Shook",
@@ -1387,7 +1396,8 @@
           "summary": "Shook supports ethics reforms, donor transparency, and prioritizing constituent service over party interests. He explicitly opposes what he calls partisan culture-war legislation.",
           "source_url": "https://shookforcongress2026.com/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Phil Gray",
@@ -1532,7 +1542,8 @@
           "summary": "Not relevant to a federal congressional race; no positions found.",
           "source_url": "https://ballotpedia.org/Phil_Gray"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Greg Abbott",
@@ -1697,7 +1708,8 @@
           "source_url": "https://www.texastribune.org/2025/12/10/greg-abbott-texas-local-taxes-election-2026/",
           "notable_quote": "The state must protect taxpayers from local government overreach."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Gina Hinojosa",
@@ -1867,7 +1879,8 @@
           "source_url": "https://ginafortexas.com/2026/07/new-hinojosa-calls-on-greg-abbott-to-put-moratorium-on-data-centers-until-a-legislative-session-that-puts-texans-first/",
           "notable_quote": "Creating full transparency by stopping data center companies from using NDAs."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Jenn Mack Raphoon",
@@ -2015,7 +2028,8 @@
           "summary": "Generic anti-corruption and anti-establishment rhetoric ('exposing backroom deals') with no documented transparency, ethics, or elections policy proposals.",
           "source_url": "https://www.prnewswire.com/news-releases/jenn-mack-raphoon-announces-candidacy-for-governor-of-texas-302636638.html"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Pat Dixon",
@@ -2161,7 +2175,8 @@
           "summary": "Dixon explicitly supports non-partisan redistricting reform and approval voting, and calls for honest, detailed public budget discussion — documented electoral- and transparency-reform planks.",
           "source_url": "https://patdixon.org/government/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Dan Patrick",
@@ -2323,7 +2338,8 @@
           "summary": "Patrick championed SB 19 to prohibit taxpayer funding of government lobbyists and SB 14 (Texas DOGE initiative) for government efficiency. He has also preempted certain local government decisions through state legislation, reflecting a preference for state authority over local discretion.",
           "source_url": "https://www.ltgov.texas.gov/2025/01/29/lt-gov-dan-patrick-announces-first-round-of-top-40-priority-bills-for-the-2025-legislative-session/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Vikki Goodwin",
@@ -2501,7 +2517,8 @@
           "source_url": "https://www.vikkigoodwin.com/issues",
           "notable_quote": ""
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Anthony Cristo",
@@ -2649,7 +2666,8 @@
       "key_endorsements": [
         "Libertarian Booster PAC (project of former Libertarian National Committee Executive Director Wes Benedict and Arthur DiBianca)"
       ],
-      "campaign_finance_notes": "The Libertarian Booster PAC pledged $2,000 from its local fund and raised additional contributions to help Cristo meet Texas' $3,750 filing fee. Wes Benedict announced the PAC helped pay $22,500 in combined filing fees for six statewide Libertarian candidates including Cristo. No independent large-donor fundraising or Texas Ethics Commission filings were found in available sources. As a minor-party statewide candidate, Cristo is expected to have minimal campaign finance activity compared to major-party candidates."
+      "campaign_finance_notes": "The Libertarian Booster PAC pledged $2,000 from its local fund and raised additional contributions to help Cristo meet Texas' $3,750 filing fee. Wes Benedict announced the PAC helped pay $22,500 in combined filing fees for six statewide Libertarian candidates including Cristo. No independent large-donor fundraising or Texas Ethics Commission filings were found in available sources. As a minor-party statewide candidate, Cristo is expected to have minimal campaign finance activity compared to major-party candidates.",
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Mayes Middleton",
@@ -2811,7 +2829,8 @@
           "summary": "Middleton pledges to enforce open-records laws and pursue accountability for misuse of taxpayer funds via a 'DOGE Texas' AG initiative — a pro-enforcement transparency plank — but has no documented position on expanded ethics rules or voting access.",
           "source_url": "https://mayesmiddleton.com/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Nathan Johnson",
@@ -2976,7 +2995,8 @@
           "source_url": "https://broadbandbreakfast.com/texas-ag-candidate-vows-to-investigate-spacexs-bead-awards/",
           "notable_quote": "It's been so long since people thought of the attorney general's office as a place where they have an attorney, an elected official on their side."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Tom Oxford",
@@ -3117,7 +3137,8 @@
           "summary": "No documented statements on transparency, ethics, or election administration found.",
           "source_url": "https://ballotpedia.org/Tom_Oxford"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Donald Huffines",
@@ -3276,7 +3297,8 @@
           "source_url": "https://www.cbsnews.com/texas/news/search-fraud-huffines-plans-shift-auditors-texas-comptrollers-office-auditing-businesses-government/",
           "notable_quote": "I'm shifting a lot of my auditors over to auditing government from auditing businesses currently for revenue."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Sarah Eckhardt",
@@ -3434,7 +3456,8 @@
           "source_url": "https://www.cbsnews.com/texas/news/search-fraud-huffines-plans-shift-auditors-texas-comptrollers-office-auditing-businesses-government/",
           "notable_quote": "But we cannot expect a comptroller who's been appointed by the governor to actually look at corruption inside state government."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "V. Alonzo Echevarria-Garza",
@@ -3575,7 +3598,8 @@
           "summary": "No documented public statements on transparency, ethics, or elections policy found; city-manager experience alone is not a position.",
           "source_url": "https://sanantonioreport.org/profile/v-alonzo-echevarria-garza/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Shehla Faizi",
@@ -3721,7 +3745,8 @@
           "source_url": "https://www.faizifortexas.com/",
           "notable_quote": "After seeing both Democrats and Republicans sell out to donors and foreign lobbyists, I've had it with politics as usual."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Dawn Buckingham",
@@ -3882,7 +3907,8 @@
           "summary": "No documented platform position on transparency, ethics rules, or elections. Her dismissal of criticism over GLO disaster-fund decisions suggests limited receptivity to external oversight, but this falls short of a documented policy stance.",
           "source_url": "https://www.glo.texas.gov/about-glo/press-releases/land-commissioner-dawn-buckingham-once-again-calls-media-dismiss-democrats-publicity-stunts-over-mitigation-funding"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Benjamin Flores",
@@ -4044,7 +4070,8 @@
           "source_url": "https://www.letsgowithben.com/meet-ben-flores",
           "notable_quote": "No nonsense in the General Land Office."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Nate Sheets",
@@ -4215,7 +4242,8 @@
           "source_url": "https://www.texastribune.org/2026/03/04/nate-sheets-sid-miller-election-2026-texas-agriculture/",
           "notable_quote": "We're going to fire every one of the cancerous people that were pro-Sid."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Clayton Tucker",
@@ -4368,7 +4396,8 @@
           "source_url": "https://www.claytontuckertx.com/henderson_county_ai_data_center_withdrawal",
           "notable_quote": "This should be the standard across Texas. Every community deserves transparency, meaningful local input, and a fair review before billion-dollar AI projects break ground."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Austin Kelly",
@@ -4511,7 +4540,8 @@
           "summary": "Kelly criticizes the incumbent and promises elimination of wasteful spending, implying accountability concerns, but offers no documented transparency, ethics, or elections proposals.",
           "source_url": "https://www.kellyfortx.com/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Bo French",
@@ -4674,7 +4704,8 @@
           "summary": "French has not addressed transparency, ethics rules, or election administration in his campaign; anti-DEI rhetoric is not a transparency position.",
           "source_url": "https://bofrench.com/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Jon Rosenthal",
@@ -4821,7 +4852,8 @@
         "Texas AFL-CIO (COPE Committee)",
         "Hawk Dunlap (former 2026 GOP Railroad Commission candidate)"
       ],
-      "campaign_finance_notes": "In the Texas Ethics Commission semiannual report filed July 15, 2026 (covering the period ending June 30, 2026), Rosenthal reported raising $167,878, spending $119,832, and holding $64,511 cash on hand. Republican nominee Bo French raised roughly $334,000 in the same period, about double Rosenthal's haul. As the sole Democrat in this race, his fundraising lags well behind Republicans who have historically received large contributions from oil and gas interests — a dynamic Rosenthal is running against rhetorically."
+      "campaign_finance_notes": "In the Texas Ethics Commission semiannual report filed July 15, 2026 (covering the period ending June 30, 2026), Rosenthal reported raising $167,878, spending $119,832, and holding $64,511 cash on hand. Republican nominee Bo French raised roughly $334,000 in the same period, about double Rosenthal's haul. As the sole Democrat in this race, his fundraising lags well behind Republicans who have historically received large contributions from oil and gas interests — a dynamic Rosenthal is running against rhetorically.",
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Tan Parker",
@@ -4829,7 +4861,7 @@
       "party": "Republican",
       "level": "state_legislature",
       "incumbent": true,
-      "bio_summary": "Tan Parker is a Republican businessman and entrepreneur from Flower Mound, Texas, who has served in the Texas Senate (District 12) since January 2023 after 16 years in the Texas House (2007-2023). He holds degrees from the University of Dallas and the London School of Economics, with professional background in technology and private equity. He campaigns as a strongly conservative voice committed to protecting \"Texas values,\" economic development, cybersecurity, and border security. In July 2026, cybersecurity firm MazeBolt announced Parker’s appointment to its Board of Directors; the announcement (dated July 22, 2026) identifies his role as Texas Senate Majority Leader.",
+      "bio_summary": "Tan Parker is a Republican businessman and entrepreneur from Flower Mound, Texas, who has served in the Texas Senate (District 12) since January 2023 after 16 years in the Texas House (2007-2023). He holds degrees from the University of Dallas and the London School of Economics, with professional background in technology and private equity. He campaigns as a strongly conservative voice committed to protecting \"Texas values,\" economic development, cybersecurity, and border security. In July 2026, cybersecurity firm MazeBolt announced Parker’s appointment to its Board of Directors; the announcement (dated July 22, 2026) identifies his role as Texas Senate Majority Leader. STATUS NOTE (verified July 30, 2026): Parker is not on the November 3, 2026 ballot. He was re-elected to Senate District 12 on November 5, 2024 to a four-year term expiring in January 2029; the seat is next up in November 2028. The Texas Secretary of State’s March 3, 2026 primary district charts list no State Senate race for Denton or Wise County, and District 12 is absent from the 16 Texas Senate seats up in 2026. (Sources: https://www.sos.texas.gov/elections/forms/march-3-2026-rep-primary-district-chart.pdf ; https://ballotpedia.org/Texas_State_Senate_elections,_2026)",
       "overall_summary": "Parker is a firmly conservative incumbent with a well-documented voting record aligned with the Texas Republican mainstream. He holds strong anti-abortion, pro-gun, pro-school-choice, and border-security positions, and chairs the Senate Transportation Committee. His legislative focus in 2025 centered on capital markets reform, AI governance, human trafficking enforcement, and homeland security. The Texas Freedom Index rates him at 67-72% conservative across recent sessions, slightly below the hardline caucus but consistently to the right on social issues.",
       "positions": [
         {
@@ -4986,7 +5018,9 @@
         "Texas Home School Coalition",
         "Dallas Morning News editorial board (2022)"
       ],
-      "campaign_finance_notes": "As of February 2026, Parker had approximately $1,145,769 cash on hand, $405,424 in total contributions, and $491,526 in total expenditures (per Transparency USA / Texas Ethics Commission filings). He is well-funded for a state senate race. Top industry support appears to come from business and financial sectors consistent with his capital markets legislative focus. No significant campaign finance controversies were identified."
+      "campaign_finance_notes": "As of February 2026, Parker had approximately $1,145,769 cash on hand, $405,424 in total contributions, and $491,526 in total expenditures (per Transparency USA / Texas Ethics Commission filings). He is well-funded for a state senate race. Top industry support appears to come from business and financial sectors consistent with his capital markets legislative focus. No significant campaign finance controversies were identified.",
+      "on_november_ballot": false,
+      "ballot_status_note": "Re-elected November 5, 2024 to a four-year term; next up November 2028."
     },
     {
       "candidate_name": "Ben Bumgarner",
@@ -5157,7 +5191,8 @@
         "Denton County Sheriff Murphree",
         "Dallas Morning News editorial board (2024 Republican primary)"
       ],
-      "campaign_finance_notes": "Bumgarner files with the Texas Ethics Commission. His campaign website is votebumgarner.com. Transparency USA tracks his contributions but detailed data was not publicly accessible at the time of research. A $500 contribution was documented in a November 2025 TEC filing. His endorsement base — including Governor Abbott, multiple congressmen, and county officials — suggests strong institutional Republican fundraising support typical for a competitive suburban Dallas incumbent. No notable campaign finance controversies were identified."
+      "campaign_finance_notes": "Bumgarner files with the Texas Ethics Commission. His campaign website is votebumgarner.com. Transparency USA tracks his contributions but detailed data was not publicly accessible at the time of research. A $500 contribution was documented in a November 2025 TEC filing. His endorsement base — including Governor Abbott, multiple congressmen, and county officials — suggests strong institutional Republican fundraising support typical for a competitive suburban Dallas incumbent. No notable campaign finance controversies were identified.",
+      "on_november_ballot": true
     },
     {
       "candidate_name": "H. Denise Wooten",
@@ -5311,7 +5346,8 @@
           "summary": "Wooten supports fair voting rights and combating gerrymandering, and has been endorsed by the NDRC (National Democratic Redistricting Committee), suggesting a strong stance on electoral transparency and democratic accountability.",
           "source_url": "https://www.wooten-for-texas.com/endorsements"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Andy Hopper",
@@ -5480,7 +5516,8 @@
           "summary": "Hopper supports term limits for elected officials and frames government service as temporary duty rather than a career. He supports election integrity measures including a ban on electronic voting machines, favoring paper ballots.",
           "source_url": "https://hopper4texas.com/platform/"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Julie Evans",
@@ -5629,7 +5666,8 @@
           "source_url": "https://julieevansfortx64.com/issues",
           "notable_quote": "Do right and risk the consequences."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Andy Eads",
@@ -5779,7 +5817,8 @@
           "source_url": "https://dentonrc.com/elections/group-wants-denton-county-to-let-residents-vote-at-any-polling-site-and-they-vow/article_9d25ec5d-3ac4-41b8-b92a-32004c197819.html",
           "notable_quote": "In February 2024, County Judge Andy Eads told the Record-Chronicle that the county Democratic and Republican parties both needed to consent to implementing countywide voting centers."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Nick Pappas",
@@ -5932,7 +5971,8 @@
           "source_url": "https://pappasfordenton.com/",
           "notable_quote": "Discipline, accountability, and putting others first"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "David Wylie",
@@ -6096,7 +6136,8 @@
           "source_url": "https://www.keranews.org/news/2026-05-19/questions-over-campaign-finance-neighbors-dispute-arise-in-gop-denton-county-commissioner-runoff",
           "notable_quote": "Candidates should file reports so the voters know what is going on"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Stephanie Draper",
@@ -6245,7 +6286,8 @@
           "source_url": "https://draperfortexas.com",
           "notable_quote": "County government should be responsive, accountable, and forward-thinking."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Paul Johnson",
@@ -6390,7 +6432,8 @@
           "source_url": "https://www.dentoncounty.gov/223/District-Attorney",
           "notable_quote": "not to convict, but to see that justice is done"
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Juli Luke",
@@ -6533,7 +6576,8 @@
           "source_url": "https://dentonrc.com/opinion/columnists/juli-luke-transparency-critical-to-good-government/article_e57d6d61-c21e-5bf6-b0be-17755de82e5a.html",
           "notable_quote": "Transparency and accountability are uniquely intertwined. You can't have one without the other."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Dale Frey",
@@ -6679,7 +6723,8 @@
           "source_url": "https://freyfortexas.com/",
           "notable_quote": "Elections are supposed to be free. If government policy turns a passport into the practical price of registering to vote, then that cost functions like a modern poll tax."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Kevin Falconer",
@@ -6845,7 +6890,8 @@
           "source_url": "https://www.crosstimbersgazette.com/2025/07/31/falconer-delivering-efficient-transparent-service-to-denton-county-residents/",
           "notable_quote": "Meeting these needs while also making sure we are transparent and efficient in how we deliver those services is important to me."
         }
-      ]
+      ],
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Candace Valenzuela",
@@ -6997,7 +7043,8 @@
         "Texas Latina List (2020 congressional race - historical)",
         "Denton County Democratic Party (listed as 2026 primary candidate)"
       ],
-      "campaign_finance_notes": "For her 2020 congressional race, Valenzuela ran on a no-corporate-PAC pledge. Her FEC candidate record (H0TX24175) is on file from that race. For the 2026 Denton County Commissioner race, Texas Ethics Commission filings would apply, but specific fundraising totals for the current race were not found in available sources. The campaign website is candacefordentoncounty.com."
+      "campaign_finance_notes": "For her 2020 congressional race, Valenzuela ran on a no-corporate-PAC pledge. Her FEC candidate record (H0TX24175) is on file from that race. For the 2026 Denton County Commissioner race, Texas Ethics Commission filings would apply, but specific fundraising totals for the current race were not found in available sources. The campaign website is candacefordentoncounty.com.",
+      "on_november_ballot": true
     },
     {
       "candidate_name": "Chris Drew",
@@ -7142,7 +7189,9 @@
           "summary": "Drew supports voter approval processes for new town facilities and rule-bound governance under the Master Plan, but has no documented position on proactive disclosure, ethics rules, or election access.",
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/government/2023/04/03/qa-meet-the-candidates-for-flower-mound-town-council-place-2/"
         }
-      ]
+      ],
+      "on_november_ballot": false,
+      "ballot_status_note": "Decided May 2, 2026; next election May 5, 2029."
     },
     {
       "candidate_name": "Clare Harris",
@@ -7290,7 +7339,9 @@
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/government/2026/03/20/meet-the-candidates-running-for-flower-mound-town-council-place-5/",
           "notable_quote": "The most effective council members are those who truly listen, collaborate with one another, work closely with staff, and prioritize the needs of residents."
         }
-      ]
+      ],
+      "on_november_ballot": false,
+      "ballot_status_note": "Decided May 2, 2026; next election May 5, 2029."
     },
     {
       "candidate_name": "Staci L. Barker",
@@ -7429,7 +7480,9 @@
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/03/25/qa-meet-the-candidates-running-for-lewisville-isd-board-of-trustees-single-member-district-5/",
           "notable_quote": "Listening first, then leading with data, innovation and collaboration."
         }
-      ]
+      ],
+      "on_november_ballot": false,
+      "ballot_status_note": "Decided May 2, 2026; term expires 2029."
     },
     {
       "candidate_name": "Brian Pollard",
@@ -7573,7 +7626,9 @@
           "source_url": "https://communityimpact.com/dallas-fort-worth/flower-mound-highland-village-argyle/election/2026/03/25/qa-meet-the-candidates-running-for-lewisville-isd-board-of-trustees-single-member-district-5/",
           "notable_quote": "transparent decision-making, responsible budgeting and strong advocacy for LISD students and taxpayers"
         }
-      ]
+      ],
+      "on_november_ballot": false,
+      "ballot_status_note": "Decided May 2, 2026; seat held through 2029."
     }
   ]
 }

@@ -29,6 +29,24 @@ function getMatchColor(pct) {
   return 'low'
 }
 
+// Some races in the guide were already decided (Flower Mound and Lewisville ISD
+// elect in May; SD-12 was last up in 2024). We still show them — voters look up
+// their sitting officials — but they must not read as choices on this ballot.
+// A race counts as off-ballot only when EVERY candidate in it is flagged, so a
+// partially-flagged race stays unmarked rather than being mislabeled.
+const OFF_BALLOT_RACES = (() => {
+  const byRace = {}
+  for (const p of candidatesData.profiles) {
+    if (!byRace[p.race]) byRace[p.race] = { all: true, note: p.ballot_status_note }
+    if (p.on_november_ballot !== false) byRace[p.race].all = false
+  }
+  const out = {}
+  for (const [race, v] of Object.entries(byRace)) {
+    if (v.all) out[race] = v.note
+  }
+  return out
+})()
+
 export default function Results() {
   const navigate = useNavigate()
 
@@ -125,7 +143,8 @@ export default function Results() {
             Your Candidate Matches
           </h1>
           <p style={{ opacity: .85 }}>
-            Based on your quiz answers, here's how you align with every candidate on your November 2026 ballot.
+            Based on your quiz answers, here's how you align with the candidates in your area.
+            A few races shown are already decided and are marked for reference.
           </p>
           <div style={{ display: 'flex', gap: '.75rem', justifyContent: 'center', marginTop: '1rem', flexWrap: 'wrap' }}>
             <button
@@ -204,17 +223,36 @@ function RaceCard({ race }) {
   // Sort by match descending
   const sorted = [...race.candidates].sort((a, b) => b.matchPercent - a.matchPercent)
   const winner = sorted[0]
+  const offBallotNote = OFF_BALLOT_RACES[race.race]
+  const isOffBallot = offBallotNote !== undefined
 
   return (
-    <div className="card">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '.5rem', marginBottom: '1rem' }}>
+    <div className="card" style={isOffBallot ? { opacity: .82 } : undefined}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '.5rem', marginBottom: isOffBallot ? '.6rem' : '1rem' }}>
         <h3 style={{ margin: 0, fontSize: '1.05rem' }}>{race.race}</h3>
-        {winner && (
+        {/* Top match is a voting cue — meaningless on a race nobody can vote in. */}
+        {winner && !isOffBallot && (
           <div className="text-sm" style={{ color: 'var(--text-muted)' }}>
             Top match: <strong style={{ color: 'var(--text-h)' }}>{winner.name}</strong> ({Math.round(winner.matchPercent)}%)
           </div>
         )}
       </div>
+
+      {isOffBallot && (
+        <div
+          className="text-sm"
+          style={{
+            background: 'var(--gold-pale, #fdf6e3)',
+            border: '1px solid #f0d080',
+            borderRadius: '6px',
+            padding: '.5rem .75rem',
+            marginBottom: '1rem',
+            color: '#7a5c00',
+          }}
+        >
+          <strong>Not on your November 2026 ballot.</strong>{offBallotNote ? ` ${offBallotNote}` : ''} Shown for reference only.
+        </div>
+      )}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
         {sorted.map((c, i) => <CandidateRow key={c.name} candidate={c} rank={i} />)}
       </div>
